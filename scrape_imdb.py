@@ -1,71 +1,51 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import time, random
+import json
+from movie_details_utils import *
+from advanced_search_utils import *
+
+selected_country = "US"
 
 service = Service(ChromeDriverManager().install())
 
 driver = webdriver.Chrome(service=service)
 wait = WebDriverWait(driver, 10)
 
-driver.get("https://www.imdb.com/search/title/")
+no_pages = 5 # expands movie list by 50 (Initial no_pages = 0: 50 movies)
 
-time.sleep(2)
+# Load into website 
+driver.get(get_website())
+time.sleep(0.5)
 
 # Filter to movies only
-movie_btn = wait.until(
-    EC.element_to_be_clickable(
-        (By.CSS_SELECTOR, '[data-testid="test-chip-id-movie"]')
-    )
-)
-movie_btn.click()
-
-time.sleep(1)
+filter_movies_only(wait)
+time.sleep(0.5)
 
 # Click on country filter
-country_btn = wait.until(
-    EC.element_to_be_clickable(
-        (By.CSS_SELECTOR, '[data-testid="accordion-item-countryAccordion"]')
-    )
-)
-driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", country_btn)
-time.sleep(0.5)
-country_btn.click()
-
-time.sleep(1)
+click_country_filter(driver, wait)
 
 # Filter by country (specific)
-country_search = wait.until(
-    EC.element_to_be_clickable(
-        (By.CSS_SELECTOR, '[data-testid="autosuggest-input-test-id-countries"]')
-    )
-)
-country_search.send_keys("US")
-
-time.sleep(1)
+filter_country(wait, selected_country)
+time.sleep(0.5)
 
 # Actual Search
-search_btn = wait.until(
-    EC.element_to_be_clickable(
-        (By.CSS_SELECTOR, '[data-testid="adv-search-get-results"]')
-    )
-)
-search_btn.click()
+actual_search(wait)
+time.sleep(0.5)
 
-time.sleep(2)
+# Click more
+for _ in range(no_pages):
+    click_more_movies(wait, driver)
+    time.sleep(0.5)
 
 
-# Find all movie titles
-titles = wait.until(
-    EC.presence_of_all_elements_located((By.CSS_SELECTOR, '[class="ipc-title__text"]'))
-)
 
-# Wait until at least one movie link is present
+# Wait until all movies link in the page are found (50)
 movie_links = wait.until(
     EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a.ipc-title-link-wrapper"))
 )
@@ -73,7 +53,7 @@ movie_links = wait.until(
 # Extract href and text for all movies
 movies = []
 for a in movie_links:
-    href = a.get_attribute("href")          # full link
+    href = a.get_attribute("href")          
     title = a.find_element(By.CSS_SELECTOR, "h3.ipc-title__text").text
     movies.append((title, href))
 
@@ -81,63 +61,70 @@ for a in movie_links:
 for title, link in movies:
     print(title, link)
 
-time.sleep(2)
+time.sleep(0.5)
 
-# Go to the first Movie Link
-first_link = movies[0][1]
-driver.get(first_link)
+# =========================================================
+# === Scrape movie details from movies in the page (50) ===
+# =========================================================
 
-time.sleep(2)
+all_movies_data = []
+no_movies_to_get = 100 #editable
 
-movie_details_selectors = {
-    "title": (By.CSS_SELECTOR, '[data-testid="hero__primary-text"]'),
-    "rating": (By.CSS_SELECTOR, '[data-testid="hero-rating-bar__aggregate-rating__score"] span:first-child'),
-    "genres": (By.CSS_SELECTOR, 'div.ipc-chip-list__scroller span.ipc-chip__text')
-}
+for _ in range(no_movies_to_get):
+    movie_link = movies[_][1]
+    driver.get(movie_link)
 
-movie_data = {}
+    time.sleep(0.5)
 
-# Title
-try:
-    movie_data["title"] = driver.find_element(*movie_details_selectors["title"]).text.strip()
-except:
-    movie_data["title"] = None
+    movie_data = {}
 
-# Rating
-try:
-    movie_data["rating"] = driver.find_element(*movie_details_selectors["rating"]).text.strip()
-except:
-    movie_data["rating"] = None
+    # Source_Id
+    get_movie_source_id(movie_data, movie_link)
 
-# Genres
-try:
-    genre_elements = driver.find_elements(*movie_details_selectors["genres"])
-    movie_data["genres"] = [g.text.strip() for g in genre_elements]
-except:
-    movie_data["genres"] = []
+    # Title
+    get_movie_title(movie_data, driver)
+
+    # Year
+    get_movie_year(movie_data, driver)
+
+    # Rating
+    get_movie_rating(movie_data, driver)
+
+    # Budget
+    get_movie_budget(movie_data, driver)
+
+    # Gross
+    get_movie_gross(movie_data, driver)
+
+    # ROI
+    get_movie_ROI(movie_data, driver)
+
+    # Genres
+    get_movie_genres(movie_data, driver)
+
+    # Production Country
+    get_movie_prod_cntry(movie_data, selected_country)
 
 
-print(movie_data)
-
-
-# Click on img overlay inside Movie's Details
-img_overlay = wait.until(
-    EC.element_to_be_clickable(
-        (By.CSS_SELECTOR, '[class="ipc-lockup-overlay ipc-focusable ipc-focusable--constrained"]')
+    # Click on img overlay inside Movie's Details
+    img_overlay = wait.until(
+        EC.element_to_be_clickable(
+            (By.CSS_SELECTOR, '[class="ipc-lockup-overlay ipc-focusable ipc-focusable--constrained"]')
+        )
     )
-)
-img_overlay.click()
+    img_overlay.click()
 
-time.sleep(2)
+    # poster_url
+    get_movie_poster_url(movie_data, driver)
 
-# Exit img overlay, return to Movie's Details
-driver.back()
 
-time.sleep(2)
+    all_movies_data.append(movie_data)
+    time.sleep(0.5)
 
-#return nack to search page
-driver.back()
 
-time.sleep(5)
+time.sleep(1)
+
+with open("movie_data.json", "w", encoding="utf-8") as f:
+    json.dump(all_movies_data, f, ensure_ascii=False, indent=4)
 
 
