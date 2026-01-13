@@ -15,7 +15,7 @@ service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
 wait = WebDriverWait(driver, 10)
 
-no_pages = 1 # expands movie list by 50 (Initial no_pages = 0: 50 movies)
+no_pages = 2 # expands movie list by 50 (Initial no_pages = 0: 50 movies)
 
 # ==========================================================================================
 # === Set up the indicated capacity (no_pages) movies in the page for Selenium to scrape ===
@@ -29,12 +29,12 @@ time.sleep(0.5)
 filter_movies_only(wait)
 time.sleep(0.5)
 
-# Click on country filter
+""" # Click on country filter
 click_country_filter(driver, wait)
 
 # Filter by country (specific)
 filter_country(wait, selected_country)
-time.sleep(0.5)
+time.sleep(0.5) """
 
 # Actual Search
 actual_search(wait)
@@ -72,63 +72,69 @@ time.sleep(0.5)
 # ==============================================================================
 
 all_movies_data = []
-no_movies_to_get = 1 #editable
+no_movies_to_get = 100 #editable
 
-for _ in range(no_movies_to_get):
-    movie_link = movies[_][1]
-    driver.get(movie_link)
-    time.sleep(0.5)
+try:
+    for _ in range(no_movies_to_get):
+        movie_link = movies[_][1]
+        driver.get(movie_link)
+        time.sleep(0.5)
 
-    movie_data = {}
+        movie_data = {}
 
-    # Source_Id
-    get_movie_source_id(movie_data, movie_link)
+        print(f"Processing movie {_}/{no_movies_to_get}: {movies[_][0]}")
 
-    # Title
-    get_movie_title(movie_data, driver)
+        # Source_Id
+        get_movie_source_id(movie_data, movie_link)
 
-    # Year
-    get_movie_year(movie_data, driver)
+        # Title
+        get_movie_title(movie_data, driver)
 
-    # Country
-    get_movie_country(movie_data, driver)
+        # Year
+        get_movie_year(movie_data, driver)
 
-    # Rating
-    get_movie_rating(movie_data, driver)
+        # Country
+        get_movie_country(movie_data, driver)
 
-    # Budget
-    get_movie_budget(movie_data, driver)
+        # Rating
+        get_movie_rating(movie_data, driver)
 
-    # Gross
-    get_movie_gross(movie_data, driver)
+        # Budget
+        get_movie_budget(movie_data, driver)
 
-    # ROI
-    get_movie_ROI(movie_data, driver)
+        # Gross
+        get_movie_gross(movie_data, driver)
 
-    # Genres
-    get_movie_genres(movie_data, driver)
+        # ROI
+        get_movie_ROI(movie_data, driver)
 
-    # Production Country
-    get_movie_prod_cntry(movie_data, selected_country)
+        # Genres
+        get_movie_genres(movie_data, driver)
+
+        # Production Country
+        get_movie_prod_cntry(movie_data, selected_country)
 
 
-    # Click on img overlay inside Movie's Details
-    img_overlay = wait.until(
-        EC.element_to_be_clickable(
-            (By.CSS_SELECTOR, '[class="ipc-lockup-overlay ipc-focusable ipc-focusable--constrained"]')
+        # Click on img overlay inside Movie's Details
+        img_overlay = wait.until(
+            EC.element_to_be_clickable(
+                (By.CSS_SELECTOR, '[class="ipc-lockup-overlay ipc-focusable ipc-focusable--constrained"]')
+            )
         )
-    )
-    img_overlay.click()
+        img_overlay.click()
 
-    # poster_url
-    get_movie_poster_url(movie_data, driver)
-
-
-    all_movies_data.append(movie_data)
-    time.sleep(0.5)
+        # poster_url
+        get_movie_poster_url(movie_data, driver)
 
 
-time.sleep(1)
+        all_movies_data.append(movie_data)
+        time.sleep(0.5)
 
-with open("movie_data.json", "w", encoding="utf-8") as f:
-    json.dump(all_movies_data, f, ensure_ascii=False, indent=4)
+
+    time.sleep(1)
+
+    with open("movie_data.json", "w", encoding="utf-8") as f:
+        json.dump(all_movies_data, f, ensure_ascii=False, indent=4)
+
+except:
+    print("Collected: ", len(all_movies_data))
