@@ -1,11 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import pandas as pd
-import time, random
+import time
 import json
 from movie_details_utils import *
 from advanced_search_utils import *
@@ -17,7 +15,11 @@ service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
 wait = WebDriverWait(driver, 10)
 
-no_pages = 5 # expands movie list by 50 (Initial no_pages = 0: 50 movies)
+no_pages = 1 # expands movie list by 50 (Initial no_pages = 0: 50 movies)
+
+# ==========================================================================================
+# === Set up the indicated capacity (no_pages) movies in the page for Selenium to scrape ===
+# ==========================================================================================
 
 # Load into website 
 driver.get(get_website())
@@ -38,12 +40,14 @@ time.sleep(0.5)
 actual_search(wait)
 time.sleep(0.5)
 
-# Click more
+# Click to get more movies
 for _ in range(no_pages):
     click_more_movies(wait, driver)
     time.sleep(0.5)
 
-
+# ==================================================
+# === Scrap movies IMDB movie IDs and hyperlinks ===
+# ==================================================
 
 # Wait until all movies link in the page are found (50)
 movie_links = wait.until(
@@ -57,23 +61,22 @@ for a in movie_links:
     title = a.find_element(By.CSS_SELECTOR, "h3.ipc-title__text").text
     movies.append((title, href))
 
-# Print all movie titles and links
+# LOGGING: Print all movie titles and links
 for title, link in movies:
     print(title, link)
 
 time.sleep(0.5)
 
-# =========================================================
-# === Scrape movie details from movies in the page (50) ===
-# =========================================================
+# ==============================================================================
+# === EXTRACT & TRANSFORM: Scrape movie details from movies in the page (50) ===
+# ==============================================================================
 
 all_movies_data = []
-no_movies_to_get = 100 #editable
+no_movies_to_get = 1 #editable
 
 for _ in range(no_movies_to_get):
     movie_link = movies[_][1]
     driver.get(movie_link)
-
     time.sleep(0.5)
 
     movie_data = {}
@@ -86,6 +89,9 @@ for _ in range(no_movies_to_get):
 
     # Year
     get_movie_year(movie_data, driver)
+
+    # Country
+    get_movie_country(movie_data, driver)
 
     # Rating
     get_movie_rating(movie_data, driver)
@@ -126,5 +132,3 @@ time.sleep(1)
 
 with open("movie_data.json", "w", encoding="utf-8") as f:
     json.dump(all_movies_data, f, ensure_ascii=False, indent=4)
-
-

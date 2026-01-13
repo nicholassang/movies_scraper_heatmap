@@ -5,6 +5,7 @@ import re
 movie_details_selectors = {
     "title": (By.CSS_SELECTOR, '[data-testid="hero__primary-text"]'),
     "year": (By.CSS_SELECTOR, 'ul.ipc-inline-list li a[href*="releaseinfo"]'),
+    "country" : (By.CSS_SELECTOR, 'li[data-testid="title-details-origin"] a'),
     "rating": (By.CSS_SELECTOR, '[data-testid="hero-rating-bar__aggregate-rating__score"] span:first-child'),
     "budget": (By.CSS_SELECTOR, 'li[data-testid="title-boxoffice-budget"] span.ipc-metadata-list-item__list-content-item'),
     "gross": (By.CSS_SELECTOR, 'li[data-testid="title-boxoffice-cumulativeworldwidegross"] span.ipc-metadata-list-item__list-content-item'),
@@ -31,6 +32,13 @@ def get_movie_year(movie_data, driver):
         movie_data["year"] = driver.find_element(*movie_details_selectors["year"]).text.strip()
     except:
         movie_data["year"] = None
+
+# Country
+def get_movie_country(movie_data, driver):
+    try:
+        movie_data["country"] = driver.find_element(*movie_details_selectors["country"]).text.strip()
+    except:
+        movie_data["country"] = None
 
 # Rating
 def get_movie_rating(movie_data, driver):
