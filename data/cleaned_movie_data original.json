@@ -19,7 +19,7 @@
             "Barcelona, Barcelona, Catalonia, Spain",
             "Costa Brava, Girona, Catalonia, Spain"
         ],
-        "Costa Brava, Girona, Catalonia, Spain": [
+        "filming_locations_coords": [
             {
                 "address": "New Orleans, Orleans Parish, Louisiana, United States",
                 "coords": {
@@ -66,7 +66,7 @@
             "New Jersey, USA",
             "USA"
         ],
-        "USA": [
+        "filming_locations_coords": [
             {
                 "address": "Saint Elizabeth University, Morristown, New Jersey, USA",
                 "coords": null
@@ -118,7 +118,7 @@
             "Florida, New York, USA",
             "Chesterfield, New Jersey, USA"
         ],
-        "Chesterfield, New Jersey, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Town of Hancock, Delaware County, New York, United States",
                 "coords": {
@@ -193,7 +193,7 @@
             "The Texas Dip, Borrego Springs, California, USA",
             "Carmela's Mexican Restaurant - 1288 G Street, Arcata, California, USA"
         ],
-        "Carmela's Mexican Restaurant - 1288 G Street, Arcata, California, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Murphy's Market, 4020, Walnut Drive, Eureka, Humboldt County, California, 95503, United States",
                 "coords": {
@@ -255,7 +255,7 @@
             "MBS Media Campus - 1600 Rosecrans Avenue, Manhattan Beach, California, USA",
             "Warner Bros. Studios, Burbank, California, USA"
         ],
-        "Warner Bros. Studios, Burbank, California, USA": [
+        "filming_locations_coords": [
             {
                 "address": "New Zealand / Aotearoa",
                 "coords": {
@@ -319,7 +319,7 @@
             "Leavesden Film Studios, Hertfordshire, England, UK",
             "London, England, UK"
         ],
-        "London, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Holy innocents Church, High Beech, Epping Forest, Essex, England, UK",
                 "coords": null
@@ -378,7 +378,7 @@
             "Duna Palota, Budapest, Hungary",
             "Hungary"
         ],
-        "Hungary": [
+        "filming_locations_coords": [
             {
                 "address": "Duna Palota, 5, Zrínyi utca, Lipótváros, V. kerület, Budapest, Közép-Magyarország, 1051, Magyarország",
                 "coords": {
@@ -410,7 +410,7 @@
         "production_country": "US",
         "poster_url": "https://m.media-amazon.com/images/M/MV5BYzY1N2YzMzktZWU3YS00ZDExLTg5NzUtZDc0OGFmMjBlY2M0XkEyXkFqcGc@._V1_.jpg",
         "filming_locations": [],
-        "Hungary": []
+        "filming_locations_coords": []
     },
     {
         "source_id": "tt12300742",
@@ -448,7 +448,7 @@
             "Camberley, Surrey, England, UK",
             "Botanica Ditton Park, Datchet, Slough, England, UK"
         ],
-        "Botanica Ditton Park, Datchet, Slough, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Sarakiniko Beach, Milos Island, Greece",
                 "coords": null
@@ -513,7 +513,7 @@
             "Auckland, New Zealand",
             "New Zealand"
         ],
-        "New Zealand": [
+        "filming_locations_coords": [
             {
                 "address": "Rotorua, Rotorua Lakes District, Bay of Plenty, New Zealand / Aotearoa",
                 "coords": {
@@ -575,7 +575,7 @@
             "Labadieville, Louisiana, USA",
             "Bogalusa, Louisiana, USA"
         ],
-        "Bogalusa, Louisiana, USA": [
+        "filming_locations_coords": [
             {
                 "address": "New Orleans, Orleans Parish, Louisiana, United States",
                 "coords": {
@@ -632,13 +632,13 @@
             "Long Valley, Aldershot. UK",
             "Tessa Road, Reading, England, UK"
         ],
-        "Tessa Road, Reading, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Reykjavï¿½k, Iceland",
                 "coords": null
             },
             {
-                "address": "Shinfield Studios, Cutbush Lane East, Shinfield, Wokingham, England, RG2 9AF, United Kingdom",
+                "address": "Shinfield Studios, Whitethorn, Littlebrook, Shinfield, Wokingham, England, RG2 9GF, United Kingdom",
                 "coords": {
                     "lat": 51.4176892,
                     "lon": -0.9366574
@@ -701,7 +701,7 @@
             "Plaza de Santo Domingo, Mexico City, Distrito Federal, Mexico",
             "The Hull Building - 9543 Culver Boulevard, Culver City, California, USA"
         ],
-        "The Hull Building - 9543 Culver Boulevard, Culver City, California, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Vancouver, Metro Vancouver Regional District, British Columbia, Canada",
                 "coords": {
@@ -710,8 +710,11 @@
                 }
             },
             {
-                "address": "Shangri-La - 1128 West Georgia Street, Vancouver, British Columbia, Canada",
-                "coords": null
+                "address": "Hyatt Vancouver Downtown Alberni, 1228, West Georgia Street, Coal Harbour, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6E, V6E 4T9, Canada",
+                "coords": {
+                    "lat": 49.285731,
+                    "lon": -123.1238025
+                }
             },
             {
                 "address": "Ciudad de México, Cuauhtémoc, Ciudad de México, México",
@@ -759,7 +762,7 @@
             "The Charterhouse, Charterhouse Square, London, England, UK",
             "England, UK"
         ],
-        "England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Weobley, Herefordshire, England, United Kingdom",
                 "coords": {
@@ -804,7 +807,7 @@
         "filming_locations": [
             "Prague, Czech Republic"
         ],
-        "Prague, Czech Republic": [
+        "filming_locations_coords": [
             {
                 "address": "Praha, Česko",
                 "coords": {
@@ -832,7 +835,7 @@
         "filming_locations": [
             "Hawaii, USA"
         ],
-        "Hawaii, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Hawaii, United States",
                 "coords": {
@@ -881,7 +884,7 @@
             "Faculty of Medicine, University of Toronto, Ontario, Canada",
             "Cinespace Studios, Toronto, Ontario, Canada"
         ],
-        "Cinespace Studios, Toronto, Ontario, Canada": [
+        "filming_locations_coords": [
             {
                 "address": "North Bay, Nipissing District, Northeastern Ontario, Ontario, Canada",
                 "coords": {
@@ -940,7 +943,7 @@
             "Queensland, Australia",
             "Australia"
         ],
-        "Australia": [
+        "filming_locations_coords": [
             {
                 "address": "Village Roadshow Studios, Entertainment Road, Oxenford, Gold Coast City, Queensland, 4210, Australia",
                 "coords": {
@@ -1005,7 +1008,7 @@
             "Walt Disney Animation Studios - 2100 Riverside Drive, Burbank, California, USA",
             "Walt Disney Animation Studios, Vancouver BC"
         ],
-        "Walt Disney Animation Studios, Vancouver BC": [
+        "filming_locations_coords": [
             {
                 "address": "Walt Disney Animation Studios - 2100 Riverside Drive, Burbank, California, USA",
                 "coords": null
@@ -1045,7 +1048,7 @@
             "Ladakh, Jammu & Kashmir, India",
             "Bangkok, Thailand"
         ],
-        "Bangkok, Thailand": [
+        "filming_locations_coords": [
             {
                 "address": "Mumbai, Mumbai Suburban, Maharashtra, 400051, India",
                 "coords": {
@@ -1109,7 +1112,7 @@
             "Tekoa, Washington, USA",
             "Chewelah, Washington, USA"
         ],
-        "Chewelah, Washington, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Spokane, Spokane County, Washington, United States",
                 "coords": {
@@ -1173,7 +1176,7 @@
             "Ulsan, South Korea",
             "South Korea"
         ],
-        "South Korea": [
+        "filming_locations_coords": [
             {
                 "address": "울산광역시, 대한민국",
                 "coords": {
@@ -1214,7 +1217,7 @@
             "Atlanta, Georgia, USA",
             "Chicago, Illinois, USA"
         ],
-        "Chicago, Illinois, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Ísland",
                 "coords": {
@@ -1223,7 +1226,7 @@
                 }
             },
             {
-                "address": "Robins Air Force Base, Dot Street, Warner Robins, Houston County, Georgia, 31098, United States",
+                "address": "Robins Air Force Base, Foy Evans Drive, Redding, Warner Robins, Houston County, Georgia, 31098, United States",
                 "coords": {
                     "lat": 32.6178258,
                     "lon": -83.5770746
@@ -1279,7 +1282,7 @@
             "Windsor, Berkshire, England, UK",
             "Glasgow, Scotland, UK"
         ],
-        "Glasgow, Scotland, UK": [
+        "filming_locations_coords": [
             {
                 "address": "البحرين",
                 "coords": {
@@ -1302,7 +1305,7 @@
                 }
             },
             {
-                "address": "Windsor Castle, Castle Hill, Clewer Within, Clewer New Town, Clewer Village, Windsor, Windsor and Maidenhead, England, SL4 1PE, United Kingdom",
+                "address": "Windsor Castle, Jubilee Arch, Clewer Within, Clewer New Town, Clewer Village, Windsor, Windsor and Maidenhead, England, SL4 1PQ, United Kingdom",
                 "coords": {
                     "lat": 51.4837886,
                     "lon": -0.6040419
@@ -1356,7 +1359,7 @@
             "Griffin, Georgia, USA",
             "BP Gas Station, 2106 Pace St. Covington, Georgia, USA"
         ],
-        "BP Gas Station, 2106 Pace St. Covington, Georgia, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Atlanta, Fulton County, Georgia, United States",
                 "coords": {
@@ -1374,8 +1377,8 @@
             {
                 "address": "Elm Street Northeast, Covington, Newton County, Georgia, 30014, United States",
                 "coords": {
-                    "lat": 33.6045576,
-                    "lon": -83.8552221
+                    "lat": 33.6012464,
+                    "lon": -83.8573736
                 }
             },
             {
@@ -1424,7 +1427,7 @@
             "Vï¿½r Frelsers gravlund, Oslo, Norway",
             "Strï¿½mstad, Vï¿½stra Gï¿½talands lï¿½n, Sweden"
         ],
-        "Strï¿½mstad, Vï¿½stra Gï¿½talands lï¿½n, Sweden": [
+        "filming_locations_coords": [
             {
                 "address": "Oslo, Norge",
                 "coords": {
@@ -1484,7 +1487,7 @@
             "Baldwin County, Alabama, USA",
             "Downtown OWA, 100 N OWA Blvd, Foley, Alabama, USA"
         ],
-        "Downtown OWA, 100 N OWA Blvd, Foley, Alabama, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Mobile, Mobile County, Alabama, United States",
                 "coords": {
@@ -1523,7 +1526,7 @@
         "filming_locations": [
             "New York City, New York, USA"
         ],
-        "New York City, New York, USA": [
+        "filming_locations_coords": [
             {
                 "address": "New York, United States",
                 "coords": {
@@ -1563,7 +1566,7 @@
             "Miami, Florida, USA",
             "New Jersey, USA"
         ],
-        "New Jersey, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Los Angeles, Los Angeles County, California, United States",
                 "coords": {
@@ -1627,7 +1630,7 @@
             "Bellingham, England, UK",
             "Redmire, England, UK"
         ],
-        "Redmire, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Ennerdale, Cumbria, England, UK",
                 "coords": null
@@ -1692,9 +1695,9 @@
             "Ait Ben Haddou, Morocco",
             "Royal Theatre, Marrakech, Morocco"
         ],
-        "Royal Theatre, Marrakech, Morocco": [
+        "filming_locations_coords": [
             {
-                "address": "Αρχαιολογικό μουσείο Μεσσηνίας, Μπενάκη, Εργατικές Κατοικίες, Δήμος Καλαμάτας, Περιφερειακή Ενότητα Μεσσηνίας, Περιφέρεια Πελοποννήσου, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 241 34, Ελλάς",
+                "address": "Αρχαιολογικό μουσείο Μεσσηνίας, Μπενάκη, Εργατικές Κατοικίες, Δήμος Καλαμάτας, Περιφερειακή Ενότητα Μεσσηνίας, Περιφέρεια Πελοποννήσου, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 241 33, Ελλάς",
                 "coords": {
                     "lat": 37.043788,
                     "lon": 22.1134462
@@ -1755,7 +1758,7 @@
             "Saint Elizabeth University, Morristown, New Jersey, USA",
             "New York City, New York, USA"
         ],
-        "New York City, New York, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Denville, Morris County, New Jersey, 07834, United States",
                 "coords": {
@@ -1811,7 +1814,7 @@
             "Yas Marina Circuit, Yas Island, Abu Dhabi, United Arab Emirates",
             "Pappas Drive-In, New Smyrna Beach, Florida, USA"
         ],
-        "Pappas Drive-In, New Smyrna Beach, Florida, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Hungaroring, Budapest, Hungary",
                 "coords": null
@@ -1824,7 +1827,7 @@
                 }
             },
             {
-                "address": "鈴鹿サーキット, Dパドック, 稲生町, 鈴鹿市, 三重県, 510-0204, 日本",
+                "address": "鈴鹿サーキット, 三行庄野線, 住吉町, 鈴鹿市, 三重県, 510-0204, 日本",
                 "coords": {
                     "lat": 34.8436092,
                     "lon": 136.5342313
@@ -1883,7 +1886,7 @@
             "Crag Lough, Northumberland, England, UK",
             "Saint Mary and Saint Finnan Church, Glenfinnan, Scotland, UK"
         ],
-        "Saint Mary and Saint Finnan Church, Glenfinnan, Scotland, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Holy Island of Lindisfarne, Berwick-upon-Tweed, Northumberland, England, UK",
                 "coords": null
@@ -1939,7 +1942,7 @@
             "London, England, UK",
             "New York City, New York, USA"
         ],
-        "New York City, New York, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Caorso, Piacenza, Emilia-Romagna, 29012, Italia",
                 "coords": {
@@ -1995,7 +1998,7 @@
             "British Columbia, Canada",
             "Canada"
         ],
-        "Canada": [
+        "filming_locations_coords": [
             {
                 "address": "Vancouver, Metro Vancouver Regional District, British Columbia, Canada",
                 "coords": {
@@ -2059,7 +2062,7 @@
             "Wembley, London, England, UK",
             "Leavesden Film Studios, Hertfordshire, England, UK"
         ],
-        "Leavesden Film Studios, Hertfordshire, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "България",
                 "coords": {
@@ -2133,9 +2136,9 @@
             "Manhattan Beach, California, USA",
             "California, USA"
         ],
-        "California, USA": [
+        "filming_locations_coords": [
             {
-                "address": "Stone Street Studios, Southampton Road, Miramar, Wellington City, Wellington, 6020, New Zealand / Aotearoa",
+                "address": "Stone Street Studios, Stone Street, Miramar, Wellington City, Wellington, 6020, New Zealand / Aotearoa",
                 "coords": {
                     "lat": -41.3177195,
                     "lon": 174.8130239
@@ -2203,7 +2206,7 @@
             "Alberta, Canada",
             "Canada"
         ],
-        "Canada": [
+        "filming_locations_coords": [
             {
                 "address": "Calgary, Alberta, Canada",
                 "coords": {
@@ -2253,7 +2256,7 @@
             "Moore Park, Sydney, New South Wales, Australia",
             "New South Wales, Australia"
         ],
-        "New South Wales, Australia": [
+        "filming_locations_coords": [
             {
                 "address": "Sydney, Council of the City of Sydney, New South Wales, Australia",
                 "coords": {
@@ -2329,9 +2332,9 @@
             "O'ahu, Hawaii, USA",
             "Stone Street Studios, Stone Street, Miramar, Wellington, New Zealand"
         ],
-        "Stone Street Studios, Stone Street, Miramar, Wellington, New Zealand": [
+        "filming_locations_coords": [
             {
-                "address": "National Tropical Botanical Garden, Kaua‘i - South Shore, Lawai Road, Kauaʻi County, Hawaii, 96765, United States",
+                "address": "National Tropical Botanical Garden, Kaua‘i - South Shore, Lawai Road, Kauaʻi County, Hawaii, 96756, United States",
                 "coords": {
                     "lat": 21.8863829,
                     "lon": -159.4927856
@@ -2356,8 +2359,11 @@
                 }
             },
             {
-                "address": "Stone Street Studios, Stone Street, Miramar, Wellington, New Zealand",
-                "coords": null
+                "address": "Stone Street Studios, Stone Street, Miramar, Wellington City, Wellington, 6020, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.3177195,
+                    "lon": 174.8130239
+                }
             }
         ]
     },
@@ -2398,7 +2404,7 @@
             "Waxhaw, North Carolina, USA",
             "North Carolina, USA"
         ],
-        "North Carolina, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Gastonia, Gaston County, North Carolina, United States",
                 "coords": {
@@ -2457,7 +2463,7 @@
             "Medfield, Massachusetts, USA",
             "Waltham, Massachusetts, USA"
         ],
-        "Waltham, Massachusetts, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Borderland State Park - 259 Massapoag Avenue, Sharon, Massachusetts, USA",
                 "coords": null
@@ -2515,7 +2521,7 @@
         "filming_locations": [
             "Cape Town, South Africa"
         ],
-        "Cape Town, South Africa": [
+        "filming_locations_coords": [
             {
                 "address": "Cape Town, City of Cape Town, Western Cape, 8001, South Africa",
                 "coords": {
@@ -2557,7 +2563,7 @@
             "Antwerp, Belgium",
             "BME, Budapest, Hungary"
         ],
-        "BME, Budapest, Hungary": [
+        "filming_locations_coords": [
             {
                 "address": "België / Belgique / Belgien",
                 "coords": {
@@ -2580,7 +2586,7 @@
                 }
             },
             {
-                "address": "Budapesti Műszaki és Gazdaságtudományi Egyetem, Egry József utca, Lágymányos, XI. kerület, Budapest, Közép-Magyarország, 1111, Magyarország",
+                "address": "Budapesti Műszaki és Gazdaságtudományi Egyetem, Műegyetem rakpart, Lágymányos, XI. kerület, Budapest, Közép-Magyarország, 1111, Magyarország",
                 "coords": {
                     "lat": 47.4784386,
                     "lon": 19.0577145
@@ -2605,7 +2611,7 @@
         "production_country": "US",
         "poster_url": "https://m.media-amazon.com/images/M/MV5BMDIwY2YxZjItZTM3My00NDJiLTgyOGMtNjA4YTVjNDgxMTZhXkEyXkFqcGc@._V1_.jpg",
         "filming_locations": [],
-        "BME, Budapest, Hungary": []
+        "filming_locations_coords": []
     },
     {
         "source_id": "tt0111161",
@@ -2640,7 +2646,7 @@
             "Malabar Farm State Park - 4050 Bromfield Road, Lucas, Ohio, USA",
             "127A Smithfield Road, Frederiksted, Virgin Islands"
         ],
-        "127A Smithfield Road, Frederiksted, Virgin Islands": [
+        "filming_locations_coords": [
             {
                 "address": "Butler County, Ohio, United States",
                 "coords": {
@@ -2653,7 +2659,7 @@
                 "coords": null
             },
             {
-                "address": "Sandy Point, White Lady, Whites Bay, Saint Croix District, United States Virgin Islands, 00850, United States",
+                "address": "Sandy Point, Whites Bay 2, Whites Bay, Saint Croix District, United States Virgin Islands, 00850, United States",
                 "coords": {
                     "lat": 17.6864944,
                     "lon": -64.8787227
@@ -2693,7 +2699,7 @@
             "eight days cafe, 2-chome-26-1 Kitaotsuka, Toshima City, Tokyo 170-0004, Japan",
             "teamLab Borderless, Azabudai Hills Garden Plaza B B1, 5 Chome-9 Toranomon, Minato City, Tokyo 105-0001, Japan"
         ],
-        "teamLab Borderless, Azabudai Hills Garden Plaza B B1, 5 Chome-9 Toranomon, Minato City, Tokyo 105-0001, Japan": [
+        "filming_locations_coords": [
             {
                 "address": "日本",
                 "coords": {
@@ -2742,7 +2748,7 @@
         "production_country": "US",
         "poster_url": "https://m.media-amazon.com/images/M/MV5BNDk0YjFhZGEtOTMwMS00ZWQzLWJmMmMtYjNjNTA5ZGE1YjAxXkEyXkFqcGc@._V1_.jpg",
         "filming_locations": [],
-        "teamLab Borderless, Azabudai Hills Garden Plaza B B1, 5 Chome-9 Toranomon, Minato City, Tokyo 105-0001, Japan": []
+        "filming_locations_coords": []
     },
     {
         "source_id": "tt31434030",
@@ -2770,7 +2776,7 @@
             "Paris, France",
             "Dark Matters Studios, Tigery, France"
         ],
-        "Dark Matters Studios, Tigery, France": [
+        "filming_locations_coords": [
             {
                 "address": "Kuhmo, Kehys-Kainuun seutukunta, Kainuu, Manner-Suomi, Suomi / Finland",
                 "coords": {
@@ -2824,7 +2830,7 @@
         "production_country": "US",
         "poster_url": "https://m.media-amazon.com/images/M/MV5BYWZmMGFmZWItYzM5Ny00N2FjLWI5OWItMzBjZTE5MTgxMmZkXkEyXkFqcGc@._V1_.jpg",
         "filming_locations": [],
-        "Dark Matters Studios, Tigery, France": []
+        "filming_locations_coords": []
     },
     {
         "source_id": "tt34819091",
@@ -2847,12 +2853,12 @@
             "Budapest, Hungary",
             "Gï¿½teborg, Sweden"
         ],
-        "Gï¿½teborg, Sweden": [
+        "filming_locations_coords": [
             {
                 "address": "Budapest, Közép-Magyarország, Magyarország",
                 "coords": {
-                    "lat": 47.4813896,
-                    "lon": 19.1460941
+                    "lat": 47.4978789,
+                    "lon": 19.0402383
                 }
             },
             {
@@ -2886,7 +2892,7 @@
             "Manitoba, Canada",
             "Canada"
         ],
-        "Canada": [
+        "filming_locations_coords": [
             {
                 "address": "Garson, Rural Municipality of Brokenhead, Manitoba, R0E 0R0, Canada",
                 "coords": {
@@ -2938,7 +2944,7 @@
             "New Orleans, Louisiana, USA",
             "Los Angeles, California, USA"
         ],
-        "Los Angeles, California, USA": [
+        "filming_locations_coords": [
             {
                 "address": "New Orleans, Orleans Parish, Louisiana, United States",
                 "coords": {
@@ -2976,7 +2982,7 @@
             "Georgia, USA",
             "USA"
         ],
-        "USA": [
+        "filming_locations_coords": [
             {
                 "address": "Atlanta, Fulton County, Georgia, United States",
                 "coords": {
@@ -3034,7 +3040,7 @@
             "Cairo, Egypt",
             "England, UK"
         ],
-        "England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "القاهرة, مصر",
                 "coords": {
@@ -3079,7 +3085,7 @@
             "Sï¿½o Paulo, Sï¿½o Paulo, Brazil",
             "Sï¿½o Paulo, Brazil"
         ],
-        "Sï¿½o Paulo, Brazil": [
+        "filming_locations_coords": [
             {
                 "address": "Recife, Região Geográfica Imediata do Recife, Região Metropolitana do Recife, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, Brasil",
                 "coords": {
@@ -3131,7 +3137,7 @@
         "production_country": "US",
         "poster_url": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@._V1_.jpg",
         "filming_locations": [],
-        "Sï¿½o Paulo, Brazil": []
+        "filming_locations_coords": []
     },
     {
         "source_id": "tt22084616",
@@ -3159,7 +3165,7 @@
             "New York City, New York, USA",
             "Basingstoke, Hampshire, England, UK"
         ],
-        "Basingstoke, Hampshire, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Glasgow, Glasgow City, Alba / Scotland, G2 1AL, United Kingdom",
                 "coords": {
@@ -3213,7 +3219,7 @@
         "production_country": "US",
         "poster_url": "https://m.media-amazon.com/images/M/MV5BYmY0OTk0ZDktMmJkNy00NjQwLWE0NjQtOTY4Y2VhODdhOTJjXkEyXkFqcGc@._V1_.jpg",
         "filming_locations": [],
-        "Basingstoke, Hampshire, England, UK": []
+        "filming_locations_coords": []
     },
     {
         "source_id": "tt31184028",
@@ -3248,7 +3254,7 @@
             "Victoria, Australia",
             "Australia"
         ],
-        "Australia": [
+        "filming_locations_coords": [
             {
                 "address": "Melbourne, City of Melbourne, Victoria, Australia",
                 "coords": {
@@ -3314,7 +3320,7 @@
             "Czech Republic",
             "Biodom, Budapest Zoo and Botanical Garden, Budapest, Hungary"
         ],
-        "Biodom, Budapest Zoo and Botanical Garden, Budapest, Hungary": [
+        "filming_locations_coords": [
             {
                 "address": "Hallstatt, Bezirk Gmunden, Oberösterreich, 4830, Österreich",
                 "coords": {
@@ -3385,7 +3391,7 @@
             "Downtown, Los Angeles, California, USA",
             "Los Angeles, California, USA"
         ],
-        "Los Angeles, California, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Martin Luther King Jr. Federal Building, 77, Forsyth Street Northwest, Five Points, Atlanta, Fulton County, Georgia, 30303, United States",
                 "coords": {
@@ -3460,7 +3466,7 @@
             "Queenstown, Otago, New Zealand",
             "Fernside, Featherston, Wairarapa, New Zealand"
         ],
-        "Fernside, Featherston, Wairarapa, New Zealand": [
+        "filming_locations_coords": [
             {
                 "address": "Wellington, Wellington City, Wellington, 6011, New Zealand / Aotearoa",
                 "coords": {
@@ -3514,7 +3520,7 @@
         "filming_locations": [
             "London, England, UK"
         ],
-        "London, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Greater London, England, United Kingdom",
                 "coords": {
@@ -3558,7 +3564,7 @@
             "Naval Air Station Lemoore, California, USA",
             "Naval Air Station Fallon, Nevada, USA"
         ],
-        "Naval Air Station Fallon, Nevada, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Eldorado National Forest, El Dorado County, California, United States",
                 "coords": {
@@ -3609,7 +3615,7 @@
         "production_country": "US",
         "poster_url": "https://m.media-amazon.com/images/M/MV5BYzc5NGZjYWUtOGJlYy00OGFkLWFjYWUtNTI2Yjg5OWVmY2U1XkEyXkFqcGc@._V1_.jpg",
         "filming_locations": [],
-        "Naval Air Station Fallon, Nevada, USA": []
+        "filming_locations_coords": []
     },
     {
         "source_id": "tt0816692",
@@ -3649,7 +3655,7 @@
             "200 block of 24th St, Fort Macleod, Alberta, Canada",
             "Westin Bonaventure Hotel & Suites - 404 S. Figueroa Street, Downtown, Los Angeles, California, USA"
         ],
-        "Westin Bonaventure Hotel & Suites - 404 S. Figueroa Street, Downtown, Los Angeles, California, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Ísland",
                 "coords": {
@@ -3703,7 +3709,7 @@
             "Oxenford, Queensland, Australia",
             "Ecuador"
         ],
-        "Ecuador": [
+        "filming_locations_coords": [
             {
                 "address": "Gold Coast City, Queensland, Australia",
                 "coords": {
@@ -3773,7 +3779,7 @@
             "21 Caven Point Avenue, Jersey City, New Jersey, USA",
             "Iceland"
         ],
-        "Iceland": [
+        "filming_locations_coords": [
             {
                 "address": "Kenya",
                 "coords": {
@@ -3833,7 +3839,7 @@
             "South Africa",
             "Blyde River Canyon, South Africa"
         ],
-        "Blyde River Canyon, South Africa": [
+        "filming_locations_coords": [
             {
                 "address": "Aurland, Vestland, Norge",
                 "coords": {
@@ -3903,7 +3909,7 @@
         "production_country": "US",
         "poster_url": "https://m.media-amazon.com/images/M/MV5BMzY4NjdhOTUtMDQwOS00YzU2LTlmNjYtNmU1Y2FjZDMwYmE2XkEyXkFqcGc@._V1_.jpg",
         "filming_locations": [],
-        "Blyde River Canyon, South Africa": []
+        "filming_locations_coords": []
     },
     {
         "source_id": "tt11564570",
@@ -3933,7 +3939,7 @@
             "Belgrade, Serbia",
             "Amanzoe Beach Club, Ermionida, Greece"
         ],
-        "Amanzoe Beach Club, Ermionida, Greece": [
+        "filming_locations_coords": [
             {
                 "address": "Ελλάς",
                 "coords": {
@@ -3989,7 +3995,7 @@
         "filming_locations": [
             "Manhattan, New York City, New York, USA"
         ],
-        "Manhattan, New York City, New York, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Manhattan, New York County, New York, United States",
                 "coords": {
@@ -4017,7 +4023,7 @@
         "filming_locations": [
             "Northern Ireland, UK"
         ],
-        "Northern Ireland, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Northern Ireland / Tuaisceart Éireann, United Kingdom",
                 "coords": {
@@ -4065,7 +4071,7 @@
             "Atlanta, Georgia, USA",
             "Mentor, Ohio, USA"
         ],
-        "Mentor, Ohio, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Cincinnati, Hamilton County, Ohio, United States",
                 "coords": {
@@ -4139,7 +4145,7 @@
             "Pinewood Studios, Iver Heath, Buckinghamshire, England, UK",
             "Oviedo, Asturias, Spain"
         ],
-        "Oviedo, Asturias, Spain": [
+        "filming_locations_coords": [
             {
                 "address": "Palacio de Exposiciones y Congresos Ciudad de Oviedo, Oviedo, Asturias, Spain",
                 "coords": null
@@ -4202,7 +4208,7 @@
             "Los Angeles County, California, USA",
             "Downtown, Los Angeles, California, USA"
         ],
-        "Downtown, Los Angeles, California, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Los Angeles, Los Angeles County, California, United States",
                 "coords": {
@@ -4273,7 +4279,7 @@
             "Mitchell Field, Garden City, Long Island, New York, USA",
             "3531 White Plains Road, Bronx, New York City, New York, USA"
         ],
-        "3531 White Plains Road, Bronx, New York City, New York, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Forza d'Agrï¿½, Messina, Sicily, Italy",
                 "coords": null
@@ -4333,7 +4339,7 @@
             "New York City, New York, USA",
             "Tulum, Mexico"
         ],
-        "Tulum, Mexico": [
+        "filming_locations_coords": [
             {
                 "address": "New York, United States",
                 "coords": {
@@ -4384,7 +4390,7 @@
         "production_country": "US",
         "poster_url": "https://m.media-amazon.com/images/M/MV5BNzUzNzFmMzQtMTMyYS00ZmRkLTg1MmMtYTk2OWI4YjJmMzJiXkEyXkFqcGc@._V1_.jpg",
         "filming_locations": [],
-        "Tulum, Mexico": []
+        "filming_locations_coords": []
     },
     {
         "source_id": "tt1375666",
@@ -4424,7 +4430,7 @@
             "Tokyo, Japan",
             "Alberta, Canada"
         ],
-        "Alberta, Canada": [
+        "filming_locations_coords": [
             {
                 "address": "Fortress Mountain, Kananaskis Country, Alberta, Canada",
                 "coords": null
@@ -4478,7 +4484,7 @@
         "filming_locations": [
             "Los Angeles, California, USA"
         ],
-        "Los Angeles, California, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Los Angeles, Los Angeles County, California, United States",
                 "coords": {
@@ -4505,7 +4511,7 @@
         "filming_locations": [
             "London, England, UK"
         ],
-        "London, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Greater London, England, United Kingdom",
                 "coords": {
@@ -4536,7 +4542,7 @@
             "Montauk, New York, USA",
             "1245 Grand Street, Brooklyn, NY, USA"
         ],
-        "1245 Grand Street, Brooklyn, NY, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Montauk, Town of East Hampton, Suffolk County, New York, 11954, United States",
                 "coords": {
@@ -4589,7 +4595,7 @@
             "Khlong Ruat, Thailand",
             "Bangkok, Thailand"
         ],
-        "Bangkok, Thailand": [
+        "filming_locations_coords": [
             {
                 "address": "จังหวัดกระบี่, ประเทศไทย",
                 "coords": {
@@ -4660,7 +4666,7 @@
             "University of Zurich, Zurich, Switzerland",
             "Kloster Einsiedeln, Einsiedeln, Switzerland"
         ],
-        "Kloster Einsiedeln, Einsiedeln, Switzerland": [
+        "filming_locations_coords": [
             {
                 "address": "Los Alamos, Los Alamos County, New Mexico, 87544, United States",
                 "coords": {
@@ -4718,7 +4724,7 @@
             "Port Hope, Ontario, Canada",
             "West Montrose, Ontario, Canada"
         ],
-        "West Montrose, Ontario, Canada": [
+        "filming_locations_coords": [
             {
                 "address": "Bangor, Penobscot County, Maine, 04401, United States",
                 "coords": {
@@ -4781,7 +4787,7 @@
             "Beaconsfield, Buckinghamshire, England, UK",
             "Red Lion, 1 Village Road, Little Missenden, Buckinghamshire, England, UK"
         ],
-        "Red Lion, 1 Village Road, Little Missenden, Buckinghamshire, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Englefield Estate Office, A340, Englefield, West Berkshire, England, RG7 5ET, United Kingdom",
                 "coords": {
@@ -4855,7 +4861,7 @@
             "Battersea Power Station, Battersea, London, England, UK",
             "Piccadilly Circus, Piccadilly, London, England, UK"
         ],
-        "Piccadilly Circus, Piccadilly, London, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Chicago, South Chicago Township, Cook County, Illinois, United States",
                 "coords": {
@@ -4911,7 +4917,7 @@
         "production_country": "US",
         "poster_url": "https://m.media-amazon.com/images/M/MV5BYTQ2NmMyZjktMWJjZi00OGM4LTkzY2MtMjVkZmE5NmIwYzc4XkEyXkFqcGc@._V1_.jpg",
         "filming_locations": [],
-        "Piccadilly Circus, Piccadilly, London, England, UK": []
+        "filming_locations_coords": []
     },
     {
         "source_id": "tt29713093",
@@ -4936,7 +4942,7 @@
             "Albany, Western Australia, Australia",
             "Hobart, Tasmania, Australia"
         ],
-        "Hobart, Tasmania, Australia": [
+        "filming_locations_coords": [
             {
                 "address": "Perth, City of Perth, Western Australia, 6000, Australia",
                 "coords": {
@@ -4993,7 +4999,7 @@
             "5800 Harold Way, Los Angeles, California, USA",
             "20933 Roscoe Blvd, Canoga Park, Los Angeles, California, USA"
         ],
-        "20933 Roscoe Blvd, Canoga Park, Los Angeles, California, USA": [
+        "filming_locations_coords": [
             {
                 "address": "1435, Flower Street, Grand Central Creative Campus, Glendale, Los Angeles County, California, 91201, United States",
                 "coords": {
@@ -5065,7 +5071,7 @@
             "Walt Disney Animation Studios - 500 S. Buena Vista Street, Burbank, California, USA",
             "Walt Disney Animation Studios - 2100 Riverside Drive, Burbank, California, USA"
         ],
-        "Walt Disney Animation Studios - 2100 Riverside Drive, Burbank, California, USA": [
+        "filming_locations_coords": [
             {
                 "address": "Walt Disney Animation Studios - 500 S. Buena Vista Street, Burbank, California, USA",
                 "coords": null
@@ -5110,7 +5116,7 @@
             "Gloucester Cathedral, 12 College Green, Gloucester, Gloucestershire, England, UK",
             "Australia House, Strand, Westminster, Greater London, England, UK"
         ],
-        "Australia House, Strand, Westminster, Greater London, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Alnwick Castle, Bow Alley, Alnwick, Northumberland, North East, England, NE66 1NQ, United Kingdom",
                 "coords": {
@@ -5166,7 +5172,7 @@
             "St George's United Reformed Church, St George's Way, Thornton Haugh, Merseyside, England, UK",
             "The Folds, Thornton Haugh, Merseyside, England, UK"
         ],
-        "The Folds, Thornton Haugh, Merseyside, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Knowsley Hall, Merseyside, Prescot, England, UK",
                 "coords": null
@@ -5218,7 +5224,7 @@
             "Asturias, Spain",
             "Principality of Asturias, Spain"
         ],
-        "Principality of Asturias, Spain": [
+        "filming_locations_coords": [
             {
                 "address": "Somiedo, Asturias / Asturies, España",
                 "coords": {
@@ -5280,7 +5286,7 @@
             "Elstree, Hertfordshire, England, UK",
             "London, England, UK"
         ],
-        "London, England, UK": [
+        "filming_locations_coords": [
             {
                 "address": "Sky Studios Elstree Rowley, Borehamwood, Hertfordshire, England, UK",
                 "coords": null
@@ -5337,7 +5343,7 @@
             "Ontario, Canada",
             "Canada"
         ],
-        "Canada": [
+        "filming_locations_coords": [
             {
                 "address": "Owen Sound, Grey County, Ontario, Canada",
                 "coords": {
@@ -5393,10 +5399,13 @@
             "Canadian Motion Picture Park Studios - 8085 Glenwood Drive, Burnaby, British Columbia, Canada",
             "1150 S Olive St, Los Angeles, California, USA"
         ],
-        "1150 S Olive St, Los Angeles, California, USA": [
+        "filming_locations_coords": [
             {
-                "address": "Shangri-La - 1128 West Georgia Street, Vancouver, British Columbia, Canada",
-                "coords": null
+                "address": "Hyatt Vancouver Downtown Alberni, 1228, West Georgia Street, Coal Harbour, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6E, V6E 4T9, Canada",
+                "coords": {
+                    "lat": 49.285731,
+                    "lon": -123.1238025
+                }
             },
             {
                 "address": "Vancouver, Metro Vancouver Regional District, British Columbia, Canada",

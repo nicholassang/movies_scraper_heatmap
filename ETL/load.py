@@ -43,3 +43,5 @@ def load():
         conn.commit()
 
     print("Loaded JSON data into Postgres successfully!")
+
+load()

@@ -34,7 +34,7 @@ def transform():
                             "coords": None
                         })
 
-                movie[filming_location] = cache_locations_coords
+                movie["filming_locations_coords"] = cache_locations_coords
                 cleaned_data.append(movie)
 
         with open("./data/cleaned_movie_data.json", 'w', encoding='utf-8') as file:
