@@ -37,14 +37,14 @@ def transform():
                 movie[filming_location] = cache_locations_coords
                 cleaned_data.append(movie)
 
-        with open("./data/cleaned_movie_data.json", 'w') as file:
+        with open("./data/cleaned_movie_data.json", 'w', encoding='utf-8') as file:
             json.dump(cleaned_data, file, ensure_ascii=False, indent=4)
     except Exception:
         print()
         print("Error: Did not convert all coordinates")
         print(traceback.format_exc())
 
-        with open("./data/cleaned_movie_data.json", 'w') as file:
+        with open("./data/cleaned_movie_data.json", 'w', encoding='utf-8') as file:
             json.dump(cleaned_data, file, ensure_ascii=False, indent=4)
 
 transform()
