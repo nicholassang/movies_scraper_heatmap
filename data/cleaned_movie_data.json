@@ -1,0 +1,525 @@
+[
+    {
+        "source_id": "tt22740896",
+        "title": "People We Meet on Vacation",
+        "year": "2026",
+        "country": "United States",
+        "rating": "6.9",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Romantic Comedy",
+            "Romance"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BM2ZmZWEyOGItYzVjYi00N2Q3LTlmNDItYmUwZjFhMTJmMzgzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "New Orleans, Louisiana, USA",
+            "Barcelona, Barcelona, Catalonia, Spain",
+            "Costa Brava, Girona, Catalonia, Spain"
+        ],
+        "Costa Brava, Girona, Catalonia, Spain": [
+            {
+                "address": "New Orleans, Orleans Parish, Louisiana, United States",
+                "coords": {
+                    "lat": 29.9561422,
+                    "lon": -90.0733934
+                }
+            },
+            {
+                "address": "Barcelona, Barcelonès, Barcelona, Catalunya, España",
+                "coords": {
+                    "lat": 41.3825802,
+                    "lon": 2.177073
+                }
+            },
+            {
+                "address": "Costa Brava, Vidreres, la Selva, Girona, Catalunya, 17411, España",
+                "coords": {
+                    "lat": 41.7891872,
+                    "lon": 2.7921477
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt27543632",
+        "title": "The Housemaid",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.0",
+        "budget": 35000000,
+        "gross": 142692748,
+        "ROI": 307.7,
+        "genres": [
+            "Psychological Drama",
+            "Psychological Thriller",
+            "Drama",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMGU0ZThmMDUtYmZjMi00MDk5LWE2NTQtYzQ3NWZjNWZkZGE3XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Saint Elizabeth University, Morristown, New Jersey, USA",
+            "Morristown, New Jersey, USA",
+            "New Jersey, USA",
+            "USA"
+        ],
+        "USA": [
+            {
+                "address": "Saint Elizabeth University, Morristown, New Jersey, USA",
+                "coords": null
+            },
+            {
+                "address": "Morristown, Morris County, New Jersey, United States",
+                "coords": {
+                    "lat": 40.7970382,
+                    "lon": -74.4809868
+                }
+            },
+            {
+                "address": "New Jersey, United States",
+                "coords": {
+                    "lat": 40.0757384,
+                    "lon": -74.4041622
+                }
+            },
+            {
+                "address": "United States",
+                "coords": {
+                    "lat": 39.7837304,
+                    "lon": -100.445882
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt32916440",
+        "title": "Marty Supreme",
+        "year": "2025",
+        "country": "Finland",
+        "rating": "8.2",
+        "budget": 65000000,
+        "gross": 79377466,
+        "ROI": 22.1,
+        "genres": [
+            "Epic",
+            "Period Drama",
+            "Drama",
+            "Sport"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZjA0YzJiYjItNmNiYy00YWIyLWJjOTEtZDBlODJjY2Q4ZDkxXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Hancock, New York, USA",
+            "New York City, New York, USA",
+            "Playland, Rye, New York, USA",
+            "Florida, New York, USA",
+            "Chesterfield, New Jersey, USA"
+        ],
+        "Chesterfield, New Jersey, USA": [
+            {
+                "address": "Town of Hancock, Delaware County, New York, United States",
+                "coords": {
+                    "lat": 41.9542233,
+                    "lon": -75.2805401
+                }
+            },
+            {
+                "address": "New York, United States",
+                "coords": {
+                    "lat": 40.7127281,
+                    "lon": -74.0060152
+                }
+            },
+            {
+                "address": "Rye Playland, 1, Playland Parkway, City of Rye, Westchester County, New York, 10580, United States",
+                "coords": {
+                    "lat": 40.9659452,
+                    "lon": -73.6731284
+                }
+            },
+            {
+                "address": "Town of Florida, Montgomery County, New York, 12069, United States",
+                "coords": {
+                    "lat": 42.8904161,
+                    "lon": -74.196582
+                }
+            },
+            {
+                "address": "Chesterfield Township, Burlington County, New Jersey, 08515, United States",
+                "coords": {
+                    "lat": 40.1153966,
+                    "lon": -74.6412727
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt30144839",
+        "title": "One Battle After Another",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.8",
+        "budget": 130000000,
+        "gross": 206100112,
+        "ROI": 58.5,
+        "genres": [
+            "Action Epic",
+            "Dark Comedy",
+            "Epic",
+            "Political Thriller",
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller",
+            "Atmospheric",
+            "Comedic elements",
+            "Dramatic tension",
+            "Generational appeal",
+            "Iconic score",
+            "Performance",
+            "Unpredictable",
+            "Worldbuilding",
+            "Morality"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzBkZmQ0NjMtNTZlMy00ZjdlLTg5ODUtYWFlNGM0YzE3MTg0XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Murphy's Market - 4020 Walnut Drive, Eureka, California, USA",
+            "El Paso, Texas, USA",
+            "Sacramento, California, USA",
+            "The Texas Dip, Borrego Springs, California, USA",
+            "Carmela's Mexican Restaurant - 1288 G Street, Arcata, California, USA"
+        ],
+        "Carmela's Mexican Restaurant - 1288 G Street, Arcata, California, USA": [
+            {
+                "address": "Murphy's Market, 4020, Walnut Drive, Eureka, Humboldt County, California, 95503, United States",
+                "coords": {
+                    "lat": 40.769293,
+                    "lon": -124.143505
+                }
+            },
+            {
+                "address": "El Paso, El Paso County, Texas, United States",
+                "coords": {
+                    "lat": 31.7601001,
+                    "lon": -106.4870476
+                }
+            },
+            {
+                "address": "Sacramento, Sacramento County, California, United States",
+                "coords": {
+                    "lat": 38.5810606,
+                    "lon": -121.493895
+                }
+            },
+            {
+                "address": "The Texas Dip, Borrego Springs, California, USA",
+                "coords": null
+            },
+            {
+                "address": "Carmela's Mexican Restaurant - 1288 G Street, Arcata, California, USA",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt1757678",
+        "title": "Avatar: Fire and Ash",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.4",
+        "budget": 400000000,
+        "gross": 1231139287,
+        "ROI": 207.8,
+        "genres": [
+            "Action Epic",
+            "Adult Animation",
+            "Adventure Epic",
+            "Computer Animation",
+            "Epic",
+            "Fantasy Epic",
+            "Sci-Fi Epic",
+            "Action",
+            "Adventure",
+            "Animation"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZDYxY2I1OGMtN2Y4MS00ZmU1LTgyNDAtODA0MzAyYjI0N2Y2XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "New Zealand",
+            "Stone Street Studios, Wellington, New Zealand",
+            "Los Angeles, California, USA",
+            "MBS Media Campus - 1600 Rosecrans Avenue, Manhattan Beach, California, USA",
+            "Warner Bros. Studios, Burbank, California, USA"
+        ],
+        "Warner Bros. Studios, Burbank, California, USA": [
+            {
+                "address": "New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.5000831,
+                    "lon": 172.8344077
+                }
+            },
+            {
+                "address": "Stone Street Studios, Southampton Road, Miramar, Wellington City, Wellington, 6020, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.3177195,
+                    "lon": 174.8130239
+                }
+            },
+            {
+                "address": "Los Angeles, Los Angeles County, California, United States",
+                "coords": {
+                    "lat": 34.0536909,
+                    "lon": -118.242766
+                }
+            },
+            {
+                "address": "MBS Media Campus, 1600, Rosecrans Avenue, Manhattan Village, Manhattan Beach, Los Angeles County, California, 90266, United States",
+                "coords": {
+                    "lat": 33.8986926,
+                    "lon": -118.383734
+                }
+            },
+            {
+                "address": "Warner Bros. Studios, 4000, Warner Boulevard, Burbank, Los Angeles County, California, 91522, United States",
+                "coords": {
+                    "lat": 34.1488723,
+                    "lon": -118.3376298
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt14364480",
+        "title": "Wake Up Dead Man",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.4",
+        "budget": 40000000,
+        "gross": 1600000,
+        "ROI": -96.0,
+        "genres": [
+            "Dark Comedy",
+            "Whodunnit",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOGFlYWJhZGYtMjY4Yy00MGM1LTgyM2ItZGYwMzMzMWZlZTMyXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Holy innocents Church, High Beech, Epping Forest, Essex, England, UK",
+            "Butler's Retreat, Epping Forest, Essex, England, UK.",
+            "Leavesden Film Studios, Hertfordshire, England, UK",
+            "London, England, UK"
+        ],
+        "London, England, UK": [
+            {
+                "address": "Holy innocents Church, High Beech, Epping Forest, Essex, England, UK",
+                "coords": null
+            },
+            {
+                "address": "Butler's Retreat, Epping Forest, Essex, England, UK.",
+                "coords": null
+            },
+            {
+                "address": "Leavesden Film Studios, Hertfordshire, England, UK",
+                "coords": null
+            },
+            {
+                "address": "Greater London, England, United Kingdom",
+                "coords": {
+                    "lat": 51.5074456,
+                    "lon": -0.1277653
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt29567915",
+        "title": "Nuremberg",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.4",
+        "budget": null,
+        "gross": 34500487,
+        "ROI": null,
+        "genres": [
+            "Docudrama",
+            "Epic",
+            "Legal Drama",
+            "Legal Thriller",
+            "Period Drama",
+            "Psychological Drama",
+            "Psychological Thriller",
+            "Biography",
+            "Drama",
+            "History",
+            "Authentic emotion",
+            "Performance",
+            "Thought-provoking",
+            "Thought-provoking",
+            "Historical accuracy",
+            "Human experience",
+            "Inner conflict",
+            "Emotional stakes",
+            "Emotional weight",
+            "Haunting"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZDMyMzdmYjktN2Y2Zi00NzlmLWE5YzMtN2U2NjgyOWJjNDYzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Duna Palota, Budapest, Hungary",
+            "Hungary"
+        ],
+        "Hungary": [
+            {
+                "address": "Duna Palota, 5, Zrínyi utca, Lipótváros, V. kerület, Budapest, Közép-Magyarország, 1051, Magyarország",
+                "coords": {
+                    "lat": 47.5000732,
+                    "lon": 19.0491269
+                }
+            },
+            {
+                "address": "Magyarország",
+                "coords": {
+                    "lat": 47.1817585,
+                    "lon": 19.5060937
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt33028778",
+        "title": "Primate",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "6.3",
+        "budget": 24000000,
+        "gross": 13255908,
+        "ROI": -44.8,
+        "genres": [
+            "Horror"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYzY1N2YzMzktZWU3YS00ZDExLTg5NzUtZDc0OGFmMjBlY2M0XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "Hungary": []
+    },
+    {
+        "source_id": "tt12300742",
+        "title": "Bugonia",
+        "year": "2025",
+        "country": "Ireland",
+        "rating": "7.4",
+        "budget": null,
+        "gross": 40798736,
+        "ROI": null,
+        "genres": [
+            "Alien Invasion",
+            "Dark Comedy",
+            "Satire",
+            "Comedy",
+            "Crime",
+            "Sci-Fi",
+            "Atmospheric",
+            "Cinematography",
+            "Enduring legacy",
+            "Performance",
+            "Visual innovation",
+            "Ambitious",
+            "Dark humor",
+            "Psychological depth",
+            "Social commentary",
+            "Surreal"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNzIzNWQxMjEtZmQ3MS00OTk2LWFlZjktZDUyYWRkM2M3NWVlXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Sarakiniko Beach, Milos Island, Greece",
+            "Atlanta, Georgia, USA",
+            "Slough, Berkshire, England, UK",
+            "Camberley, Surrey, England, UK",
+            "Botanica Ditton Park, Datchet, Slough, England, UK"
+        ],
+        "Botanica Ditton Park, Datchet, Slough, England, UK": [
+            {
+                "address": "Sarakiniko Beach, Milos Island, Greece",
+                "coords": null
+            },
+            {
+                "address": "Atlanta, Fulton County, Georgia, United States",
+                "coords": {
+                    "lat": 33.7544657,
+                    "lon": -84.3898151
+                }
+            },
+            {
+                "address": "Slough, Railway Terrace, Chalvey, Slough, England, SL2 5BY, United Kingdom",
+                "coords": {
+                    "lat": 51.512103,
+                    "lon": -0.591276
+                }
+            },
+            {
+                "address": "Camberley, Surrey Heath, Surrey, England, GU15 3SA, United Kingdom",
+                "coords": {
+                    "lat": 51.3392845,
+                    "lon": -0.7460981
+                }
+            },
+            {
+                "address": "Botanica Ditton Park, Datchet, Slough, England, UK",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt31227572",
+        "title": "Predator: Badlands",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.3",
+        "budget": 105000000,
+        "gross": 184485907,
+        "ROI": 75.7,
+        "genres": [
+            "Alien Invasion",
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Thriller",
+            "Action sequences",
+            "Production design",
+            "Visual spectacle",
+            "Creature design",
+            "Character development",
+            "Comedic elements",
+            "Dark tone",
+            "Derivative",
+            "Family dynamics",
+            "Set pieces"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNTdjZGUxMTItNjRkNS00N2VhLWE4MjMtMjVhODMwMGIxNjUwXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Rotorua, New Zealand",
+            "Auckland, New Zealand",
+            "New Zealand"
+        ],
+        "New Zealand": [
+            {
+                "address": "Rotorua, Rotorua Lakes District, Bay of Plenty, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -38.136073,
+                    "lon": 176.2525434
+                }
+            },
+            {
+                "address": 
