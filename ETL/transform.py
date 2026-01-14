@@ -3,7 +3,7 @@ import json
 import traceback
 
 def transform():
-    print("Transform running")
+    print("Transform running...")
     print()
     geolocator = Nominatim(user_agent="movie_filming_locations_coords")
 
@@ -46,5 +46,3 @@ def transform():
 
         with open("./data/cleaned_movie_data.json", 'w', encoding='utf-8') as file:
             json.dump(cleaned_data, file, ensure_ascii=False, indent=4)
-
-transform()

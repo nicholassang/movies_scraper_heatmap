@@ -1,0 +1,5428 @@
+[
+    {
+        "source_id": "tt22740896",
+        "title": "People We Meet on Vacation",
+        "year": "2026",
+        "country": "United States",
+        "rating": "6.9",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Romantic Comedy",
+            "Romance"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BM2ZmZWEyOGItYzVjYi00N2Q3LTlmNDItYmUwZjFhMTJmMzgzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "New Orleans, Louisiana, USA",
+            "Barcelona, Barcelona, Catalonia, Spain",
+            "Costa Brava, Girona, Catalonia, Spain"
+        ],
+        "Costa Brava, Girona, Catalonia, Spain": [
+            {
+                "address": "New Orleans, Orleans Parish, Louisiana, United States",
+                "coords": {
+                    "lat": 29.9561422,
+                    "lon": -90.0733934
+                }
+            },
+            {
+                "address": "Barcelona, Barcelonès, Barcelona, Catalunya, España",
+                "coords": {
+                    "lat": 41.3825802,
+                    "lon": 2.177073
+                }
+            },
+            {
+                "address": "Costa Brava, Vidreres, la Selva, Girona, Catalunya, 17411, España",
+                "coords": {
+                    "lat": 41.7891872,
+                    "lon": 2.7921477
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt27543632",
+        "title": "The Housemaid",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.0",
+        "budget": 35000000,
+        "gross": 142692748,
+        "ROI": 307.7,
+        "genres": [
+            "Psychological Drama",
+            "Psychological Thriller",
+            "Drama",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMGU0ZThmMDUtYmZjMi00MDk5LWE2NTQtYzQ3NWZjNWZkZGE3XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Saint Elizabeth University, Morristown, New Jersey, USA",
+            "Morristown, New Jersey, USA",
+            "New Jersey, USA",
+            "USA"
+        ],
+        "USA": [
+            {
+                "address": "Saint Elizabeth University, Morristown, New Jersey, USA",
+                "coords": null
+            },
+            {
+                "address": "Morristown, Morris County, New Jersey, United States",
+                "coords": {
+                    "lat": 40.7970382,
+                    "lon": -74.4809868
+                }
+            },
+            {
+                "address": "New Jersey, United States",
+                "coords": {
+                    "lat": 40.0757384,
+                    "lon": -74.4041622
+                }
+            },
+            {
+                "address": "United States",
+                "coords": {
+                    "lat": 39.7837304,
+                    "lon": -100.445882
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt32916440",
+        "title": "Marty Supreme",
+        "year": "2025",
+        "country": "Finland",
+        "rating": "8.2",
+        "budget": 65000000,
+        "gross": 79377466,
+        "ROI": 22.1,
+        "genres": [
+            "Epic",
+            "Period Drama",
+            "Drama",
+            "Sport"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZjA0YzJiYjItNmNiYy00YWIyLWJjOTEtZDBlODJjY2Q4ZDkxXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Hancock, New York, USA",
+            "New York City, New York, USA",
+            "Playland, Rye, New York, USA",
+            "Florida, New York, USA",
+            "Chesterfield, New Jersey, USA"
+        ],
+        "Chesterfield, New Jersey, USA": [
+            {
+                "address": "Town of Hancock, Delaware County, New York, United States",
+                "coords": {
+                    "lat": 41.9542233,
+                    "lon": -75.2805401
+                }
+            },
+            {
+                "address": "New York, United States",
+                "coords": {
+                    "lat": 40.7127281,
+                    "lon": -74.0060152
+                }
+            },
+            {
+                "address": "Rye Playland, 1, Playland Parkway, City of Rye, Westchester County, New York, 10580, United States",
+                "coords": {
+                    "lat": 40.9659452,
+                    "lon": -73.6731284
+                }
+            },
+            {
+                "address": "Town of Florida, Montgomery County, New York, 12069, United States",
+                "coords": {
+                    "lat": 42.8904161,
+                    "lon": -74.196582
+                }
+            },
+            {
+                "address": "Chesterfield Township, Burlington County, New Jersey, 08515, United States",
+                "coords": {
+                    "lat": 40.1153966,
+                    "lon": -74.6412727
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt30144839",
+        "title": "One Battle After Another",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.8",
+        "budget": 130000000,
+        "gross": 206100112,
+        "ROI": 58.5,
+        "genres": [
+            "Action Epic",
+            "Dark Comedy",
+            "Epic",
+            "Political Thriller",
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller",
+            "Atmospheric",
+            "Comedic elements",
+            "Dramatic tension",
+            "Generational appeal",
+            "Iconic score",
+            "Performance",
+            "Unpredictable",
+            "Worldbuilding",
+            "Morality"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzBkZmQ0NjMtNTZlMy00ZjdlLTg5ODUtYWFlNGM0YzE3MTg0XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Murphy's Market - 4020 Walnut Drive, Eureka, California, USA",
+            "El Paso, Texas, USA",
+            "Sacramento, California, USA",
+            "The Texas Dip, Borrego Springs, California, USA",
+            "Carmela's Mexican Restaurant - 1288 G Street, Arcata, California, USA"
+        ],
+        "Carmela's Mexican Restaurant - 1288 G Street, Arcata, California, USA": [
+            {
+                "address": "Murphy's Market, 4020, Walnut Drive, Eureka, Humboldt County, California, 95503, United States",
+                "coords": {
+                    "lat": 40.769293,
+                    "lon": -124.143505
+                }
+            },
+            {
+                "address": "El Paso, El Paso County, Texas, United States",
+                "coords": {
+                    "lat": 31.7601001,
+                    "lon": -106.4870476
+                }
+            },
+            {
+                "address": "Sacramento, Sacramento County, California, United States",
+                "coords": {
+                    "lat": 38.5810606,
+                    "lon": -121.493895
+                }
+            },
+            {
+                "address": "The Texas Dip, Borrego Springs, California, USA",
+                "coords": null
+            },
+            {
+                "address": "Carmela's Mexican Restaurant - 1288 G Street, Arcata, California, USA",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt1757678",
+        "title": "Avatar: Fire and Ash",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.4",
+        "budget": 400000000,
+        "gross": 1231139287,
+        "ROI": 207.8,
+        "genres": [
+            "Action Epic",
+            "Adult Animation",
+            "Adventure Epic",
+            "Computer Animation",
+            "Epic",
+            "Fantasy Epic",
+            "Sci-Fi Epic",
+            "Action",
+            "Adventure",
+            "Animation"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZDYxY2I1OGMtN2Y4MS00ZmU1LTgyNDAtODA0MzAyYjI0N2Y2XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "New Zealand",
+            "Stone Street Studios, Wellington, New Zealand",
+            "Los Angeles, California, USA",
+            "MBS Media Campus - 1600 Rosecrans Avenue, Manhattan Beach, California, USA",
+            "Warner Bros. Studios, Burbank, California, USA"
+        ],
+        "Warner Bros. Studios, Burbank, California, USA": [
+            {
+                "address": "New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.5000831,
+                    "lon": 172.8344077
+                }
+            },
+            {
+                "address": "Stone Street Studios, Southampton Road, Miramar, Wellington City, Wellington, 6020, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.3177195,
+                    "lon": 174.8130239
+                }
+            },
+            {
+                "address": "Los Angeles, Los Angeles County, California, United States",
+                "coords": {
+                    "lat": 34.0536909,
+                    "lon": -118.242766
+                }
+            },
+            {
+                "address": "MBS Media Campus, 1600, Rosecrans Avenue, Manhattan Village, Manhattan Beach, Los Angeles County, California, 90266, United States",
+                "coords": {
+                    "lat": 33.8986926,
+                    "lon": -118.383734
+                }
+            },
+            {
+                "address": "Warner Bros. Studios, 4000, Warner Boulevard, Burbank, Los Angeles County, California, 91522, United States",
+                "coords": {
+                    "lat": 34.1488723,
+                    "lon": -118.3376298
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt14364480",
+        "title": "Wake Up Dead Man",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.4",
+        "budget": 40000000,
+        "gross": 1600000,
+        "ROI": -96.0,
+        "genres": [
+            "Dark Comedy",
+            "Whodunnit",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOGFlYWJhZGYtMjY4Yy00MGM1LTgyM2ItZGYwMzMzMWZlZTMyXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Holy innocents Church, High Beech, Epping Forest, Essex, England, UK",
+            "Butler's Retreat, Epping Forest, Essex, England, UK.",
+            "Leavesden Film Studios, Hertfordshire, England, UK",
+            "London, England, UK"
+        ],
+        "London, England, UK": [
+            {
+                "address": "Holy innocents Church, High Beech, Epping Forest, Essex, England, UK",
+                "coords": null
+            },
+            {
+                "address": "Butler's Retreat, Epping Forest, Essex, England, UK.",
+                "coords": null
+            },
+            {
+                "address": "Leavesden Film Studios, Hertfordshire, England, UK",
+                "coords": null
+            },
+            {
+                "address": "Greater London, England, United Kingdom",
+                "coords": {
+                    "lat": 51.5074456,
+                    "lon": -0.1277653
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt29567915",
+        "title": "Nuremberg",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.4",
+        "budget": null,
+        "gross": 34500487,
+        "ROI": null,
+        "genres": [
+            "Docudrama",
+            "Epic",
+            "Legal Drama",
+            "Legal Thriller",
+            "Period Drama",
+            "Psychological Drama",
+            "Psychological Thriller",
+            "Biography",
+            "Drama",
+            "History",
+            "Authentic emotion",
+            "Performance",
+            "Thought-provoking",
+            "Thought-provoking",
+            "Historical accuracy",
+            "Human experience",
+            "Inner conflict",
+            "Emotional stakes",
+            "Emotional weight",
+            "Haunting"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZDMyMzdmYjktN2Y2Zi00NzlmLWE5YzMtN2U2NjgyOWJjNDYzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Duna Palota, Budapest, Hungary",
+            "Hungary"
+        ],
+        "Hungary": [
+            {
+                "address": "Duna Palota, 5, Zrínyi utca, Lipótváros, V. kerület, Budapest, Közép-Magyarország, 1051, Magyarország",
+                "coords": {
+                    "lat": 47.5000732,
+                    "lon": 19.0491269
+                }
+            },
+            {
+                "address": "Magyarország",
+                "coords": {
+                    "lat": 47.1817585,
+                    "lon": 19.5060937
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt33028778",
+        "title": "Primate",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "6.3",
+        "budget": 24000000,
+        "gross": 13255908,
+        "ROI": -44.8,
+        "genres": [
+            "Horror"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYzY1N2YzMzktZWU3YS00ZDExLTg5NzUtZDc0OGFmMjBlY2M0XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "Hungary": []
+    },
+    {
+        "source_id": "tt12300742",
+        "title": "Bugonia",
+        "year": "2025",
+        "country": "Ireland",
+        "rating": "7.4",
+        "budget": null,
+        "gross": 40798736,
+        "ROI": null,
+        "genres": [
+            "Alien Invasion",
+            "Dark Comedy",
+            "Satire",
+            "Comedy",
+            "Crime",
+            "Sci-Fi",
+            "Atmospheric",
+            "Cinematography",
+            "Enduring legacy",
+            "Performance",
+            "Visual innovation",
+            "Ambitious",
+            "Dark humor",
+            "Psychological depth",
+            "Social commentary",
+            "Surreal"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNzIzNWQxMjEtZmQ3MS00OTk2LWFlZjktZDUyYWRkM2M3NWVlXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Sarakiniko Beach, Milos Island, Greece",
+            "Atlanta, Georgia, USA",
+            "Slough, Berkshire, England, UK",
+            "Camberley, Surrey, England, UK",
+            "Botanica Ditton Park, Datchet, Slough, England, UK"
+        ],
+        "Botanica Ditton Park, Datchet, Slough, England, UK": [
+            {
+                "address": "Sarakiniko Beach, Milos Island, Greece",
+                "coords": null
+            },
+            {
+                "address": "Atlanta, Fulton County, Georgia, United States",
+                "coords": {
+                    "lat": 33.7544657,
+                    "lon": -84.3898151
+                }
+            },
+            {
+                "address": "Slough, Railway Terrace, Chalvey, Slough, England, SL2 5BY, United Kingdom",
+                "coords": {
+                    "lat": 51.512103,
+                    "lon": -0.591276
+                }
+            },
+            {
+                "address": "Camberley, Surrey Heath, Surrey, England, GU15 3SA, United Kingdom",
+                "coords": {
+                    "lat": 51.3392845,
+                    "lon": -0.7460981
+                }
+            },
+            {
+                "address": "Botanica Ditton Park, Datchet, Slough, England, UK",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt31227572",
+        "title": "Predator: Badlands",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.3",
+        "budget": 105000000,
+        "gross": 184485907,
+        "ROI": 75.7,
+        "genres": [
+            "Alien Invasion",
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Thriller",
+            "Action sequences",
+            "Production design",
+            "Visual spectacle",
+            "Creature design",
+            "Character development",
+            "Comedic elements",
+            "Dark tone",
+            "Derivative",
+            "Family dynamics",
+            "Set pieces"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNTdjZGUxMTItNjRkNS00N2VhLWE4MjMtMjVhODMwMGIxNjUwXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Rotorua, New Zealand",
+            "Auckland, New Zealand",
+            "New Zealand"
+        ],
+        "New Zealand": [
+            {
+                "address": "Rotorua, Rotorua Lakes District, Bay of Plenty, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -38.136073,
+                    "lon": 176.2525434
+                }
+            },
+            {
+                "address": "Auckland, Waitematā, Auckland, 1010, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -36.852095,
+                    "lon": 174.7631803
+                }
+            },
+            {
+                "address": "New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.5000831,
+                    "lon": 172.8344077
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt31193180",
+        "title": "Sinners",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.5",
+        "budget": 90000000,
+        "gross": 368289632,
+        "ROI": 309.2,
+        "genres": [
+            "Folk Horror",
+            "Period Drama",
+            "Supernatural Horror",
+            "Vampire Horror",
+            "Action",
+            "Drama",
+            "Horror",
+            "Music",
+            "Thriller",
+            "Musical score",
+            "Originality",
+            "Visual spectacle",
+            "Character development",
+            "Genre blending",
+            "Social commentary",
+            "Supernatural themes",
+            "Unpredictable",
+            "Thin story",
+            "Uneven quality"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "New Orleans, Louisiana, USA",
+            "Donaldsonville, Louisiana, USA",
+            "Labadieville, Louisiana, USA",
+            "Bogalusa, Louisiana, USA"
+        ],
+        "Bogalusa, Louisiana, USA": [
+            {
+                "address": "New Orleans, Orleans Parish, Louisiana, United States",
+                "coords": {
+                    "lat": 29.9561422,
+                    "lon": -90.0733934
+                }
+            },
+            {
+                "address": "Donaldsonville, Ascension Parish, Louisiana, 70346, United States",
+                "coords": {
+                    "lat": 30.1051938,
+                    "lon": -90.9875923
+                }
+            },
+            {
+                "address": "Labadieville, Assumption Parish, Louisiana, 70372, United States",
+                "coords": {
+                    "lat": 29.823894,
+                    "lon": -90.9529262
+                }
+            },
+            {
+                "address": "Bogalusa, Washington Parish, Louisiana, 70427, United States",
+                "coords": {
+                    "lat": 30.7910204,
+                    "lon": -89.8486858
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt14850054",
+        "title": "Greenland 2: Migration",
+        "year": "2026",
+        "country": "United Kingdom",
+        "rating": "5.9",
+        "budget": 90000000,
+        "gross": 8860968,
+        "ROI": -90.2,
+        "genres": [
+            "Disaster",
+            "Survival",
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYzBlZDhhOGQtNTRkOC00ZDhhLTk0ZGMtZmY0Y2Q3ZmJhMzc3XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Reykjavï¿½k, Iceland",
+            "Shinfield Studios, Shinfield, England, UK",
+            "Alton, Hampshire, England, UK",
+            "Long Valley, Aldershot. UK",
+            "Tessa Road, Reading, England, UK"
+        ],
+        "Tessa Road, Reading, England, UK": [
+            {
+                "address": "Reykjavï¿½k, Iceland",
+                "coords": null
+            },
+            {
+                "address": "Shinfield Studios, Cutbush Lane East, Shinfield, Wokingham, England, RG2 9AF, United Kingdom",
+                "coords": {
+                    "lat": 51.4176892,
+                    "lon": -0.9366574
+                }
+            },
+            {
+                "address": "Alton, East Hampshire, Hampshire, England, United Kingdom",
+                "coords": {
+                    "lat": 51.1489036,
+                    "lon": -0.9757677
+                }
+            },
+            {
+                "address": "Long Valley, Ewshot, Aldershot, Rushmoor, Hampshire, England, United Kingdom",
+                "coords": {
+                    "lat": 51.2616448,
+                    "lon": -0.8040601
+                }
+            },
+            {
+                "address": "Tessa Road, Caversham, Reading, England, RG1 8HH, United Kingdom",
+                "coords": {
+                    "lat": 51.4632215,
+                    "lon": -0.9837605
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt6604188",
+        "title": "Tron: Ares",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.2",
+        "budget": 220000000,
+        "gross": 142249983,
+        "ROI": -35.3,
+        "genres": [
+            "Artificial Intelligence",
+            "Cyberpunk",
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Nostalgic",
+            "Set pieces",
+            "Unpredictable",
+            "Visual spectacle",
+            "Over-the-top",
+            "Soundtrack",
+            "Worldbuilding",
+            "Character development",
+            "Thin story"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYzk0NjE4NzYtZjc5Ni00MTkxLTgyY2QtZjliOTA5N2U2YzM1XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Vancouver, British Columbia, Canada",
+            "Shangri-La - 1128 West Georgia Street, Vancouver, British Columbia, Canada",
+            "Mexico City, Distrito Federal, Mexico",
+            "Plaza de Santo Domingo, Mexico City, Distrito Federal, Mexico",
+            "The Hull Building - 9543 Culver Boulevard, Culver City, California, USA"
+        ],
+        "The Hull Building - 9543 Culver Boulevard, Culver City, California, USA": [
+            {
+                "address": "Vancouver, Metro Vancouver Regional District, British Columbia, Canada",
+                "coords": {
+                    "lat": 49.2608724,
+                    "lon": -123.113952
+                }
+            },
+            {
+                "address": "Shangri-La - 1128 West Georgia Street, Vancouver, British Columbia, Canada",
+                "coords": null
+            },
+            {
+                "address": "Ciudad de México, Cuauhtémoc, Ciudad de México, México",
+                "coords": {
+                    "lat": 19.4326296,
+                    "lon": -99.1331785
+                }
+            },
+            {
+                "address": "Plaza de Santo Domingo, Centro, Ciudad de México, Cuauhtémoc, Ciudad de México, 06000, México",
+                "coords": {
+                    "lat": 19.4373112,
+                    "lon": -99.1339123
+                }
+            },
+            {
+                "address": "The Hull Building - 9543 Culver Boulevard, Culver City, California, USA",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt14905854",
+        "title": "Hamnet",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "8.1",
+        "budget": 30000000,
+        "gross": 17204945,
+        "ROI": -42.7,
+        "genres": [
+            "Costume Drama",
+            "Period Drama",
+            "Psychological Drama",
+            "Tragedy",
+            "Biography",
+            "Drama",
+            "History",
+            "Romance"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMDQ5ZmY0OWYtOTYzZi00Mzg5LWE3N2EtMjYwZTAzZmJhYjkyXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Weobley, Herefordshire, England, UK",
+            "The Charterhouse, Charterhouse Square, London, England, UK",
+            "England, UK"
+        ],
+        "England, UK": [
+            {
+                "address": "Weobley, Herefordshire, England, United Kingdom",
+                "coords": {
+                    "lat": 52.1590644,
+                    "lon": -2.8725145
+                }
+            },
+            {
+                "address": "The Charterhouse, Charterhouse Square, Farringdon, Clerkenwell, London Borough of Islington, Greater London, England, EC1M 6AX, United Kingdom",
+                "coords": {
+                    "lat": 51.5214637,
+                    "lon": -0.0997845
+                }
+            },
+            {
+                "address": "England, United Kingdom",
+                "coords": {
+                    "lat": 52.5310214,
+                    "lon": -1.2649062
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt31495504",
+        "title": "The Tank",
+        "year": "2025",
+        "country": "Germany",
+        "rating": "6.6",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "German",
+            "Action",
+            "Drama",
+            "Thriller",
+            "War"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZWYyY2IwMzctYWQ2OC00OGI2LWE1MzQtMDExYjkyYTMxMzgxXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Prague, Czech Republic"
+        ],
+        "Prague, Czech Republic": [
+            {
+                "address": "Praha, Česko",
+                "coords": {
+                    "lat": 50.0874654,
+                    "lon": 14.4212535
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt33046197",
+        "title": "The Wrecking Crew",
+        "year": "2026",
+        "country": "New Zealand",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Action",
+            "Comedy"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTU2YjhjODctNjNkOC00ZjRkLThiZGMtZDA1ODQyNWE4ZjE1XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Hawaii, USA"
+        ],
+        "Hawaii, USA": [
+            {
+                "address": "Hawaii, United States",
+                "coords": {
+                    "lat": 19.5938015,
+                    "lon": -155.4283701
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt1312221",
+        "title": "Frankenstein",
+        "year": "2025",
+        "country": "Mexico",
+        "rating": "7.5",
+        "budget": 120000000,
+        "gross": 144496,
+        "ROI": -99.9,
+        "genres": [
+            "Body Horror",
+            "Dark Fantasy",
+            "Monster Horror",
+            "Psychological Drama",
+            "Psychological Horror",
+            "Steampunk",
+            "Tragedy",
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Artistic vision",
+            "Direction",
+            "Dramatic tension",
+            "Human experience",
+            "Inner conflict",
+            "Performance",
+            "Philosophical elements",
+            "Production design",
+            "Visual spectacle"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYzYzNDYxMTQtMTU4OS00MTdlLThhMTQtZjI4NGJmMTZmNmRiXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "North Bay, Nipissing, Ontario, Canada",
+            "Edinburgh, Scotland, UK",
+            "Glasgow, Scotland, UK",
+            "Faculty of Medicine, University of Toronto, Ontario, Canada",
+            "Cinespace Studios, Toronto, Ontario, Canada"
+        ],
+        "Cinespace Studios, Toronto, Ontario, Canada": [
+            {
+                "address": "North Bay, Nipissing District, Northeastern Ontario, Ontario, Canada",
+                "coords": {
+                    "lat": 46.3092115,
+                    "lon": -79.4607617
+                }
+            },
+            {
+                "address": "City of Edinburgh, Alba / Scotland, United Kingdom",
+                "coords": {
+                    "lat": 55.9533456,
+                    "lon": -3.1883749
+                }
+            },
+            {
+                "address": "Glasgow, Glasgow City, Alba / Scotland, G2 1AL, United Kingdom",
+                "coords": {
+                    "lat": 55.861155,
+                    "lon": -4.2501687
+                }
+            },
+            {
+                "address": "Faculty of Medicine, University of Toronto, Ontario, Canada",
+                "coords": null
+            },
+            {
+                "address": "Cinespace Film Studios, 777, Kipling Avenue, Etobicoke City Centre, Etobicoke—Lakeshore, Etobicoke, Toronto, Golden Horseshoe, Ontario, M8Z 5G8, Canada",
+                "coords": {
+                    "lat": 43.6300234,
+                    "lon": -79.5281757
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt33244668",
+        "title": "Anaconda",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.0",
+        "budget": 45000000,
+        "gross": 109974319,
+        "ROI": 144.4,
+        "genres": [
+            "Jungle Adventure",
+            "Action",
+            "Adventure",
+            "Comedy"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNTYzMjYxOTYtYWUwZS00ZjRmLTg0ZmEtOTYyOWM3ZjIxN2Q3XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Village Roadshow Studios, Oxenford, Queensland, Australia",
+            "Gold Coast, Queensland, Australia",
+            "Oxenford, Queensland, Australia",
+            "Queensland, Australia",
+            "Australia"
+        ],
+        "Australia": [
+            {
+                "address": "Village Roadshow Studios, Entertainment Road, Oxenford, Gold Coast City, Queensland, 4210, Australia",
+                "coords": {
+                    "lat": -27.910695,
+                    "lon": 153.3118566
+                }
+            },
+            {
+                "address": "Gold Coast City, Queensland, Australia",
+                "coords": {
+                    "lat": -28.0023731,
+                    "lon": 153.4145987
+                }
+            },
+            {
+                "address": "Oxenford, Gold Coast City, Queensland, 4210, Australia",
+                "coords": {
+                    "lat": -27.9015337,
+                    "lon": 153.2997577
+                }
+            },
+            {
+                "address": "Queensland, Australia",
+                "coords": {
+                    "lat": -22.1646782,
+                    "lon": 144.5844903
+                }
+            },
+            {
+                "address": "Australia",
+                "coords": {
+                    "lat": -24.7761086,
+                    "lon": 134.755
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt26443597",
+        "title": "Zootropolis 2",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.5",
+        "budget": 150000000,
+        "gross": 1655671861,
+        "ROI": 1003.8,
+        "genres": [
+            "Animal Adventure",
+            "Buddy Comedy",
+            "Computer Animation",
+            "Urban Adventure",
+            "Whodunnit",
+            "Action",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Crime"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNmIyOGNiOTMtN2MzYS00MmFhLTllZWQtMTQwMGEyZGFhYTg2XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Walt Disney Animation Studios - 2100 Riverside Drive, Burbank, California, USA",
+            "Walt Disney Animation Studios, Vancouver BC"
+        ],
+        "Walt Disney Animation Studios, Vancouver BC": [
+            {
+                "address": "Walt Disney Animation Studios - 2100 Riverside Drive, Burbank, California, USA",
+                "coords": null
+            },
+            {
+                "address": "Walt Disney Animation Studios, Vancouver BC",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt33014583",
+        "title": "Dhurandhar",
+        "year": "2025",
+        "country": "India",
+        "rating": "8.6",
+        "budget": null,
+        "gross": 136150475,
+        "ROI": null,
+        "genres": [
+            "Hindi",
+            "Action Epic",
+            "Gangster",
+            "Political Drama",
+            "Political Thriller",
+            "Spy",
+            "Action",
+            "Adventure",
+            "Crime",
+            "Drama"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzJhMzQ0MGItMWIxOC00NzkwLWJkNDktYjgyZGMwN2U2ZDEwXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Mumbai, Maharashtra, India",
+            "Amritsar, Punjab, India",
+            "Ladakh, Jammu & Kashmir, India",
+            "Bangkok, Thailand"
+        ],
+        "Bangkok, Thailand": [
+            {
+                "address": "Mumbai, Mumbai Suburban, Maharashtra, 400051, India",
+                "coords": {
+                    "lat": 19.054999,
+                    "lon": 72.8692035
+                }
+            },
+            {
+                "address": "Amritsar, Amritsar I Tahsil, Amritsar, Punjab, 143001, India",
+                "coords": {
+                    "lat": 31.6356659,
+                    "lon": 74.8787496
+                }
+            },
+            {
+                "address": "Ladakh Ecological Development Group, Karzu, Zangsti, Leh, Leh district, Ladakh, 194101, India",
+                "coords": {
+                    "lat": 34.1681148,
+                    "lon": 77.5841568
+                }
+            },
+            {
+                "address": "กรุงเทพมหานคร, ประเทศไทย",
+                "coords": {
+                    "lat": 13.7524938,
+                    "lon": 100.4935089
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt29768334",
+        "title": "Train Dreams",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.6",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Period Drama",
+            "Psychological Drama",
+            "Drama",
+            "Atmospheric",
+            "Authentic emotion",
+            "Cinematography",
+            "Emotional stakes",
+            "Human experience",
+            "Inner conflict",
+            "Performance",
+            "Visual innovation",
+            "Existential",
+            "Narrative complexity"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNTZmOTAxOTgtMmE1Yy00YTA0LTk2NDYtNGNjMjQ5ZTE4YjgyXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Spokane, Washington, USA",
+            "Snoqualmie, Washington, USA",
+            "North Bend, Washington, USA",
+            "Tekoa, Washington, USA",
+            "Chewelah, Washington, USA"
+        ],
+        "Chewelah, Washington, USA": [
+            {
+                "address": "Spokane, Spokane County, Washington, United States",
+                "coords": {
+                    "lat": 47.6571934,
+                    "lon": -117.42351
+                }
+            },
+            {
+                "address": "Snoqualmie, King County, Washington, 98065, United States",
+                "coords": {
+                    "lat": 47.5289527,
+                    "lon": -121.827093
+                }
+            },
+            {
+                "address": "North Bend, King County, Washington, United States",
+                "coords": {
+                    "lat": 47.4957757,
+                    "lon": -121.784889
+                }
+            },
+            {
+                "address": "Tekoa, Whitman County, Washington, 99033, United States",
+                "coords": {
+                    "lat": 47.2233681,
+                    "lon": -117.070875
+                }
+            },
+            {
+                "address": "Chewelah, Stevens County, Washington, United States",
+                "coords": {
+                    "lat": 48.276287,
+                    "lon": -117.71552
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt1527793",
+        "title": "No Other Choice",
+        "year": "2025",
+        "country": "South Korea",
+        "rating": "7.6",
+        "budget": null,
+        "gross": 25390604,
+        "ROI": null,
+        "genres": [
+            "Korean",
+            "Caper",
+            "Dark Comedy",
+            "Psychological Thriller",
+            "Satire",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzUyYzMyZTEtMDM0Zi00NTJmLTkyMDctMjBmOWRiNGI4ZTRhXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Ulsan, South Korea",
+            "South Korea"
+        ],
+        "South Korea": [
+            {
+                "address": "울산광역시, 대한민국",
+                "coords": {
+                    "lat": 35.5391697,
+                    "lon": 129.3119136
+                }
+            },
+            {
+                "address": "대한민국",
+                "coords": {
+                    "lat": 36.638392,
+                    "lon": 127.6961188
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt7737786",
+        "title": "Greenland",
+        "year": "2020",
+        "country": "United States",
+        "rating": "6.4",
+        "budget": 35000000,
+        "gross": 52300000,
+        "ROI": 49.4,
+        "genres": [
+            "Disaster",
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZjVhYzkwOGEtOTk0ZS00ZjllLWE5YzItODJhYTJhOTIwY2IyXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Iceland",
+            "Robins Air Force Base, Houston County, Georgia, USA",
+            "Conyers, Georgia, USA",
+            "Atlanta, Georgia, USA",
+            "Chicago, Illinois, USA"
+        ],
+        "Chicago, Illinois, USA": [
+            {
+                "address": "Ísland",
+                "coords": {
+                    "lat": 64.9841821,
+                    "lon": -18.1059013
+                }
+            },
+            {
+                "address": "Robins Air Force Base, Dot Street, Warner Robins, Houston County, Georgia, 31098, United States",
+                "coords": {
+                    "lat": 32.6178258,
+                    "lon": -83.5770746
+                }
+            },
+            {
+                "address": "Conyers, Rockdale County, Georgia, United States",
+                "coords": {
+                    "lat": 33.6676103,
+                    "lon": -84.0176904
+                }
+            },
+            {
+                "address": "Atlanta, Fulton County, Georgia, United States",
+                "coords": {
+                    "lat": 33.7544657,
+                    "lon": -84.3898151
+                }
+            },
+            {
+                "address": "Chicago, South Chicago Township, Cook County, Illinois, United States",
+                "coords": {
+                    "lat": 41.8755616,
+                    "lon": -87.6244212
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt21357150",
+        "title": "Avengers: Doomsday",
+        "year": "2026",
+        "country": "United States",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Action Epic",
+            "Adventure Epic",
+            "Sci-Fi Epic",
+            "Superhero",
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzMwMWQzZWYtMzZiMC00ZTAwLTg1YjktNGY1YTg2NjY4ZWMwXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Bahrain",
+            "London, England, UK",
+            "Fayetteville, Georgia, USA",
+            "Windsor, Berkshire, England, UK",
+            "Glasgow, Scotland, UK"
+        ],
+        "Glasgow, Scotland, UK": [
+            {
+                "address": "البحرين",
+                "coords": {
+                    "lat": 26.1551249,
+                    "lon": 50.5344606
+                }
+            },
+            {
+                "address": "Greater London, England, United Kingdom",
+                "coords": {
+                    "lat": 51.5074456,
+                    "lon": -0.1277653
+                }
+            },
+            {
+                "address": "Fayetteville, Fayette County, Georgia, United States",
+                "coords": {
+                    "lat": 33.4487257,
+                    "lon": -84.4549262
+                }
+            },
+            {
+                "address": "Windsor Castle, Castle Hill, Clewer Within, Clewer New Town, Clewer Village, Windsor, Windsor and Maidenhead, England, SL4 1PE, United Kingdom",
+                "coords": {
+                    "lat": 51.4837886,
+                    "lon": -0.6040419
+                }
+            },
+            {
+                "address": "Glasgow, Glasgow City, Alba / Scotland, G2 1AL, United Kingdom",
+                "coords": {
+                    "lat": 55.861155,
+                    "lon": -4.2501687
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt26581740",
+        "title": "Weapons",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.5",
+        "budget": 38000000,
+        "gross": 269072492,
+        "ROI": 608.1,
+        "genres": [
+            "Body Horror",
+            "Dark Comedy",
+            "Folk Horror",
+            "Monster Horror",
+            "Psychological Horror",
+            "Supernatural Horror",
+            "Witch Horror",
+            "Horror",
+            "Mystery",
+            "Cinematography",
+            "Performance",
+            "Comedic elements",
+            "Horror craft",
+            "Jumpscares",
+            "Narrative complexity",
+            "Supernatural themes",
+            "Suspenseful",
+            "Uneven quality",
+            "Derivative"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzE2ZTg5ODQtNDI4OS00MWUyLTkwNjgtZThhODE2NGE2YmE3XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Atlanta, Georgia, USA",
+            "Tucker, Georgia, USA",
+            "Elm Street NE, Covington, Georgia, USA",
+            "Griffin, Georgia, USA",
+            "BP Gas Station, 2106 Pace St. Covington, Georgia, USA"
+        ],
+        "BP Gas Station, 2106 Pace St. Covington, Georgia, USA": [
+            {
+                "address": "Atlanta, Fulton County, Georgia, United States",
+                "coords": {
+                    "lat": 33.7544657,
+                    "lon": -84.3898151
+                }
+            },
+            {
+                "address": "Tucker, DeKalb County, Georgia, 30084, United States",
+                "coords": {
+                    "lat": 33.8532701,
+                    "lon": -84.2200729
+                }
+            },
+            {
+                "address": "Elm Street Northeast, Covington, Newton County, Georgia, 30014, United States",
+                "coords": {
+                    "lat": 33.6045576,
+                    "lon": -83.8552221
+                }
+            },
+            {
+                "address": "Griffin, Spalding County, Georgia, 30224, United States",
+                "coords": {
+                    "lat": 33.2467807,
+                    "lon": -84.2640904
+                }
+            },
+            {
+                "address": "BP Gas Station, 2106 Pace St. Covington, Georgia, USA",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt27714581",
+        "title": "Sentimental Value",
+        "year": "2025",
+        "country": "Norway",
+        "rating": "7.9",
+        "budget": 7800000,
+        "gross": 15161562,
+        "ROI": 94.4,
+        "genres": [
+            "Norwegian",
+            "Psychological Drama",
+            "Showbiz Drama",
+            "Drama",
+            "Atmospheric",
+            "Authentic emotion",
+            "Cinematography",
+            "Emotional weight",
+            "Family dynamics",
+            "Inner conflict",
+            "Narrative complexity",
+            "Performance",
+            "Philosophical elements"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZTVkODQ5NDAtYjJlYy00M2Y1LTkxYWEtNTdhM2JlM2RjODFjXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Oslo, Norway",
+            "The National Theatre, Johanne Dybwads plass 1, Oslo, Norway",
+            "Thomas Heftyes gate 25, Oslo, Norway",
+            "Vï¿½r Frelsers gravlund, Oslo, Norway",
+            "Strï¿½mstad, Vï¿½stra Gï¿½talands lï¿½n, Sweden"
+        ],
+        "Strï¿½mstad, Vï¿½stra Gï¿½talands lï¿½n, Sweden": [
+            {
+                "address": "Oslo, Norge",
+                "coords": {
+                    "lat": 59.9133301,
+                    "lon": 10.7389701
+                }
+            },
+            {
+                "address": "The National Theatre, Johanne Dybwads plass 1, Oslo, Norway",
+                "coords": null
+            },
+            {
+                "address": "25, Thomas Heftyes gate, Gimle, Frogner, Oslo, 0264, Norge",
+                "coords": {
+                    "lat": 59.916712,
+                    "lon": 10.704197
+                }
+            },
+            {
+                "address": "Vï¿½r Frelsers gravlund, Oslo, Norway",
+                "coords": null
+            },
+            {
+                "address": "Strï¿½mstad, Vï¿½stra Gï¿½talands lï¿½n, Sweden",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt12908150",
+        "title": "The Life of Chuck",
+        "year": "2024",
+        "country": "United States",
+        "rating": "7.3",
+        "budget": null,
+        "gross": 19685776,
+        "ROI": null,
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Sci-Fi",
+            "Dance choreography",
+            "Emotional weight",
+            "Great ensemble",
+            "Human experience",
+            "Performance",
+            "Meaning of life",
+            "Mortality",
+            "Narrative complexity",
+            "Non-linear structure",
+            "Philosophical elements"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZDhlMzJhMTgtN2FhZS00OWQ1LTk3Y2ItZGNiNTQ0ZmUzYmIzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Mobile, Alabama, USA",
+            "Baldwin County, Alabama, USA",
+            "Downtown OWA, 100 N OWA Blvd, Foley, Alabama, USA"
+        ],
+        "Downtown OWA, 100 N OWA Blvd, Foley, Alabama, USA": [
+            {
+                "address": "Mobile, Mobile County, Alabama, United States",
+                "coords": {
+                    "lat": 30.6913462,
+                    "lon": -88.0437509
+                }
+            },
+            {
+                "address": "Baldwin County, Alabama, United States",
+                "coords": {
+                    "lat": 30.5677527,
+                    "lon": -87.7324392
+                }
+            },
+            {
+                "address": "Downtown OWA, 100 N OWA Blvd, Foley, Alabama, USA",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt28083456",
+        "title": "Is This Thing On?",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.2",
+        "budget": null,
+        "gross": 3433773,
+        "ROI": null,
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOTY3YWYxZmEtZGRkNy00OTFlLWI1YWQtYjE4MDIzNWJjYjg5XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "New York City, New York, USA"
+        ],
+        "New York City, New York, USA": [
+            {
+                "address": "New York, United States",
+                "coords": {
+                    "lat": 40.7127281,
+                    "lon": -74.0060152
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt32642706",
+        "title": "The Rip",
+        "year": "2026",
+        "country": "United States",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Cop Drama",
+            "Drug Crime",
+            "Police Procedural",
+            "Suspense Mystery",
+            "True Crime",
+            "Action",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNjJkODU3NjAtZjg3YS00NGMzLWIwZGUtNjBlZTAwYmM5YTM4XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Los Angeles, California, USA",
+            "Long Beach, California, USA",
+            "Hoboken, New Jersey, USA",
+            "Miami, Florida, USA",
+            "New Jersey, USA"
+        ],
+        "New Jersey, USA": [
+            {
+                "address": "Los Angeles, Los Angeles County, California, United States",
+                "coords": {
+                    "lat": 34.0536909,
+                    "lon": -118.242766
+                }
+            },
+            {
+                "address": "Long Beach, Los Angeles County, California, United States",
+                "coords": {
+                    "lat": 33.7690164,
+                    "lon": -118.191604
+                }
+            },
+            {
+                "address": "Hoboken, Hudson County, New Jersey, 07030, United States",
+                "coords": {
+                    "lat": 40.7433066,
+                    "lon": -74.0323752
+                }
+            },
+            {
+                "address": "Miami, Miami-Dade County, Florida, United States",
+                "coords": {
+                    "lat": 25.7741566,
+                    "lon": -80.1935973
+                }
+            },
+            {
+                "address": "New Jersey, United States",
+                "coords": {
+                    "lat": 40.0757384,
+                    "lon": -74.4041622
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt32141377",
+        "title": "28 Years Later: The Bone Temple",
+        "year": "2026",
+        "country": "United Kingdom",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Body Horror",
+            "Monster Horror",
+            "Psychological Horror",
+            "Supernatural Horror",
+            "Zombie Horror",
+            "Horror"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjRmNjFhZTEtNzI5Zi00ODU5LWE1OWQtYjUyMDI2NTk3YjdkXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Ennerdale, Cumbria, England, UK",
+            "Fountains Abbey, England, UK",
+            "Bradford, England, UK",
+            "Bellingham, England, UK",
+            "Redmire, England, UK"
+        ],
+        "Redmire, England, UK": [
+            {
+                "address": "Ennerdale, Cumbria, England, UK",
+                "coords": null
+            },
+            {
+                "address": "Fountains Abbey, Fountains Lane, Markington with Wallerthwaite, Ripon, North Yorkshire, York and North Yorkshire, England, HG4 3DY, United Kingdom",
+                "coords": {
+                    "lat": 54.1095856,
+                    "lon": -1.5807205
+                }
+            },
+            {
+                "address": "Bradford, West Yorkshire, England, United Kingdom",
+                "coords": {
+                    "lat": 53.7944229,
+                    "lon": -1.7519186
+                }
+            },
+            {
+                "address": "Bellingham, Northumberland, North East, England, United Kingdom",
+                "coords": {
+                    "lat": 55.1443709,
+                    "lon": -2.2549272
+                }
+            },
+            {
+                "address": "Redmire, Hargill Lane, Swan Farm, Redmire, North Yorkshire, York and North Yorkshire, England, DL8 4HE, United Kingdom",
+                "coords": {
+                    "lat": 54.3191529,
+                    "lon": -1.9284688
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt33764258",
+        "title": "The Odyssey",
+        "year": "2026",
+        "country": "United Kingdom",
+        "rating": null,
+        "budget": 250000000,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Action Epic",
+            "Adventure Epic",
+            "Epic",
+            "Fantasy Epic",
+            "Historical Epic",
+            "Quest",
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "History"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BN2MyYjk2MWMtODMyZS00MDUyLWE0OGQtOTQ3MGY0MDE0ZjVmXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Messinia, Peloponnese region, Greece",
+            "Pylos, Messenia, Greece",
+            "Methoni Castle, Messenia, Greece",
+            "Ait Ben Haddou, Morocco",
+            "Royal Theatre, Marrakech, Morocco"
+        ],
+        "Royal Theatre, Marrakech, Morocco": [
+            {
+                "address": "Αρχαιολογικό μουσείο Μεσσηνίας, Μπενάκη, Εργατικές Κατοικίες, Δήμος Καλαμάτας, Περιφερειακή Ενότητα Μεσσηνίας, Περιφέρεια Πελοποννήσου, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 241 34, Ελλάς",
+                "coords": {
+                    "lat": 37.043788,
+                    "lon": 22.1134462
+                }
+            },
+            {
+                "address": "Πύλος, Δήμος Πύλου - Νέστορος, Περιφερειακή Ενότητα Μεσσηνίας, Περιφέρεια Πελοποννήσου, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 240 01, Ελλάς",
+                "coords": {
+                    "lat": 36.9137968,
+                    "lon": 21.6963888
+                }
+            },
+            {
+                "address": "Κάστρο Μεθώνης, Πύλου - Μεθώνης, Μεθώνη, Δημοτική Ενότητα Μεθώνης, Δήμος Πύλου - Νέστορος, Περιφερειακή Ενότητα Μεσσηνίας, Περιφέρεια Πελοποννήσου, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 240 06, Ελλάς",
+                "coords": {
+                    "lat": 36.8154549,
+                    "lon": 21.7045328
+                }
+            },
+            {
+                "address": "Aït Ben Haddou ⴰⵢⵜ ⴱⵏ ⵃⴷⴷⵓ آيت بن حدو, Ait Zineb ⴰⵢⵜ ⵣⵉⵏⴱ آيت زينب, caïdat de Amerzgane, Cercle d'Amerzgane دائرة أمرزكان, Province d'Ouarzazate ⵜⴰⵙⴳⴰ ⵏ ⵡⴰⵔⵣⴰⵣⴰⵜ إقليم ورززات, Drâa-Tafilalet ⴷⴰⵔⵄⴰ-ⵜⴰⴼⵉⵍⴰⵍⵜ درعة تافيلالت, 45100, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+                "coords": {
+                    "lat": 31.0451536,
+                    "lon": -7.1309706
+                }
+            },
+            {
+                "address": "Théâtre Royal, Boulevard Mohammed VI شارع محمد السادس, Guéliz ⴳⵉⵍⵉⵣ گليز, Arrondissement de Gueliz مقاطعة كليز, Marrakech ⵎⵕⵕⴰⴽⵯⵛ مراكش, Pachalik de Marrakech, Préfecture de Marrakech عمالة مراكش, Marrakech-Safi ⵎⵕⵕⴰⴽⵛ-ⴰⵙⴼⵉ مراكش-أسفي, 40020, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+                "coords": {
+                    "lat": 31.6297019,
+                    "lon": -8.0148412
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt30343021",
+        "title": "Song Sung Blue",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.6",
+        "budget": 30000000,
+        "gross": 40834005,
+        "ROI": 36.1,
+        "genres": [
+            "Docudrama",
+            "Pop Musical",
+            "Biography",
+            "Drama",
+            "History",
+            "Music",
+            "Musical"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNmM3NDczZGEtYjJiNC00NThkLThmZjQtM2U5NTUyMzdhNDVlXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Denville, New Jersey, USA",
+            "Saint Elizabeth University, Morristown, New Jersey, USA",
+            "New York City, New York, USA"
+        ],
+        "New York City, New York, USA": [
+            {
+                "address": "Denville, Morris County, New Jersey, 07834, United States",
+                "coords": {
+                    "lat": 40.8922694,
+                    "lon": -74.4774255
+                }
+            },
+            {
+                "address": "Saint Elizabeth University, Morristown, New Jersey, USA",
+                "coords": null
+            },
+            {
+                "address": "New York, United States",
+                "coords": {
+                    "lat": 40.7127281,
+                    "lon": -74.0060152
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt16311594",
+        "title": "F1",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.7",
+        "budget": 200000000,
+        "gross": 631742436,
+        "ROI": 215.9,
+        "genres": [
+            "Car Action",
+            "Motorsport",
+            "Action",
+            "Drama",
+            "Sport",
+            "Action sequences",
+            "Cinematography",
+            "Exciting",
+            "Great ensemble",
+            "Performance",
+            "Sound design",
+            "Formulaic",
+            "Over-the-top",
+            "Thin story",
+            "Uneven quality"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZTkzYmRhZmItNzlmZC00NTI0LTk3YzMtYzMwMGYyNzQ3YmNlXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Hungaroring, Budapest, Hungary",
+            "Daytona, Florida, USA",
+            "Suzuka Circuit, Suzuka, Japan",
+            "Yas Marina Circuit, Yas Island, Abu Dhabi, United Arab Emirates",
+            "Pappas Drive-In, New Smyrna Beach, Florida, USA"
+        ],
+        "Pappas Drive-In, New Smyrna Beach, Florida, USA": [
+            {
+                "address": "Hungaroring, Budapest, Hungary",
+                "coords": null
+            },
+            {
+                "address": "Daytona Beach, Volusia County, Florida, United States",
+                "coords": {
+                    "lat": 29.2108147,
+                    "lon": -81.0228331
+                }
+            },
+            {
+                "address": "鈴鹿サーキット, Dパドック, 稲生町, 鈴鹿市, 三重県, 510-0204, 日本",
+                "coords": {
+                    "lat": 34.8436092,
+                    "lon": 136.5342313
+                }
+            },
+            {
+                "address": "حلبة مرسى ياس, شارع الإحتراف, جزيرة ياس, أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
+                "coords": {
+                    "lat": 24.471847,
+                    "lon": 54.6058021
+                }
+            },
+            {
+                "address": "Pappas Drive-In & Family Restaurant, 1109, Dixie Freeway, New Smyrna Beach, Volusia County, Florida, 32168, United States",
+                "coords": {
+                    "lat": 29.04229,
+                    "lon": -80.9335841
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt10548174",
+        "title": "28 Years Later",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "6.6",
+        "budget": 60000000,
+        "gross": 151308832,
+        "ROI": 152.2,
+        "genres": [
+            "Body Horror",
+            "Monster Horror",
+            "Survival",
+            "Zombie Horror",
+            "Horror",
+            "Sci-Fi",
+            "Thriller",
+            "Action sequences",
+            "Atmospheric",
+            "Cinematography",
+            "Performance",
+            "Sound design",
+            "Suspenseful",
+            "Character development",
+            "Survival",
+            "Pacing",
+            "Uneven quality"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNjgwYTI0YjctMWYzNS00MmI1LWI5YTctNmE1YjBkNDFlNWMxXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Holy Island of Lindisfarne, Berwick-upon-Tweed, Northumberland, England, UK",
+            "Cheddar Gorge, Somerset, England, UK",
+            "Newcastle-upon-Tyne, Tyne & Wear, England, UK",
+            "Crag Lough, Northumberland, England, UK",
+            "Saint Mary and Saint Finnan Church, Glenfinnan, Scotland, UK"
+        ],
+        "Saint Mary and Saint Finnan Church, Glenfinnan, Scotland, UK": [
+            {
+                "address": "Holy Island of Lindisfarne, Berwick-upon-Tweed, Northumberland, England, UK",
+                "coords": null
+            },
+            {
+                "address": "Cheddar Gorge & Caves, Cliff Road, Cheddar, Somerset, England, BS27 3QF, United Kingdom",
+                "coords": {
+                    "lat": 51.2825942,
+                    "lon": -2.7656541
+                }
+            },
+            {
+                "address": "Newcastle upon Tyne, Tyne and Wear, North East, England, United Kingdom",
+                "coords": {
+                    "lat": 54.9738474,
+                    "lon": -1.6131572
+                }
+            },
+            {
+                "address": "Crag Lough, Henshaw, Northumberland, North East, England, United Kingdom",
+                "coords": {
+                    "lat": 55.0060944,
+                    "lon": -2.3653418
+                }
+            },
+            {
+                "address": "Saint Mary and Saint Finnan Church, Glenfinnan, Scotland, UK",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt30446847",
+        "title": "Jay Kelly",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.6",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Buddy Comedy",
+            "Coming-of-Age",
+            "Showbiz Drama",
+            "Comedy",
+            "Drama"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMWRlNDM1NjktZDkyYi00Zjk0LWE5MTQtNWEyNzMwODY1Njc5XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Caorso, Italy",
+            "Milan, Italy",
+            "London, England, UK",
+            "New York City, New York, USA"
+        ],
+        "New York City, New York, USA": [
+            {
+                "address": "Caorso, Piacenza, Emilia-Romagna, 29012, Italia",
+                "coords": {
+                    "lat": 45.0495995,
+                    "lon": 9.8743749
+                }
+            },
+            {
+                "address": "Milano, Lombardia, Italia",
+                "coords": {
+                    "lat": 45.4641943,
+                    "lon": 9.1896346
+                }
+            },
+            {
+                "address": "Greater London, England, United Kingdom",
+                "coords": {
+                    "lat": 51.5074456,
+                    "lon": -0.1277653
+                }
+            },
+            {
+                "address": "New York, United States",
+                "coords": {
+                    "lat": 40.7127281,
+                    "lon": -74.0060152
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt24950660",
+        "title": "Eternity",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.0",
+        "budget": 12000000,
+        "gross": 35672930,
+        "ROI": 197.3,
+        "genres": [
+            "Feel-Good Romance",
+            "Romantic Comedy",
+            "Supernatural Fantasy",
+            "Comedy",
+            "Drama",
+            "Fantasy",
+            "Romance"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZDRjYzg0MWQtMDMwMi00N2QzLWJhZDctMTNlZmM1NzNlYzU0XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Vancouver, British Columbia, Canada",
+            "British Columbia, Canada",
+            "Canada"
+        ],
+        "Canada": [
+            {
+                "address": "Vancouver, Metro Vancouver Regional District, British Columbia, Canada",
+                "coords": {
+                    "lat": 49.2608724,
+                    "lon": -123.113952
+                }
+            },
+            {
+                "address": "British Columbia, Canada",
+                "coords": {
+                    "lat": 55.001251,
+                    "lon": -125.002441
+                }
+            },
+            {
+                "address": "Canada",
+                "coords": {
+                    "lat": 61.0666922,
+                    "lon": -107.991707
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt14107334",
+        "title": "The Running Man",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "6.4",
+        "budget": 110000000,
+        "gross": 68615641,
+        "ROI": -37.6,
+        "genres": [
+            "Conspiracy Thriller",
+            "Dark Comedy",
+            "Dystopian Sci-Fi",
+            "One-Person Army Action",
+            "Political Thriller",
+            "Survival",
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Thriller",
+            "Action sequences",
+            "Cinematography",
+            "Dystopian elements",
+            "Kinetic style",
+            "Performance",
+            "Social commentary",
+            "Worldbuilding",
+            "Character development",
+            "Direction",
+            "Writing"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTk5NjU4OTAtNTEyMS00ZjBiLTg0ZjMtOGJiMGJhNjQ3MzYxXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Bulgaria",
+            "Glasgow, Scotland, UK",
+            "Battersea London, England, UK",
+            "Wembley, London, England, UK",
+            "Leavesden Film Studios, Hertfordshire, England, UK"
+        ],
+        "Leavesden Film Studios, Hertfordshire, England, UK": [
+            {
+                "address": "България",
+                "coords": {
+                    "lat": 42.6073975,
+                    "lon": 25.4856617
+                }
+            },
+            {
+                "address": "Glasgow, Glasgow City, Alba / Scotland, G2 1AL, United Kingdom",
+                "coords": {
+                    "lat": 55.861155,
+                    "lon": -4.2501687
+                }
+            },
+            {
+                "address": "Age UK Wandsworth, 549,551, Old York Road, Wandsworth, London Borough of Wandsworth, Greater London, England, SW18 1TQ, United Kingdom",
+                "coords": {
+                    "lat": 51.4595285,
+                    "lon": -0.1895404
+                }
+            },
+            {
+                "address": "Wembley, Greater London, England, HA9 7BP, United Kingdom",
+                "coords": {
+                    "lat": 51.5531547,
+                    "lon": -0.2957562
+                }
+            },
+            {
+                "address": "Leavesden Film Studios, Hertfordshire, England, UK",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt1630029",
+        "title": "Avatar: The Way of Water",
+        "year": "2022",
+        "country": "United States",
+        "rating": "7.5",
+        "budget": 350000000,
+        "gross": 2334484620,
+        "ROI": 567.0,
+        "genres": [
+            "Action Epic",
+            "Adult Animation",
+            "Adventure Epic",
+            "Computer Animation",
+            "Epic",
+            "Fantasy Epic",
+            "Sci-Fi Epic",
+            "Sea Adventure",
+            "Action",
+            "Adventure",
+            "Action sequences",
+            "Ambitious",
+            "Environmentalism",
+            "Family dynamics",
+            "Technical achievement",
+            "Character development",
+            "Derivative",
+            "Pacing",
+            "Thin story"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNWI0Y2NkOWEtMmM2OC00MjQ3LWI1YzItZGQxYzQ3NzI4NWZmXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Stone Street Studios, Wellington, New Zealand",
+            "MBS Media Campus - 1600 Rosecrans Avenue, Manhattan Beach, California, USA",
+            "Los Angeles, California, USA",
+            "Manhattan Beach, California, USA",
+            "California, USA"
+        ],
+        "California, USA": [
+            {
+                "address": "Stone Street Studios, Southampton Road, Miramar, Wellington City, Wellington, 6020, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.3177195,
+                    "lon": 174.8130239
+                }
+            },
+            {
+                "address": "MBS Media Campus, 1600, Rosecrans Avenue, Manhattan Village, Manhattan Beach, Los Angeles County, California, 90266, United States",
+                "coords": {
+                    "lat": 33.8986926,
+                    "lon": -118.383734
+                }
+            },
+            {
+                "address": "Los Angeles, Los Angeles County, California, United States",
+                "coords": {
+                    "lat": 34.0536909,
+                    "lon": -118.242766
+                }
+            },
+            {
+                "address": "Manhattan Beach, Los Angeles County, California, 90266, United States",
+                "coords": {
+                    "lat": 33.8872777,
+                    "lon": -118.4104324
+                }
+            },
+            {
+                "address": "California, United States",
+                "coords": {
+                    "lat": 36.7014631,
+                    "lon": -118.755997
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt9362736",
+        "title": "Die My Love",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "6.1",
+        "budget": null,
+        "gross": 11581332,
+        "ROI": null,
+        "genres": [
+            "Dark Comedy",
+            "Psychological Drama",
+            "Psychological Thriller",
+            "Drama",
+            "Thriller",
+            "Atmospheric",
+            "Authentic emotion",
+            "Cinematography",
+            "Emotional stakes",
+            "Performance",
+            "Sound design",
+            "Mental health",
+            "Thin story",
+            "Uneven quality"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNjMxZTcwNGQtMTI4Zi00MzAwLTllNzktNzFhYjcwNmQ0NjBlXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Calgary, Alberta, Canada",
+            "Alberta, Canada",
+            "Canada"
+        ],
+        "Canada": [
+            {
+                "address": "Calgary, Alberta, Canada",
+                "coords": {
+                    "lat": 51.0456064,
+                    "lon": -114.057541
+                }
+            },
+            {
+                "address": "Alberta, Canada",
+                "coords": {
+                    "lat": 55.001251,
+                    "lon": -115.002136
+                }
+            },
+            {
+                "address": "Canada",
+                "coords": {
+                    "lat": 61.0666922,
+                    "lon": -107.991707
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt8036976",
+        "title": "Send Help",
+        "year": "2026",
+        "country": "United States",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Monster Horror",
+            "Psychological Horror",
+            "Psychological Thriller",
+            "Supernatural Horror",
+            "Horror",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZWNlMGNkZjItMmI1Mi00NGMxLTkyZjgtNTc3MmYyY2JhZWUzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Sydney, New South Wales, Australia",
+            "Thailand",
+            "Disney Studios, Moore Park, Sydney, New South Wales, Australia",
+            "Moore Park, Sydney, New South Wales, Australia",
+            "New South Wales, Australia"
+        ],
+        "New South Wales, Australia": [
+            {
+                "address": "Sydney, Council of the City of Sydney, New South Wales, Australia",
+                "coords": {
+                    "lat": -33.8698439,
+                    "lon": 151.2082848
+                }
+            },
+            {
+                "address": "ประเทศไทย",
+                "coords": {
+                    "lat": 14.8971921,
+                    "lon": 100.83273
+                }
+            },
+            {
+                "address": "Disney Studios Australia, Moore Park, Sydney, Council of the City of Sydney, New South Wales, 2021, Australia",
+                "coords": {
+                    "lat": -33.8909609,
+                    "lon": 151.2275052
+                }
+            },
+            {
+                "address": "Moore Park, Council of the City of Sydney, New South Wales, 2021, Australia",
+                "coords": {
+                    "lat": -33.8958333,
+                    "lon": 151.2219444
+                }
+            },
+            {
+                "address": "New South Wales, Australia",
+                "coords": {
+                    "lat": -31.8759835,
+                    "lon": 147.2869493
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt0499549",
+        "title": "Avatar",
+        "year": "2009",
+        "country": "United States",
+        "rating": "7.9",
+        "budget": 237000000,
+        "gross": 2923710708,
+        "ROI": 1133.6,
+        "genres": [
+            "Action Epic",
+            "Adventure Epic",
+            "Epic",
+            "Fantasy Epic",
+            "Sci-Fi Epic",
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Sci-Fi",
+            "Ambitious",
+            "Authentic emotion",
+            "Environmentalism",
+            "Social commentary",
+            "Technical achievement",
+            "Worldbuilding",
+            "Character development",
+            "Derivative",
+            "Thin story"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Kaua'i, Hawaii, USA",
+            "Hamakua Coast, Hawaii, USA",
+            "Wellington, New Zealand",
+            "O'ahu, Hawaii, USA",
+            "Stone Street Studios, Stone Street, Miramar, Wellington, New Zealand"
+        ],
+        "Stone Street Studios, Stone Street, Miramar, Wellington, New Zealand": [
+            {
+                "address": "National Tropical Botanical Garden, Kaua‘i - South Shore, Lawai Road, Kauaʻi County, Hawaii, 96765, United States",
+                "coords": {
+                    "lat": 21.8863829,
+                    "lon": -159.4927856
+                }
+            },
+            {
+                "address": "Hamakua Coast, Hawaii, USA",
+                "coords": null
+            },
+            {
+                "address": "Wellington, Wellington City, Wellington, 6011, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.2887953,
+                    "lon": 174.7772114
+                }
+            },
+            {
+                "address": "Four Seasons O'ahu at Ko Olina, 92-1001, Olani Street, Kapolei, Honolulu County, Hawaii, 96707, United States",
+                "coords": {
+                    "lat": 21.3392955,
+                    "lon": -158.125741
+                }
+            },
+            {
+                "address": "Stone Street Studios, Stone Street, Miramar, Wellington, New Zealand",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt4627382",
+        "title": "Roofman",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.0",
+        "budget": 19000000,
+        "gross": 34263666,
+        "ROI": 80.3,
+        "genres": [
+            "Dark Comedy",
+            "Dark Romance",
+            "Period Drama",
+            "Biography",
+            "Crime",
+            "Drama",
+            "History",
+            "Music",
+            "Romance",
+            "Atmospheric",
+            "Authentic emotion",
+            "Chemistry",
+            "Comedic elements",
+            "Emotional stakes",
+            "Human experience",
+            "Performance",
+            "Romantic",
+            "Direction"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BODlhMzQ4NjktMjIyYS00ZDVlLTg5ZDItNDEyOWM3NDZlYjI1XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Gastonia, North Carolina, USA",
+            "Charlotte, North Carolina, USA",
+            "Waxhaw, North Carolina, USA",
+            "North Carolina, USA"
+        ],
+        "North Carolina, USA": [
+            {
+                "address": "Gastonia, Gaston County, North Carolina, United States",
+                "coords": {
+                    "lat": 35.2622654,
+                    "lon": -81.1838186
+                }
+            },
+            {
+                "address": "Charlotte, Mecklenburg County, North Carolina, United States",
+                "coords": {
+                    "lat": 35.2272086,
+                    "lon": -80.8430827
+                }
+            },
+            {
+                "address": "Waxhaw, Union County, North Carolina, United States",
+                "coords": {
+                    "lat": 34.9248125,
+                    "lon": -80.7440174
+                }
+            },
+            {
+                "address": "North Carolina, United States",
+                "coords": {
+                    "lat": 35.6729639,
+                    "lon": -79.0392919
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt8946378",
+        "title": "Knives Out",
+        "year": "2019",
+        "country": "United States",
+        "rating": "7.9",
+        "budget": 40000000,
+        "gross": 312897920,
+        "ROI": 682.2,
+        "genres": [
+            "Cozy Mystery",
+            "Satire",
+            "Whodunnit",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZTkxYjVmNDMtOGY5Yi00N2RlLWJhNGUtNjhkNTA3Zjg2N2IyXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Borderland State Park - 259 Massapoag Avenue, Sharon, Massachusetts, USA",
+            "525 Maple St., Marlborough, Massachusetts, USA",
+            "Maynard, Massachusetts, USA",
+            "Medfield, Massachusetts, USA",
+            "Waltham, Massachusetts, USA"
+        ],
+        "Waltham, Massachusetts, USA": [
+            {
+                "address": "Borderland State Park - 259 Massapoag Avenue, Sharon, Massachusetts, USA",
+                "coords": null
+            },
+            {
+                "address": "525, Maple Street, Marlborough Junction, Marlborough, Middlesex County, Massachusetts, 01752, United States",
+                "coords": {
+                    "lat": 42.3296918,
+                    "lon": -71.5394709
+                }
+            },
+            {
+                "address": "Maynard, Middlesex County, Massachusetts, 01754, United States",
+                "coords": {
+                    "lat": 42.4321064,
+                    "lon": -71.4539683
+                }
+            },
+            {
+                "address": "Medfield, Norfolk County, Massachusetts, 02052, United States",
+                "coords": {
+                    "lat": 42.1865609,
+                    "lon": -71.30546
+                }
+            },
+            {
+                "address": "Waltham, Middlesex County, Massachusetts, United States",
+                "coords": {
+                    "lat": 42.3762385,
+                    "lon": -71.2355644
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt1341338",
+        "title": "Good Luck, Have Fun, Don't Die",
+        "year": "2025",
+        "country": "Germany",
+        "rating": "6.6",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Adult Animation",
+            "Action",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYjE1ZGRlMjQtOTYyNS00MDgwLThjYjctODcxNmVmZGZjYzllXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Cape Town, South Africa"
+        ],
+        "Cape Town, South Africa": [
+            {
+                "address": "Cape Town, City of Cape Town, Western Cape, 8001, South Africa",
+                "coords": {
+                    "lat": -33.9288301,
+                    "lon": 18.4172197
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt4712810",
+        "title": "Now You See Me: Now You Don't",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.0",
+        "budget": 90000000,
+        "gross": 219781567,
+        "ROI": 144.2,
+        "genres": [
+            "Heist",
+            "Crime",
+            "Thriller",
+            "Great ensemble",
+            "Performance",
+            "Action sequences",
+            "Character development",
+            "Chemistry",
+            "Generational appeal",
+            "Thin story",
+            "Unpredictable",
+            "Visual spectacle",
+            "Writing"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BM2Y1NjRlNDctM2Q5YS00OGMwLWEyMzYtYzFkNTc4NjZlM2MzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Belgium",
+            "Abu Dhabi, United Arab Emirates",
+            "Antwerp, Belgium",
+            "BME, Budapest, Hungary"
+        ],
+        "BME, Budapest, Hungary": [
+            {
+                "address": "België / Belgique / Belgien",
+                "coords": {
+                    "lat": 50.6402809,
+                    "lon": 4.6667145
+                }
+            },
+            {
+                "address": "أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
+                "coords": {
+                    "lat": 24.4538352,
+                    "lon": 54.3774014
+                }
+            },
+            {
+                "address": "Antwerpen, Vlaanderen, België / Belgique / Belgien",
+                "coords": {
+                    "lat": 51.2211097,
+                    "lon": 4.3997081
+                }
+            },
+            {
+                "address": "Budapesti Műszaki és Gazdaságtudományi Egyetem, Egry József utca, Lágymányos, XI. kerület, Budapest, Közép-Magyarország, 1111, Magyarország",
+                "coords": {
+                    "lat": 47.4784386,
+                    "lon": 19.0577145
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt36642456",
+        "title": "Haq",
+        "year": "2025",
+        "country": "India",
+        "rating": "8.0",
+        "budget": null,
+        "gross": 294759,
+        "ROI": null,
+        "genres": [
+            "Hindi",
+            "Legal Drama",
+            "Drama"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMDIwY2YxZjItZTM3My00NDJiLTgyOGMtNjA4YTVjNDgxMTZhXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "BME, Budapest, Hungary": []
+    },
+    {
+        "source_id": "tt0111161",
+        "title": "The Shawshank Redemption",
+        "year": "1994",
+        "country": "United States",
+        "rating": "9.3",
+        "budget": 25000000,
+        "gross": 29334033,
+        "ROI": 17.3,
+        "genres": [
+            "Epic",
+            "Period Drama",
+            "Prison Drama",
+            "Drama",
+            "Authentic emotion",
+            "Character development",
+            "Emotional weight",
+            "Enduring legacy",
+            "Friendship",
+            "Inspirational",
+            "Performance",
+            "Cinematography",
+            "Narration"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Butler, Ohio, USA",
+            "Mansfield Reformatory - 100 Reformatory Road, Mansfield, Ohio, USA",
+            "Sandy Point, St. Croix, U.S. Virgin Islands",
+            "Malabar Farm State Park - 4050 Bromfield Road, Lucas, Ohio, USA",
+            "127A Smithfield Road, Frederiksted, Virgin Islands"
+        ],
+        "127A Smithfield Road, Frederiksted, Virgin Islands": [
+            {
+                "address": "Butler County, Ohio, United States",
+                "coords": {
+                    "lat": 39.4233043,
+                    "lon": -84.5936897
+                }
+            },
+            {
+                "address": "Mansfield Reformatory - 100 Reformatory Road, Mansfield, Ohio, USA",
+                "coords": null
+            },
+            {
+                "address": "Sandy Point, White Lady, Whites Bay, Saint Croix District, United States Virgin Islands, 00850, United States",
+                "coords": {
+                    "lat": 17.6864944,
+                    "lon": -64.8787227
+                }
+            },
+            {
+                "address": "Malabar Farm State Park - 4050 Bromfield Road, Lucas, Ohio, USA",
+                "coords": null
+            },
+            {
+                "address": "127A Smithfield Road, Frederiksted, Virgin Islands",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt14142060",
+        "title": "Rental Family",
+        "year": "2025",
+        "country": "Japan",
+        "rating": "7.9",
+        "budget": null,
+        "gross": 10763079,
+        "ROI": null,
+        "genres": [
+            "Coming-of-Age",
+            "Tragedy",
+            "Comedy",
+            "Drama"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZGY2MjgzNDktYWZhMy00OWM3LWIzNGUtNzI5NWE1ZjA4M2QxXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Japan",
+            "Tokyo Hat Club, 25-7, 5-Chome, Asakusabashi, Taito-ku, Tokyo 111-0053, Japan",
+            "Karakida Station, 1 Chome Karakida, Tama, Tokyo 206-0035, Japan",
+            "eight days cafe, 2-chome-26-1 Kitaotsuka, Toshima City, Tokyo 170-0004, Japan",
+            "teamLab Borderless, Azabudai Hills Garden Plaza B B1, 5 Chome-9 Toranomon, Minato City, Tokyo 105-0001, Japan"
+        ],
+        "teamLab Borderless, Azabudai Hills Garden Plaza B B1, 5 Chome-9 Toranomon, Minato City, Tokyo 105-0001, Japan": [
+            {
+                "address": "日本",
+                "coords": {
+                    "lat": 36.5748441,
+                    "lon": 139.2394179
+                }
+            },
+            {
+                "address": "Tokyo Hat Club, 25-7, 5-Chome, Asakusabashi, Taito-ku, Tokyo 111-0053, Japan",
+                "coords": null
+            },
+            {
+                "address": "唐木田, 唐木田通り, 鶴牧六丁目, 多摩市, 東京都, 206-0035, 日本",
+                "coords": {
+                    "lat": 35.6158467,
+                    "lon": 139.4111316
+                }
+            },
+            {
+                "address": "eight days cafe, 2-chome-26-1 Kitaotsuka, Toshima City, Tokyo 170-0004, Japan",
+                "coords": null
+            },
+            {
+                "address": "teamLab Borderless, Azabudai Hills Garden Plaza B B1, 5 Chome-9 Toranomon, Minato City, Tokyo 105-0001, Japan",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt35892608",
+        "title": "Undertone",
+        "year": "2025",
+        "country": "Canada",
+        "rating": "8.0",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Folk Horror",
+            "Psychological Horror",
+            "Supernatural Horror",
+            "Horror",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNDk0YjFhZGEtOTMwMS00ZWQzLWJmMmMtYjNjNTA5ZGE1YjAxXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "teamLab Borderless, Azabudai Hills Garden Plaza B B1, 5 Chome-9 Toranomon, Minato City, Tokyo 105-0001, Japan": []
+    },
+    {
+        "source_id": "tt31434030",
+        "title": "Dracula: A Love Tale",
+        "year": "2025",
+        "country": "France",
+        "rating": "6.2",
+        "budget": null,
+        "gross": 28623298,
+        "ROI": null,
+        "genres": [
+            "Supernatural Fantasy",
+            "Supernatural Horror",
+            "Vampire Horror",
+            "Fantasy",
+            "Horror",
+            "Romance"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNzZlZDkzOTktMDgzNi00MzkzLWE5OTItYzcxODBiNzU2ZDhhXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Kuhmo, Finland",
+            "Sotkamo, Finland",
+            "Kajaani, Finland",
+            "Paris, France",
+            "Dark Matters Studios, Tigery, France"
+        ],
+        "Dark Matters Studios, Tigery, France": [
+            {
+                "address": "Kuhmo, Kehys-Kainuun seutukunta, Kainuu, Manner-Suomi, Suomi / Finland",
+                "coords": {
+                    "lat": 64.1261745,
+                    "lon": 29.519515
+                }
+            },
+            {
+                "address": "Sotkamo, Kajaanin seutukunta, Kainuu, Manner-Suomi, Suomi / Finland",
+                "coords": {
+                    "lat": 64.1318262,
+                    "lon": 28.3878316
+                }
+            },
+            {
+                "address": "Kajaani, Kajaanin seutukunta, Kainuu, Manner-Suomi, Suomi / Finland",
+                "coords": {
+                    "lat": 64.2246862,
+                    "lon": 27.7339281
+                }
+            },
+            {
+                "address": "Paris, Île-de-France, France métropolitaine, France",
+                "coords": {
+                    "lat": 48.8534951,
+                    "lon": 2.3483915
+                }
+            },
+            {
+                "address": "Studios Dark Matters, 9, Rue du Parc des Vergers, Tigery, Évry, Essonne, France métropolitaine, 91250, France",
+                "coords": {
+                    "lat": 48.633068,
+                    "lon": 2.5029447
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt36616410",
+        "title": "Eko",
+        "year": "2025",
+        "country": "India",
+        "rating": "7.9",
+        "budget": null,
+        "gross": 1342756,
+        "ROI": null,
+        "genres": [
+            "Malayalam",
+            "Mystery"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYWZmMGFmZWItYzM5Ny00N2FjLWI5OWItMzBjZTE5MTgxMmZkXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "Dark Matters Studios, Tigery, France": []
+    },
+    {
+        "source_id": "tt34819091",
+        "title": "The Testament of Ann Lee",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "6.9",
+        "budget": null,
+        "gross": 362113,
+        "ROI": null,
+        "genres": [
+            "Biography",
+            "Drama",
+            "History",
+            "Musical"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTU3Y2U1MTQtYjA1NS00YmJlLTk3NDktZGViYTAwY2I0NDM1XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Budapest, Hungary",
+            "Gï¿½teborg, Sweden"
+        ],
+        "Gï¿½teborg, Sweden": [
+            {
+                "address": "Budapest, Közép-Magyarország, Magyarország",
+                "coords": {
+                    "lat": 47.4813896,
+                    "lon": 19.1460941
+                }
+            },
+            {
+                "address": "Gï¿½teborg, Sweden",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt10374610",
+        "title": "The Long Walk",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.7",
+        "budget": 20000000,
+        "gross": 62871590,
+        "ROI": 214.4,
+        "genres": [
+            "Psychological Horror",
+            "Psychological Thriller",
+            "Survival",
+            "Teen Horror",
+            "Horror",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNmE4YmIxNWQtMzJhMy00NDI5LWFmYjEtMGYyMmFhNzdjODVmXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Garson, Manitoba, Canada",
+            "Winnipeg, Manitoba, Canada",
+            "Manitoba, Canada",
+            "Canada"
+        ],
+        "Canada": [
+            {
+                "address": "Garson, Rural Municipality of Brokenhead, Manitoba, R0E 0R0, Canada",
+                "coords": {
+                    "lat": 50.0774496,
+                    "lon": -96.7068005
+                }
+            },
+            {
+                "address": "Winnipeg, Manitoba, Canada",
+                "coords": {
+                    "lat": 49.8955367,
+                    "lon": -97.1384584
+                }
+            },
+            {
+                "address": "Manitoba, Canada",
+                "coords": {
+                    "lat": 55.001251,
+                    "lon": -97.001038
+                }
+            },
+            {
+                "address": "Canada",
+                "coords": {
+                    "lat": 61.0666922,
+                    "lon": -107.991707
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt30274401",
+        "title": "Five Nights at Freddy's 2",
+        "year": "2025",
+        "country": "United States",
+        "rating": "5.2",
+        "budget": 51000000,
+        "gross": 234869565,
+        "ROI": 360.5,
+        "genres": [
+            "Supernatural Horror",
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNzhkNTQ3NWQtMjI3OS00NDhiLWJkNmMtMTdhNDRkZGI3MTdmXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "New Orleans, Louisiana, USA",
+            "Los Angeles, California, USA"
+        ],
+        "Los Angeles, California, USA": [
+            {
+                "address": "New Orleans, Orleans Parish, Louisiana, United States",
+                "coords": {
+                    "lat": 29.9561422,
+                    "lon": -90.0733934
+                }
+            },
+            {
+                "address": "Los Angeles, Los Angeles County, California, United States",
+                "coords": {
+                    "lat": 34.0536909,
+                    "lon": -118.242766
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt33088452",
+        "title": "Regretting You",
+        "year": "2025",
+        "country": "Germany",
+        "rating": "6.0",
+        "budget": 25000000,
+        "gross": 90452948,
+        "ROI": 261.8,
+        "genres": [
+            "Romantic Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYmJkZDhjYTAtYjg0Yi00NWYzLTkzYjItNzE2NWE2Zjc1MjBkXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Atlanta, Georgia, USA",
+            "Georgia, USA",
+            "USA"
+        ],
+        "USA": [
+            {
+                "address": "Atlanta, Fulton County, Georgia, United States",
+                "coords": {
+                    "lat": 33.7544657,
+                    "lon": -84.3898151
+                }
+            },
+            {
+                "address": "Georgia, United States",
+                "coords": {
+                    "lat": 32.3293809,
+                    "lon": -83.1137366
+                }
+            },
+            {
+                "address": "United States",
+                "coords": {
+                    "lat": 39.7837304,
+                    "lon": -100.445882
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt19847976",
+        "title": "Wicked: For Good",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.8",
+        "budget": 150000000,
+        "gross": 522398140,
+        "ROI": 248.3,
+        "genres": [
+            "Fairy Tale",
+            "Pop Musical",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "Musical",
+            "Romance",
+            "Cinematography",
+            "Visual spectacle",
+            "Emotional weight",
+            "Performance",
+            "Character development",
+            "Dialogue",
+            "Narrative complexity",
+            "Pacing",
+            "Thin story",
+            "Worldbuilding"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNzRhNTE4ZTYtNTM0Mi00MzU3LTk4MTktYWE3MzQ2NTU0MDNlXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Cairo, Egypt",
+            "England, UK"
+        ],
+        "England, UK": [
+            {
+                "address": "القاهرة, مصر",
+                "coords": {
+                    "lat": 30.0443879,
+                    "lon": 31.2357257
+                }
+            },
+            {
+                "address": "England, United Kingdom",
+                "coords": {
+                    "lat": 52.5310214,
+                    "lon": -1.2649062
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt27847051",
+        "title": "The Secret Agent",
+        "year": "2025",
+        "country": "Brazil",
+        "rating": "7.9",
+        "budget": 27000000,
+        "gross": 4636210,
+        "ROI": -82.8,
+        "genres": [
+            "Portuguese",
+            "Period Drama",
+            "Political Thriller",
+            "Suspense Mystery",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNDlkMzNhYzgtNTk1Yi00M2I1LTlkOTMtY2RmZGU3YzVmMzE2XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Recife, Pernambuco, Brazil",
+            "Sao Paulo, Brazil",
+            "Brasï¿½lia, Distrito Federal, Brazil",
+            "Sï¿½o Paulo, Sï¿½o Paulo, Brazil",
+            "Sï¿½o Paulo, Brazil"
+        ],
+        "Sï¿½o Paulo, Brazil": [
+            {
+                "address": "Recife, Região Geográfica Imediata do Recife, Região Metropolitana do Recife, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, Brasil",
+                "coords": {
+                    "lat": -8.0584933,
+                    "lon": -34.8848193
+                }
+            },
+            {
+                "address": "São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil",
+                "coords": {
+                    "lat": -23.5506507,
+                    "lon": -46.6333824
+                }
+            },
+            {
+                "address": "Brasï¿½lia, Distrito Federal, Brazil",
+                "coords": null
+            },
+            {
+                "address": "Sï¿½o Paulo, Sï¿½o Paulo, Brazil",
+                "coords": null
+            },
+            {
+                "address": "Sï¿½o Paulo, Brazil",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt23790696",
+        "title": "The Raja Saab",
+        "year": "2026",
+        "country": "India",
+        "rating": "3.9",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Telugu",
+            "Fantasy Epic",
+            "Supernatural Horror",
+            "Action",
+            "Comedy",
+            "Fantasy",
+            "Horror",
+            "Romance",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "Sï¿½o Paulo, Brazil": []
+    },
+    {
+        "source_id": "tt22084616",
+        "title": "Spider-Man: Brand New Day",
+        "year": "2026",
+        "country": "United States",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Superhero",
+            "Urban Adventure",
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Sci-Fi"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNjllNmM5MDEtZDlkYy00MzFhLWJlOGEtMjU4MzA3OTBlMWUzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Glasgow, Scotland, UK",
+            "Bothwell Street, Glasgow, Scotland, UK",
+            "New York City, New York, USA",
+            "New York City, New York, USA",
+            "Basingstoke, Hampshire, England, UK"
+        ],
+        "Basingstoke, Hampshire, England, UK": [
+            {
+                "address": "Glasgow, Glasgow City, Alba / Scotland, G2 1AL, United Kingdom",
+                "coords": {
+                    "lat": 55.861155,
+                    "lon": -4.2501687
+                }
+            },
+            {
+                "address": "Bothwell Street, Blythswood Holm, Glasgow, Glasgow City, Alba / Scotland, G2 6TS, United Kingdom",
+                "coords": {
+                    "lat": 55.8613467,
+                    "lon": -4.262122
+                }
+            },
+            {
+                "address": "New York, United States",
+                "coords": {
+                    "lat": 40.7127281,
+                    "lon": -74.0060152
+                }
+            },
+            {
+                "address": "New York, United States",
+                "coords": {
+                    "lat": 40.7127281,
+                    "lon": -74.0060152
+                }
+            },
+            {
+                "address": "Basingstoke, Basingstoke and Deane, Hampshire, England, RG21 7AT, United Kingdom",
+                "coords": {
+                    "lat": 51.262826,
+                    "lon": -1.0861976
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt10799690",
+        "title": "Trap House",
+        "year": "2025",
+        "country": "United States",
+        "rating": "5.4",
+        "budget": null,
+        "gross": 126039,
+        "ROI": null,
+        "genres": [
+            "Action",
+            "Crime"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYmY0OTk0ZDktMmJkNy00NjQwLWE0NjQtOTY4Y2VhODdhOTJjXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "Basingstoke, Hampshire, England, UK": []
+    },
+    {
+        "source_id": "tt31184028",
+        "title": "Together",
+        "year": "2025",
+        "country": "Australia",
+        "rating": "6.7",
+        "budget": 3500000,
+        "gross": 32273159,
+        "ROI": 822.1,
+        "genres": [
+            "Body Horror",
+            "Monster Horror",
+            "Psychological Horror",
+            "Supernatural Horror",
+            "Horror",
+            "Romance",
+            "Cinematography",
+            "Dark humor",
+            "Dramatic tension",
+            "Jumpscares",
+            "Performance",
+            "Practical effects",
+            "Narrative complexity",
+            "Thin story"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOWI1Mzg0OWUtNDYxYy00Mzk3LTgxMjMtYWYxZjJhMjI4NDcyXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Melbourne, Victoria, Australia",
+            "Docklands Studios, Melbourne, Victoria, Australia",
+            "Victoria, Australia",
+            "Australia"
+        ],
+        "Australia": [
+            {
+                "address": "Melbourne, City of Melbourne, Victoria, Australia",
+                "coords": {
+                    "lat": -37.8142454,
+                    "lon": 144.9631732
+                }
+            },
+            {
+                "address": "Docklands Studios Melbourne, 458-490, Docklands Drive, Docklands, Melbourne, City of Melbourne, Victoria, 3008, Australia",
+                "coords": {
+                    "lat": -37.8144819,
+                    "lon": 144.935769
+                }
+            },
+            {
+                "address": "Victoria, Australia",
+                "coords": {
+                    "lat": -36.5986096,
+                    "lon": 144.6780052
+                }
+            },
+            {
+                "address": "Australia",
+                "coords": {
+                    "lat": -24.7761086,
+                    "lon": 134.755
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt7181546",
+        "title": "Ballerina",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.8",
+        "budget": 90000000,
+        "gross": 137216585,
+        "ROI": 52.5,
+        "genres": [
+            "Gun Fu",
+            "Martial Arts",
+            "One-Person Army Action",
+            "Action",
+            "Thriller",
+            "Action sequences",
+            "Cinematography",
+            "Fight choreography",
+            "Performance",
+            "Visual spectacle",
+            "Character development",
+            "Formulaic",
+            "Worldbuilding",
+            "Thin story",
+            "Underdeveloped"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNzdhZmY2OTQtYWI4OC00ZThkLTlhZjAtNzE2YzRjM2Q5YjJlXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Hallstatt, Austria",
+            "Dubrovnik, Croatia",
+            "Hungary",
+            "Czech Republic",
+            "Biodom, Budapest Zoo and Botanical Garden, Budapest, Hungary"
+        ],
+        "Biodom, Budapest Zoo and Botanical Garden, Budapest, Hungary": [
+            {
+                "address": "Hallstatt, Bezirk Gmunden, Oberösterreich, 4830, Österreich",
+                "coords": {
+                    "lat": 47.5621698,
+                    "lon": 13.6486697
+                }
+            },
+            {
+                "address": "Grad Dubrovnik, Dubrovačko-neretvanska županija, Hrvatska",
+                "coords": {
+                    "lat": 42.6491029,
+                    "lon": 18.0939501
+                }
+            },
+            {
+                "address": "Magyarország",
+                "coords": {
+                    "lat": 47.1817585,
+                    "lon": 19.5060937
+                }
+            },
+            {
+                "address": "Česko",
+                "coords": {
+                    "lat": 49.7439047,
+                    "lon": 15.3381061
+                }
+            },
+            {
+                "address": "Biodom, Budapest Zoo and Botanical Garden, Budapest, Hungary",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt3402138",
+        "title": "The Naked Gun",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.4",
+        "budget": 42000000,
+        "gross": 102147396,
+        "ROI": 143.2,
+        "genres": [
+            "Bumbling Detective",
+            "Parody",
+            "Satire",
+            "Slapstick",
+            "Action",
+            "Comedy",
+            "Crime",
+            "Chemistry",
+            "Comedic elements",
+            "Generational appeal",
+            "Iconic performance",
+            "Nostalgic",
+            "Performance",
+            "Action sequences",
+            "Thin story",
+            "Underdeveloped"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZGY2Nzc4ZjYtZDBjOS00ZWJmLTk1MjctNGJhOTE1NTQ0Y2E2XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Martin Luther King Jr Federal Building, Atlanta, Georgia, USA",
+            "Atlanta, Georgia, USA",
+            "Electric Owl Studios - 3963 Redan Road, Decatur, Georgia, USA",
+            "Downtown, Los Angeles, California, USA",
+            "Los Angeles, California, USA"
+        ],
+        "Los Angeles, California, USA": [
+            {
+                "address": "Martin Luther King Jr. Federal Building, 77, Forsyth Street Northwest, Five Points, Atlanta, Fulton County, Georgia, 30303, United States",
+                "coords": {
+                    "lat": 33.7527569,
+                    "lon": -84.3944361
+                }
+            },
+            {
+                "address": "Atlanta, Fulton County, Georgia, United States",
+                "coords": {
+                    "lat": 33.7544657,
+                    "lon": -84.3898151
+                }
+            },
+            {
+                "address": "Electric Owl Studios - 3963 Redan Road, Decatur, Georgia, USA",
+                "coords": null
+            },
+            {
+                "address": "Downtown, Los Angeles, Los Angeles County, California, 90071, United States",
+                "coords": {
+                    "lat": 34.047996,
+                    "lon": -118.2521002
+                }
+            },
+            {
+                "address": "Los Angeles, Los Angeles County, California, United States",
+                "coords": {
+                    "lat": 34.0536909,
+                    "lon": -118.242766
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt0120737",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "year": "2001",
+        "country": "New Zealand",
+        "rating": "8.9",
+        "budget": 93000000,
+        "gross": 890039450,
+        "ROI": 857.0,
+        "genres": [
+            "Action Epic",
+            "Adventure Epic",
+            "Dark Fantasy",
+            "Epic",
+            "Fantasy Epic",
+            "Quest",
+            "Sword & Sorcery",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Adaptation",
+            "Ambitious",
+            "Authentic emotion",
+            "Character development",
+            "Cinematography",
+            "Epic",
+            "Friendship",
+            "Production design",
+            "Special effects",
+            "Worldbuilding"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzEwYTg2NTMtMTUzYy00ZjE4LThmMjEtZDUyZWM4NzE5MGE5XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Wellington, New Zealand",
+            "Kaitoke Regional Park, Wellington Region, New Zealand",
+            "Hinuera Valley, Matamata, Waikato, New Zealand",
+            "Queenstown, Otago, New Zealand",
+            "Fernside, Featherston, Wairarapa, New Zealand"
+        ],
+        "Fernside, Featherston, Wairarapa, New Zealand": [
+            {
+                "address": "Wellington, Wellington City, Wellington, 6011, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.2887953,
+                    "lon": 174.7772114
+                }
+            },
+            {
+                "address": "Kaitoke Regional Park, Swingbridge Track, Upper Hutt, Upper Hutt City, Wellington, 5372, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.0563737,
+                    "lon": 175.1934321
+                }
+            },
+            {
+                "address": "Hinuera Valley, Matamata, Waikato, New Zealand",
+                "coords": null
+            },
+            {
+                "address": "Queenstown, Queenstown-Lakes District, Otago, 9348, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -45.0321923,
+                    "lon": 168.661
+                }
+            },
+            {
+                "address": "Fernside Homestead, Algies Road, Featherston, Featherston Community, South Wairarapa District, Wellington, 5710, New Zealand / Aotearoa",
+                "coords": {
+                    "lat": -41.103007,
+                    "lon": 175.365122
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt28802657",
+        "title": "De De Pyaar De 2",
+        "year": "2025",
+        "country": "India",
+        "rating": "6.9",
+        "budget": null,
+        "gross": 547196,
+        "ROI": null,
+        "genres": [
+            "Hindi",
+            "Comedy",
+            "Romance"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMGFlYzUwYjgtYWViOS00MzYyLThlNGQtNTM0NGU5N2E2YTcxXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "London, England, UK"
+        ],
+        "London, England, UK": [
+            {
+                "address": "Greater London, England, United Kingdom",
+                "coords": {
+                    "lat": 51.5074456,
+                    "lon": -0.1277653
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt1745960",
+        "title": "Top Gun: Maverick",
+        "year": null,
+        "country": "United States",
+        "rating": "8.2",
+        "budget": 170000000,
+        "gross": 1495696292,
+        "ROI": 779.8,
+        "genres": [
+            "Action Epic",
+            "Epic",
+            "Action",
+            "Drama",
+            "Action sequences",
+            "Character development",
+            "Cinematography",
+            "Emotional stakes",
+            "Nostalgic",
+            "Practical effects",
+            "Sound design",
+            "Thrilling",
+            "Formulaic",
+            "Thin story"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMDBkZDNjMWEtOTdmMi00NmExLTg5MmMtNTFlYTJlNWY5YTdmXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Eldorado National Forest, California, USA",
+            "Sierra District State Parks, California, USA",
+            "Lake Tahoe Basin Mgmt. Unit, South Lake Tahoe, California, USA",
+            "Naval Air Station Lemoore, California, USA",
+            "Naval Air Station Fallon, Nevada, USA"
+        ],
+        "Naval Air Station Fallon, Nevada, USA": [
+            {
+                "address": "Eldorado National Forest, El Dorado County, California, United States",
+                "coords": {
+                    "lat": 38.7804781,
+                    "lon": -120.1882095
+                }
+            },
+            {
+                "address": "Sierra District State Parks, California, USA",
+                "coords": null
+            },
+            {
+                "address": "Lake Tahoe Basin Mgmt. Unit, South Lake Tahoe, California, USA",
+                "coords": null
+            },
+            {
+                "address": "Naval Air Station Lemoore, Kings County, California, United States",
+                "coords": {
+                    "lat": 36.2626581,
+                    "lon": -119.8920059
+                }
+            },
+            {
+                "address": "Naval Air Station Fallon (Van Voorhis Field), Perimeter Road, Fallon, Churchill County, Nevada, 89406, United States",
+                "coords": {
+                    "lat": 39.4130785,
+                    "lon": -118.692588
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt32897959",
+        "title": "Wuthering Heights",
+        "year": "2026",
+        "country": "United Kingdom",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Period Drama",
+            "Psychological Drama",
+            "Steamy Romance",
+            "Drama",
+            "Romance"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYzc5NGZjYWUtOGJlYy00OGFkLWFjYWUtNTI2Yjg5OWVmY2U1XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "Naval Air Station Fallon, Nevada, USA": []
+    },
+    {
+        "source_id": "tt0816692",
+        "title": "Interstellar",
+        "year": "2014",
+        "country": "United States",
+        "rating": "8.7",
+        "budget": 165000000,
+        "gross": 773808312,
+        "ROI": 369.0,
+        "genres": [
+            "Adventure Epic",
+            "Epic",
+            "Psychological Drama",
+            "Quest",
+            "Sci-Fi Epic",
+            "Space Sci-Fi",
+            "Time Travel",
+            "Adventure",
+            "Drama",
+            "Sci-Fi",
+            "Ambitious",
+            "Cinematography",
+            "Cosmic wonder",
+            "Emotional stakes",
+            "Family dynamics",
+            "Scientific depth",
+            "Soundtrack",
+            "Thought-provoking"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Iceland",
+            "Calgary, Alberta, Canada",
+            "Svï¿½nafellsjï¿½kull, Vatnajï¿½kull, Austurland, Iceland",
+            "200 block of 24th St, Fort Macleod, Alberta, Canada",
+            "Westin Bonaventure Hotel & Suites - 404 S. Figueroa Street, Downtown, Los Angeles, California, USA"
+        ],
+        "Westin Bonaventure Hotel & Suites - 404 S. Figueroa Street, Downtown, Los Angeles, California, USA": [
+            {
+                "address": "Ísland",
+                "coords": {
+                    "lat": 64.9841821,
+                    "lon": -18.1059013
+                }
+            },
+            {
+                "address": "Calgary, Alberta, Canada",
+                "coords": {
+                    "lat": 51.0456064,
+                    "lon": -114.057541
+                }
+            },
+            {
+                "address": "Svï¿½nafellsjï¿½kull, Vatnajï¿½kull, Austurland, Iceland",
+                "coords": null
+            },
+            {
+                "address": "200 block of 24th St, Fort Macleod, Alberta, Canada",
+                "coords": null
+            },
+            {
+                "address": "Westin Bonaventure Hotel & Suites - 404 S. Figueroa Street, Downtown, Los Angeles, California, USA",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt23149780",
+        "title": "Eden",
+        "year": null,
+        "country": "United States",
+        "rating": "6.5",
+        "budget": 55000000,
+        "gross": 2811540,
+        "ROI": -94.9,
+        "genres": [
+            "Psychological Thriller",
+            "Adventure",
+            "Drama",
+            "History",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMmU3YjQ1YzAtMGU4OS00MWJkLTg2NGMtM2NmMmQ3NTM3NjNjXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Gold Coast, Queensland, Australia",
+            "Village Roadshow Studios, Oxenford, Queensland, Australia",
+            "Galapagos Islands, Ecuador",
+            "Oxenford, Queensland, Australia",
+            "Ecuador"
+        ],
+        "Ecuador": [
+            {
+                "address": "Gold Coast City, Queensland, Australia",
+                "coords": {
+                    "lat": -28.0023731,
+                    "lon": 153.4145987
+                }
+            },
+            {
+                "address": "Village Roadshow Studios, Entertainment Road, Oxenford, Gold Coast City, Queensland, 4210, Australia",
+                "coords": {
+                    "lat": -27.910695,
+                    "lon": 153.3118566
+                }
+            },
+            {
+                "address": "Archipélago de Galápagos, Galápagos, Ecuador",
+                "coords": {
+                    "lat": -0.6288151,
+                    "lon": -90.3638752
+                }
+            },
+            {
+                "address": "Oxenford, Gold Coast City, Queensland, 4210, Australia",
+                "coords": {
+                    "lat": -27.9015337,
+                    "lon": 153.2997577
+                }
+            },
+            {
+                "address": "Ecuador",
+                "coords": {
+                    "lat": -1.3397668,
+                    "lon": -79.3666965
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt32376165",
+        "title": "A House of Dynamite",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.4",
+        "budget": null,
+        "gross": 13567,
+        "ROI": null,
+        "genres": [
+            "Disaster",
+            "Political Drama",
+            "Political Thriller",
+            "Drama",
+            "Thriller",
+            "Suspenseful",
+            "Thrilling",
+            "Dramatic tension",
+            "Narrative complexity",
+            "Performance",
+            "Realism",
+            "Thought-provoking",
+            "Pacing",
+            "Satisfying ending"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYmNlYTgwYzMtYzdlNC00MjJhLTlmMzItNWFiYmZhOWNhNmYzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Kenya",
+            "21 Caven Point Avenue, Jersey City, New Jersey, USA",
+            "Iceland"
+        ],
+        "Iceland": [
+            {
+                "address": "Kenya",
+                "coords": {
+                    "lat": 1.4419683,
+                    "lon": 38.4313975
+                }
+            },
+            {
+                "address": "Cinelease Studios - Caven Point, 21, Caven Point Avenue, Communipaw, Jersey City, Hudson County, New Jersey, 07305, United States",
+                "coords": {
+                    "lat": 40.7041193,
+                    "lon": -74.0726068
+                }
+            },
+            {
+                "address": "Ísland",
+                "coords": {
+                    "lat": 64.9841821,
+                    "lon": -18.1059013
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt9603208",
+        "title": "Mission: Impossible - The Final Reckoning",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.2",
+        "budget": 400000000,
+        "gross": 598767057,
+        "ROI": 49.7,
+        "genres": [
+            "Action Epic",
+            "Adventure Epic",
+            "Spy",
+            "Action",
+            "Adventure",
+            "Thriller",
+            "Action sequences",
+            "Cinematography",
+            "Iconic performance",
+            "Stunts",
+            "Chemistry",
+            "Dramatic tension",
+            "High stakes",
+            "Unpredictable",
+            "Character development",
+            "Pacing"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZjdiYWUwZTMtZjExNC00YTdiLWE4YWEtN2QzNzI0Mzg0NDZjXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Aurland, Vestland, Norway",
+            "Port Edward, South Africa",
+            "Svalbard, Norway",
+            "South Africa",
+            "Blyde River Canyon, South Africa"
+        ],
+        "Blyde River Canyon, South Africa": [
+            {
+                "address": "Aurland, Vestland, Norge",
+                "coords": {
+                    "lat": 60.8708933,
+                    "lon": 7.2095326
+                }
+            },
+            {
+                "address": "Port Edward, Hibiscus Coast Local Municipality, Ugu District Municipality, KwaZulu-Natal, 4295, South Africa",
+                "coords": {
+                    "lat": -31.055931,
+                    "lon": 30.222749
+                }
+            },
+            {
+                "address": "Svalbard, 9170, Norge",
+                "coords": {
+                    "lat": 78.7198519,
+                    "lon": 20.3493328
+                }
+            },
+            {
+                "address": "South Africa",
+                "coords": {
+                    "lat": -28.8166236,
+                    "lon": 24.991639
+                }
+            },
+            {
+                "address": "Blyde Canyon Airport, R532, Matshelgweng, Thaba Chweu Ward 8, Thaba Chweu Local Municipality, Ehlanzeni, Mpumalanga, South Africa",
+                "coords": {
+                    "lat": -24.5706728,
+                    "lon": 30.7734095
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt36491653",
+        "title": "It Was Just an Accident",
+        "year": "2025",
+        "country": "Iran",
+        "rating": "7.5",
+        "budget": null,
+        "gross": 9606839,
+        "ROI": null,
+        "genres": [
+            "Persian",
+            "Dark Comedy",
+            "Political Drama",
+            "Prison Drama",
+            "Psychological Drama",
+            "Tragedy",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Thriller",
+            "Atmospheric",
+            "Cinematography",
+            "Performance",
+            "Writing",
+            "Dramatic tension",
+            "Inner conflict",
+            "Morality",
+            "Social commentary"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzY4NjdhOTUtMDQwOS00YzU2LTlmNjYtNmU1Y2FjZDMwYmE2XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "Blyde River Canyon, South Africa": []
+    },
+    {
+        "source_id": "tt11564570",
+        "title": "Glass Onion",
+        "year": "2022",
+        "country": "United States",
+        "rating": "7.1",
+        "budget": 40000000,
+        "gross": 13280000,
+        "ROI": -66.8,
+        "genres": [
+            "Cozy Mystery",
+            "Satire",
+            "Whodunnit",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzI2ZDYxZTEtMzVlOC00OTUyLTgyNTAtYWFhNmRhZjAzZWE1XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Greece",
+            "Spetses, Greece",
+            "Villa 20, Kranidi, Greece",
+            "Belgrade, Serbia",
+            "Amanzoe Beach Club, Ermionida, Greece"
+        ],
+        "Amanzoe Beach Club, Ermionida, Greece": [
+            {
+                "address": "Ελλάς",
+                "coords": {
+                    "lat": 38.9953683,
+                    "lon": 21.9877132
+                }
+            },
+            {
+                "address": "Σπέτσες, Δήμος Σπετσών, Περιφερειακή Ενότητα Νήσων, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 180 50, Ελλάς",
+                "coords": {
+                    "lat": 37.2586958,
+                    "lon": 23.1397191
+                }
+            },
+            {
+                "address": "Κρανίδι, Δημοτική Ενότητα Κρανιδίου, Δήμος Ερμιονίδας, Περιφερειακή Ενότητα Αργολίδος, Περιφέρεια Πελοποννήσου, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 213 00, Ελλάς",
+                "coords": {
+                    "lat": 37.3805367,
+                    "lon": 23.1601389
+                }
+            },
+            {
+                "address": "Београд, Град Београд, Централна Србија, Србија",
+                "coords": {
+                    "lat": 44.8153318,
+                    "lon": 20.4456588
+                }
+            },
+            {
+                "address": "Amanzoe Beach Club, Ermionida, Greece",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt11539996",
+        "title": "Relay",
+        "year": "2024",
+        "country": "United States",
+        "rating": "7.0",
+        "budget": null,
+        "gross": 4633860,
+        "ROI": null,
+        "genres": [
+            "Conspiracy Thriller",
+            "Psychological Thriller",
+            "Action",
+            "Drama",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMDc4YzY1NWUtNjRkOS00YTdhLWI2NTMtYWMxYzExZTJmNTBlXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Manhattan, New York City, New York, USA"
+        ],
+        "Manhattan, New York City, New York, USA": [
+            {
+                "address": "Manhattan, New York County, New York, United States",
+                "coords": {
+                    "lat": 40.7579554,
+                    "lon": -73.9855319
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt32273171",
+        "title": "The Death of Robin Hood",
+        "year": "2026",
+        "country": "United States",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Adventure",
+            "Drama"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOTcwMTk5OTYtM2JlZC00YzVhLTljMTAtMzFmMzQ0ZWQwNzZhXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Northern Ireland, UK"
+        ],
+        "Northern Ireland, UK": [
+            {
+                "address": "Northern Ireland / Tuaisceart Éireann, United Kingdom",
+                "coords": {
+                    "lat": 54.5859836,
+                    "lon": -6.9591554
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt5950044",
+        "title": "Superman",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.1",
+        "budget": 225000000,
+        "gross": 616823803,
+        "ROI": 174.1,
+        "genres": [
+            "Action Epic",
+            "Adventure Epic",
+            "Epic",
+            "Sci-Fi Epic",
+            "Superhero",
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Action sequences",
+            "Iconic performance",
+            "Standout performance",
+            "Supernatural themes",
+            "Visual spectacle",
+            "Chemistry",
+            "Comedic elements",
+            "Narrative complexity",
+            "Character development",
+            "Derivative"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjM2Njc1MGItZjJiYy00ZTYzLWIyNWUtODI4MGJmZjBkZWFjXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Cincinnati, Ohio, USA",
+            "Cleveland, Ohio, USA",
+            "Svalbard, Norway",
+            "Atlanta, Georgia, USA",
+            "Mentor, Ohio, USA"
+        ],
+        "Mentor, Ohio, USA": [
+            {
+                "address": "Cincinnati, Hamilton County, Ohio, United States",
+                "coords": {
+                    "lat": 39.1014537,
+                    "lon": -84.5124602
+                }
+            },
+            {
+                "address": "Cleveland, Cuyahoga County, Ohio, United States",
+                "coords": {
+                    "lat": 41.4996574,
+                    "lon": -81.6936772
+                }
+            },
+            {
+                "address": "Svalbard, 9170, Norge",
+                "coords": {
+                    "lat": 78.7198519,
+                    "lon": 20.3493328
+                }
+            },
+            {
+                "address": "Atlanta, Fulton County, Georgia, United States",
+                "coords": {
+                    "lat": 33.7544657,
+                    "lon": -84.3898151
+                }
+            },
+            {
+                "address": "Mentor, Lake County, Ohio, 44060, United States",
+                "coords": {
+                    "lat": 41.6664781,
+                    "lon": -81.3399769
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt10676052",
+        "title": "The Fantastic Four: First Steps",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "6.9",
+        "budget": 200000000,
+        "gross": 521858728,
+        "ROI": 160.9,
+        "genres": [
+            "Space Sci-Fi",
+            "Superhero",
+            "Urban Adventure",
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Atmospheric",
+            "Chemistry",
+            "Dramatic tension",
+            "Family dynamics",
+            "Performance",
+            "Scientific depth",
+            "Standout performance",
+            "Visual spectacle",
+            "Thin story",
+            "Uneven quality"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZTY3YzJmODAtMTNkYi00NmI2LThjZDgtZDcwOTkyMmZjMDY5XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Palacio de Exposiciones y Congresos Ciudad de Oviedo, Oviedo, Asturias, Spain",
+            "Asturias, Spain",
+            "Principality of Asturias, Spain",
+            "Pinewood Studios, Iver Heath, Buckinghamshire, England, UK",
+            "Oviedo, Asturias, Spain"
+        ],
+        "Oviedo, Asturias, Spain": [
+            {
+                "address": "Palacio de Exposiciones y Congresos Ciudad de Oviedo, Oviedo, Asturias, Spain",
+                "coords": null
+            },
+            {
+                "address": "Asturias / Asturies, España",
+                "coords": {
+                    "lat": 43.3133868,
+                    "lon": -5.94192
+                }
+            },
+            {
+                "address": "Asturias / Asturies, España",
+                "coords": {
+                    "lat": 43.3133868,
+                    "lon": -5.94192
+                }
+            },
+            {
+                "address": "Pinewood Studios (pickup), Pinewood Road, Iver, Wexham and Ivers Community Board, Iver Heath, Buckinghamshire, England, SL0 0QJ, United Kingdom",
+                "coords": {
+                    "lat": 51.5478149,
+                    "lon": -0.5315999
+                }
+            },
+            {
+                "address": "Oviedo, Asturias / Asturies, España",
+                "coords": {
+                    "lat": 43.3533452,
+                    "lon": -5.8795096
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt31050594",
+        "title": "Mercy",
+        "year": "2026",
+        "country": "United States",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Cyber Thriller",
+            "Whodunnit",
+            "Action",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOGNhOGZhZmMtMzdhOC00NGNlLTg3ZmYtNWI2NGZjZjk4YTg2XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Los Angeles, California, USA",
+            "Bunker Hill, Downtown, Los Angeles, California, USA",
+            "Loews Hollywood, Highland Ave, Los Angeles, USA",
+            "Los Angeles County, California, USA",
+            "Downtown, Los Angeles, California, USA"
+        ],
+        "Downtown, Los Angeles, California, USA": [
+            {
+                "address": "Los Angeles, Los Angeles County, California, United States",
+                "coords": {
+                    "lat": 34.0536909,
+                    "lon": -118.242766
+                }
+            },
+            {
+                "address": "Bunker Hill, Downtown, Los Angeles, Los Angeles County, California, 90071, United States",
+                "coords": {
+                    "lat": 34.0550659,
+                    "lon": -118.2512228
+                }
+            },
+            {
+                "address": "Loews Hollywood, Highland Ave, Los Angeles, USA",
+                "coords": null
+            },
+            {
+                "address": "Los Angeles County, California, United States",
+                "coords": {
+                    "lat": 34.3155072,
+                    "lon": -118.209681
+                }
+            },
+            {
+                "address": "Downtown, Los Angeles, Los Angeles County, California, 90071, United States",
+                "coords": {
+                    "lat": 34.047996,
+                    "lon": -118.2521002
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt0068646",
+        "title": "The Godfather",
+        "year": "1972",
+        "country": "United States",
+        "rating": "9.2",
+        "budget": 6000000,
+        "gross": 250926380,
+        "ROI": 4082.1,
+        "genres": [
+            "Epic",
+            "Gangster",
+            "Psychological Drama",
+            "Tragedy",
+            "Crime",
+            "Drama",
+            "Atmospheric",
+            "Authentic emotion",
+            "Character development",
+            "Cinematography",
+            "Direction",
+            "Enduring legacy",
+            "Family dynamics",
+            "Iconic lines",
+            "Iconic performance",
+            "Narrative complexity"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Forza d'Agrï¿½, Messina, Sicily, Italy",
+            "110 Longfellow Road, Staten Island, New York City, New York, USA",
+            "Old St Patrick's Cathedral - 264 Mulberry Street, Little Italy, Manhattan, New York City, New York, USA",
+            "Mitchell Field, Garden City, Long Island, New York, USA",
+            "3531 White Plains Road, Bronx, New York City, New York, USA"
+        ],
+        "3531 White Plains Road, Bronx, New York City, New York, USA": [
+            {
+                "address": "Forza d'Agrï¿½, Messina, Sicily, Italy",
+                "coords": null
+            },
+            {
+                "address": "110 Longfellow Road, Staten Island, New York City, New York, USA",
+                "coords": null
+            },
+            {
+                "address": "Old St Patrick's Cathedral - 264 Mulberry Street, Little Italy, Manhattan, New York City, New York, USA",
+                "coords": null
+            },
+            {
+                "address": "Mitchell Field, Garden City, Long Island, New York, USA",
+                "coords": null
+            },
+            {
+                "address": "3531, White Plains Road, Williams Bridge, The Bronx, Bronx County, New York, 10467, United States",
+                "coords": {
+                    "lat": 40.8783863,
+                    "lon": -73.8664536
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt1493274",
+        "title": "Caught Stealing",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.9",
+        "budget": null,
+        "gross": 32703294,
+        "ROI": null,
+        "genres": [
+            "Dark Comedy",
+            "Gangster",
+            "Psychological Drama",
+            "Psychological Thriller",
+            "Action",
+            "Comedy",
+            "Crime",
+            "Thriller",
+            "Atmospheric",
+            "Cinematography",
+            "Comedic elements",
+            "Dark humor",
+            "Great ensemble",
+            "Performance",
+            "Thrilling",
+            "Unpredictable",
+            "Visual spectacle"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYTk0YTIyYmMtMTJjOC00NmNiLTkxMTktYTU0ZDFhNjJlMTJiXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "New York City, New York, USA",
+            "Tulum, Mexico"
+        ],
+        "Tulum, Mexico": [
+            {
+                "address": "New York, United States",
+                "coords": {
+                    "lat": 40.7127281,
+                    "lon": -74.0060152
+                }
+            },
+            {
+                "address": "Tulum, Quintana Roo, México",
+                "coords": {
+                    "lat": 20.429647,
+                    "lon": -87.6529306
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt14205554",
+        "title": "KPop Demon Hunters",
+        "year": "2025",
+        "country": "United States",
+        "rating": "7.5",
+        "budget": 100000000,
+        "gross": 24619953,
+        "ROI": -75.4,
+        "genres": [
+            "Computer Animation",
+            "Pop Musical",
+            "Superhero",
+            "Supernatural Fantasy",
+            "Action",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Family",
+            "Fantasy",
+            "Animation style",
+            "Chemistry",
+            "Friendship",
+            "Genre blending",
+            "Identity",
+            "Soundtrack",
+            "Supernatural themes",
+            "Uplifting",
+            "Visual innovation",
+            "Thin story"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNzUzNzFmMzQtMTMyYS00ZmRkLTg1MmMtYTk2OWI4YjJmMzJiXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "Tulum, Mexico": []
+    },
+    {
+        "source_id": "tt1375666",
+        "title": "Inception",
+        "year": "2010",
+        "country": "United States",
+        "rating": "8.8",
+        "budget": 160000000,
+        "gross": 839786473,
+        "ROI": 424.9,
+        "genres": [
+            "Action Epic",
+            "Adventure Epic",
+            "Epic",
+            "Psychological Thriller",
+            "Sci-Fi Epic",
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Thriller",
+            "Dreamlike",
+            "Iconic ending",
+            "Special effects",
+            "Thought-provoking",
+            "Ambitious",
+            "Character development",
+            "Narrative complexity",
+            "Confusing",
+            "Pacing"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+        "filming_locations": [
+            "Fortress Mountain, Kananaskis Country, Alberta, Canada",
+            "Tangier, Morocco",
+            "Shizuoka, Japan",
+            "Tokyo, Japan",
+            "Alberta, Canada"
+        ],
+        "Alberta, Canada": [
+            {
+                "address": "Fortress Mountain, Kananaskis Country, Alberta, Canada",
+                "coords": null
+            },
+            {
+                "address": "Tanger طنجة, Pachalik de Tanger باشوية طنجة, Préfecture de Tanger-Assilah عمالة طنجة-أصيلة, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+                "coords": {
+                    "lat": 35.7696302,
+                    "lon": -5.8033522
+                }
+            },
+            {
+                "address": "静岡市, 静岡県, 420-8602, 日本",
+                "coords": {
+                    "lat": 34.9751974,
+                    "lon": 138.3831697
+                }
+            },
+            {
+                "address": "東京都, 日本",
+                "coords": {
+                    "lat": 35.6768601,
+                    "lon": 139.7638947
+                }
+            },
+            {
+                "address": "Alberta, Canada",
+                "coords": {
+                    "lat": 55.001251,
+                    "lon": -115.002136
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt32430579",
+        "title": "Crime 101",
+        "year": null,
+        "country": "United Kingdom",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BM2E2MzY0YWYtZmY0Zi00YzM1LTllZDItMjE4OWU3MGNlNTBiXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Los Angeles, California, USA"
+        ],
+        "Los Angeles, California, USA": [
+            {
+                "address": "Los Angeles, Los Angeles County, California, United States",
+                "coords": {
+                    "lat": 34.0536909,
+                    "lon": -118.242766
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt35766629",
+        "title": "Goodbye June",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "6.7",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Drama"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzg0ZGQ2YjYtZTQ5MS00NTliLThkMTQtN2NjNWY0ZmJiZjlmXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "London, England, UK"
+        ],
+        "London, England, UK": [
+            {
+                "address": "Greater London, England, United Kingdom",
+                "coords": {
+                    "lat": 51.5074456,
+                    "lon": -0.1277653
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt18382850",
+        "title": "If I Had Legs I'd Kick You",
+        "year": null,
+        "country": "United States",
+        "rating": "6.7",
+        "budget": null,
+        "gross": 1346808,
+        "ROI": null,
+        "genres": [
+            "Dark Comedy",
+            "Psychological Drama",
+            "Drama",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZjlhYjc2NzYtZGY3OS00ZDhkLWIyNDctZGRkZjI0OWNkNmM5XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Montauk, New York, USA",
+            "1245 Grand Street, Brooklyn, NY, USA"
+        ],
+        "1245 Grand Street, Brooklyn, NY, USA": [
+            {
+                "address": "Montauk, Town of East Hampton, Suffolk County, New York, 11954, United States",
+                "coords": {
+                    "lat": 41.0419705,
+                    "lon": -71.94147
+                }
+            },
+            {
+                "address": "1245, Grand Street, Brooklyn, Kings County, New York, 11211, United States",
+                "coords": {
+                    "lat": 40.7165447,
+                    "lon": -73.9282192
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt31036941",
+        "title": "Jurassic World: Rebirth",
+        "year": "2025",
+        "country": "United States",
+        "rating": "5.9",
+        "budget": 180000000,
+        "gross": 869146189,
+        "ROI": 382.9,
+        "genres": [
+            "Dinosaur Adventure",
+            "Jungle Adventure",
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Thriller",
+            "Action sequences",
+            "Atmospheric",
+            "Nostalgic",
+            "Survival",
+            "Thrilling",
+            "Visual spectacle",
+            "Creature design",
+            "Enduring legacy",
+            "Thin story",
+            "Uneven quality"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOTk0OTdiZGItYTE1NS00N2IxLWIxMzEtYTVjMGE5NmY5MDQzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Krabi, Thailand",
+            "Ban Ba Kan Village, Krabi, Thailand",
+            "Thailand",
+            "Khlong Ruat, Thailand",
+            "Bangkok, Thailand"
+        ],
+        "Bangkok, Thailand": [
+            {
+                "address": "จังหวัดกระบี่, ประเทศไทย",
+                "coords": {
+                    "lat": 8.1111653,
+                    "lon": 99.1097298
+                }
+            },
+            {
+                "address": "บ้านบากัน, คลองหิน, อำเภออ่าวลึก, จังหวัดกระบี่, ประเทศไทย",
+                "coords": {
+                    "lat": 8.3074782,
+                    "lon": 98.7200877
+                }
+            },
+            {
+                "address": "ประเทศไทย",
+                "coords": {
+                    "lat": 14.8971921,
+                    "lon": 100.83273
+                }
+            },
+            {
+                "address": "Khlong Ruat, Thailand",
+                "coords": null
+            },
+            {
+                "address": "กรุงเทพมหานคร, ประเทศไทย",
+                "coords": {
+                    "lat": 13.7524938,
+                    "lon": 100.4935089
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt15398776",
+        "title": "Oppenheimer",
+        "year": "2023",
+        "country": "United States",
+        "rating": "8.2",
+        "budget": 100000000,
+        "gross": 975811333,
+        "ROI": 875.8,
+        "genres": [
+            "Docudrama",
+            "Epic",
+            "Historical Epic",
+            "Period Drama",
+            "Psychological Drama",
+            "Biography",
+            "Drama",
+            "History",
+            "Cinematography",
+            "Performance",
+            "Sound design",
+            "Historical accuracy",
+            "Inner conflict",
+            "Narrative complexity",
+            "Scientific depth",
+            "Pacing"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BM2RmYmVmMzctMzc5Ny00MmNiLTgxMGUtYjk1ZDRhYjA2YTU0XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Los Alamos, New Mexico, USA",
+            "Ghost Ranch, Abiquiu, New Mexico, USA",
+            "Grossmï¿½nster, Zurich, Switzerland",
+            "University of Zurich, Zurich, Switzerland",
+            "Kloster Einsiedeln, Einsiedeln, Switzerland"
+        ],
+        "Kloster Einsiedeln, Einsiedeln, Switzerland": [
+            {
+                "address": "Los Alamos, Los Alamos County, New Mexico, 87544, United States",
+                "coords": {
+                    "lat": 35.88137,
+                    "lon": -106.298959
+                }
+            },
+            {
+                "address": "Ghost Ranch, 280, Private Drive 1708, Abiquiu, Rio Arriba County, New Mexico, 87510, United States",
+                "coords": {
+                    "lat": 36.3393494,
+                    "lon": -106.4690229
+                }
+            },
+            {
+                "address": "Grossmï¿½nster, Zurich, Switzerland",
+                "coords": null
+            },
+            {
+                "address": "Zürcher Hochschule für Angewandte Wissenschaften, Turmhaldenstrasse, Heiligberg, Stadt, Winterthur, Bezirk Winterthur, Zürich, 8403, Schweiz/Suisse/Svizzera/Svizra",
+                "coords": {
+                    "lat": 47.4968435,
+                    "lon": 8.7298072
+                }
+            },
+            {
+                "address": "Kloster Einsiedeln, Klosterplatz, Einsiedeln, Schwyz, 8840, Schweiz/Suisse/Svizzera/Svizra",
+                "coords": {
+                    "lat": 47.1267753,
+                    "lon": 8.752337
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt1396484",
+        "title": "It",
+        "year": "2017",
+        "country": "United States",
+        "rating": "7.3",
+        "budget": 35000000,
+        "gross": 719766009,
+        "ROI": 1956.5,
+        "genres": [
+            "Monster Horror",
+            "Supernatural Horror",
+            "Horror"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZGZmOTZjNzUtOTE4OS00OGM3LWJiNGEtZjk4Yzg2M2Q1YzYxXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Bangor, Maine, USA",
+            "Elora, Ontario, Canada",
+            "Oshawa, Ontario, Canada",
+            "Port Hope, Ontario, Canada",
+            "West Montrose, Ontario, Canada"
+        ],
+        "West Montrose, Ontario, Canada": [
+            {
+                "address": "Bangor, Penobscot County, Maine, 04401, United States",
+                "coords": {
+                    "lat": 44.8016255,
+                    "lon": -68.7713289
+                }
+            },
+            {
+                "address": "Elora, Centre Wellington, Wellington County, Ontario, N1M 1K4, Canada",
+                "coords": {
+                    "lat": 43.681148,
+                    "lon": -80.429581
+                }
+            },
+            {
+                "address": "Oshawa, Durham Region, Golden Horseshoe, Ontario, Canada",
+                "coords": {
+                    "lat": 43.8975558,
+                    "lon": -78.8635324
+                }
+            },
+            {
+                "address": "Port Hope, Northumberland County, Central Ontario, Ontario, Canada",
+                "coords": {
+                    "lat": 43.9515755,
+                    "lon": -78.2939704
+                }
+            },
+            {
+                "address": "West Montrose, Woolwich, Region of Waterloo, Ontario, N0B 2V0, Canada",
+                "coords": {
+                    "lat": 43.5867565,
+                    "lon": -80.4822114
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt12001534",
+        "title": "The Thursday Murder Club",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.5",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Whodunnit",
+            "Comedy",
+            "Crime",
+            "Mystery",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYzk0ZDgzODQtNDM0Ny00ZGI3LWE5NjYtNjE0OWNlOTMxMDk5XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Englefield Estate, Berkshire, England, UK",
+            "Aldbury, Hertfordshire, England, UK",
+            "Gaddesden Place, Hertfordshire, England, UK",
+            "Beaconsfield, Buckinghamshire, England, UK",
+            "Red Lion, 1 Village Road, Little Missenden, Buckinghamshire, England, UK"
+        ],
+        "Red Lion, 1 Village Road, Little Missenden, Buckinghamshire, England, UK": [
+            {
+                "address": "Englefield Estate Office, A340, Englefield, West Berkshire, England, RG7 5ET, United Kingdom",
+                "coords": {
+                    "lat": 51.4416676,
+                    "lon": -1.0913449
+                }
+            },
+            {
+                "address": "Aldbury, Dacorum, Hertfordshire, England, United Kingdom",
+                "coords": {
+                    "lat": 51.8022069,
+                    "lon": -0.6015429
+                }
+            },
+            {
+                "address": "Gaddesden Place, Red Lion Lane, Briden's Camp, Great Gaddesden, Gaddesden Row, Dacorum, Hertfordshire, England, HP2 6EY, United Kingdom",
+                "coords": {
+                    "lat": 51.7887902,
+                    "lon": -0.4961618
+                }
+            },
+            {
+                "address": "Beaconsfield, Beaconsfield and Chepping Wye Community Board, Forty Green, Buckinghamshire, England, United Kingdom",
+                "coords": {
+                    "lat": 51.6082881,
+                    "lon": -0.6571233
+                }
+            },
+            {
+                "address": "Red Lion, 1 Village Road, Little Missenden, Buckinghamshire, England, UK",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt0468569",
+        "title": "The Dark Knight",
+        "year": "2008",
+        "country": "United States",
+        "rating": "9.1",
+        "budget": 185000000,
+        "gross": 1008294632,
+        "ROI": 445.0,
+        "genres": [
+            "Action Epic",
+            "Epic",
+            "Psychological Drama",
+            "Psychological Thriller",
+            "Superhero",
+            "Tragedy",
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller",
+            "Action sequences",
+            "Cinematography",
+            "Direction",
+            "Standout performance",
+            "Adaptation",
+            "Dark tone",
+            "Philosophical elements",
+            "Character development",
+            "Pacing"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+        "filming_locations": [
+            "Chicago, Illinois, USA",
+            "Times Square, Causeway Bay, Hong Kong",
+            "Senate House, University College London, Malet Street, Bloomsbury, London, England, UK",
+            "Battersea Power Station, Battersea, London, England, UK",
+            "Piccadilly Circus, Piccadilly, London, England, UK"
+        ],
+        "Piccadilly Circus, Piccadilly, London, England, UK": [
+            {
+                "address": "Chicago, South Chicago Township, Cook County, Illinois, United States",
+                "coords": {
+                    "lat": 41.8755616,
+                    "lon": -87.6244212
+                }
+            },
+            {
+                "address": "時代廣場 Times Square, 1, 摩利臣山 Morrison Hill, 灣仔區 Wan Chai District, 香港島 Hong Kong Island, 香港 Hong Kong, 中国",
+                "coords": {
+                    "lat": 22.2783587,
+                    "lon": 114.1821064
+                }
+            },
+            {
+                "address": "Senate House, University College London, Malet Street, Bloomsbury, London, England, UK",
+                "coords": null
+            },
+            {
+                "address": "Battersea Power Station, Battersea Park Road, Nine Elms, London Borough of Wandsworth, Greater London, England, SW8 4DS, United Kingdom",
+                "coords": {
+                    "lat": 51.4796154,
+                    "lon": -0.1429709
+                }
+            },
+            {
+                "address": "Piccadilly Circus, Piccadilly, St. James's, Westminster, Mayfair, City of Westminster, Greater London, England, W1J 0DJ, United Kingdom",
+                "coords": {
+                    "lat": 51.5093252,
+                    "lon": -0.1362862
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt32536315",
+        "title": "Blue Moon",
+        "year": "2025",
+        "country": "United States",
+        "rating": "6.9",
+        "budget": null,
+        "gross": 2589242,
+        "ROI": null,
+        "genres": [
+            "Psychological Drama",
+            "Biography",
+            "Comedy",
+            "Drama",
+            "History",
+            "Music",
+            "Romance"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYTQ2NmMyZjktMWJjZi00OGM4LTkzY2MtMjVkZmE5NmIwYzc4XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [],
+        "Piccadilly Circus, Piccadilly, London, England, UK": []
+    },
+    {
+        "source_id": "tt29713093",
+        "title": "We Bury the Dead",
+        "year": "2024",
+        "country": "Australia",
+        "rating": "6.1",
+        "budget": null,
+        "gross": 3559379,
+        "ROI": null,
+        "genres": [
+            "Body Horror",
+            "Monster Horror",
+            "Zombie Horror",
+            "Horror",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNzZmZDg3NTAtNDk3My00OTY4LWJlMDAtMDgzYTk1OTE5ZWEzXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Perth, Western Australia, Australia",
+            "Albany, Western Australia, Australia",
+            "Hobart, Tasmania, Australia"
+        ],
+        "Hobart, Tasmania, Australia": [
+            {
+                "address": "Perth, City of Perth, Western Australia, 6000, Australia",
+                "coords": {
+                    "lat": -31.9558967,
+                    "lon": 115.8605784
+                }
+            },
+            {
+                "address": "Albany, City Of Albany, Western Australia, 6330, Australia",
+                "coords": {
+                    "lat": -35.0247822,
+                    "lon": 117.883608
+                }
+            },
+            {
+                "address": "Hobart, City of Hobart, Tasmania, Australia",
+                "coords": {
+                    "lat": -42.8825088,
+                    "lon": 147.3281233
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt0110912",
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "country": "United States",
+        "rating": "8.8",
+        "budget": 8000000,
+        "gross": 213928762,
+        "ROI": 2574.1,
+        "genres": [
+            "Dark Comedy",
+            "Drug Crime",
+            "Gangster",
+            "Crime",
+            "Drama",
+            "Atmospheric",
+            "Authentic emotion",
+            "Cinematography",
+            "Comedic brilliance",
+            "Dark humor",
+            "Genre blending",
+            "Iconic soundtrack",
+            "Non-linear structure"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "1435 Flower Street, Glendale, California, USA",
+            "3519 La Clede Avenue, Los Angeles, California, USA",
+            "Hawthorne Grill - 13763 S. Hawthorne Boulevard, Hawthorne, California, USA",
+            "5800 Harold Way, Los Angeles, California, USA",
+            "20933 Roscoe Blvd, Canoga Park, Los Angeles, California, USA"
+        ],
+        "20933 Roscoe Blvd, Canoga Park, Los Angeles, California, USA": [
+            {
+                "address": "1435, Flower Street, Grand Central Creative Campus, Glendale, Los Angeles County, California, 91201, United States",
+                "coords": {
+                    "lat": 34.1629822,
+                    "lon": -118.2902472
+                }
+            },
+            {
+                "address": "3519, La Clede Avenue, Atwater Village, Los Angeles, Los Angeles County, California, 90039, United States",
+                "coords": {
+                    "lat": 34.1190963,
+                    "lon": -118.2567878
+                }
+            },
+            {
+                "address": "Hawthorne Grill - 13763 S. Hawthorne Boulevard, Hawthorne, California, USA",
+                "coords": null
+            },
+            {
+                "address": "5800, Harold Way, Hollywood, Los Angeles, Los Angeles County, California, 90028, United States",
+                "coords": {
+                    "lat": 34.099207,
+                    "lon": -118.315971
+                }
+            },
+            {
+                "address": "20933, Roscoe Boulevard, Canoga Park Neighborhood Council District, Los Angeles, Los Angeles County, California, 91304, United States",
+                "coords": {
+                    "lat": 34.2200008,
+                    "lon": -118.5893198
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt2948356",
+        "title": "Zootropolis",
+        "year": "2016",
+        "country": "United States",
+        "rating": "8.0",
+        "budget": 150000000,
+        "gross": 1025521689,
+        "ROI": 583.7,
+        "genres": [
+            "Animal Adventure",
+            "Buddy Comedy",
+            "Computer Animation",
+            "Satire",
+            "Urban Adventure",
+            "Whodunnit",
+            "Action",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Ambitious",
+            "Character chemistry",
+            "Character development",
+            "Comedic brilliance",
+            "Cultural diversity",
+            "Inspirational",
+            "Social commentary",
+            "Social issues",
+            "Visual artistry",
+            "World-building"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_.jpg",
+        "filming_locations": [
+            "Walt Disney Animation Studios - 500 S. Buena Vista Street, Burbank, California, USA",
+            "Walt Disney Animation Studios - 2100 Riverside Drive, Burbank, California, USA"
+        ],
+        "Walt Disney Animation Studios - 2100 Riverside Drive, Burbank, California, USA": [
+            {
+                "address": "Walt Disney Animation Studios - 500 S. Buena Vista Street, Burbank, California, USA",
+                "coords": null
+            },
+            {
+                "address": "Walt Disney Animation Studios - 2100 Riverside Drive, Burbank, California, USA",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt0241527",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "year": "2001",
+        "country": "United Kingdom",
+        "rating": "7.7",
+        "budget": 125000000,
+        "gross": 1029374615,
+        "ROI": 723.5,
+        "genres": [
+            "Teen Fantasy",
+            "Adventure",
+            "Family",
+            "Fantasy",
+            "Holiday",
+            "Chemistry",
+            "Cinematography",
+            "Fantastical elements",
+            "Production design",
+            "Set pieces",
+            "Worldbuilding",
+            "Adaptation",
+            "Character development",
+            "Performance"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Alnwick Castle, Alnwick, Northumberland, England, UK",
+            "Handyside Bridge, King's Cross Railway Station, Euston Road, King's Cross, London, Greater London, England, UK",
+            "12 Picket Post Close, Martin's Heron, Bracknell, Berkshire, England, UK",
+            "Gloucester Cathedral, 12 College Green, Gloucester, Gloucestershire, England, UK",
+            "Australia House, Strand, Westminster, Greater London, England, UK"
+        ],
+        "Australia House, Strand, Westminster, Greater London, England, UK": [
+            {
+                "address": "Alnwick Castle, Bow Alley, Alnwick, Northumberland, North East, England, NE66 1NQ, United Kingdom",
+                "coords": {
+                    "lat": 55.4154664,
+                    "lon": -1.7064926
+                }
+            },
+            {
+                "address": "Handyside Bridge, King's Cross Railway Station, Euston Road, King's Cross, London, Greater London, England, UK",
+                "coords": null
+            },
+            {
+                "address": "House of the Dursley Family, 12, Picket Post Close, Martin's Heron, Chavey Down, Bracknell, Bracknell Forest, England, RG12 9FG, United Kingdom",
+                "coords": {
+                    "lat": 51.408624,
+                    "lon": -0.7214076
+                }
+            },
+            {
+                "address": "Gloucester Cathedral, 12 College Green, Gloucester, Gloucestershire, England, UK",
+                "coords": null
+            },
+            {
+                "address": "Australian High Commission, Strand, St Clement Danes, Covent Garden, City of Westminster, Greater London, England, WC2B 4LA, United Kingdom",
+                "coords": {
+                    "lat": 51.5128785,
+                    "lon": -0.1155906
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt29008225",
+        "title": "Fackham Hall",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "6.4",
+        "budget": null,
+        "gross": 2874927,
+        "ROI": null,
+        "genres": [
+            "Parody",
+            "Satire",
+            "Slapstick",
+            "Comedy"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZmY1YWQ5ZjItYjg1NS00NmQzLThiMDMtMTdlYjIzNTU5NzY3XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Knowsley Hall, Merseyside, Prescot, England, UK",
+            "Thornton Hough, Wirral, England, U.K.",
+            "Croxteth Hall And Country Park, Muirhead Avenue East, Liverpool, Merseyside, England, UK",
+            "St George's United Reformed Church, St George's Way, Thornton Haugh, Merseyside, England, UK",
+            "The Folds, Thornton Haugh, Merseyside, England, UK"
+        ],
+        "The Folds, Thornton Haugh, Merseyside, England, UK": [
+            {
+                "address": "Knowsley Hall, Merseyside, Prescot, England, UK",
+                "coords": null
+            },
+            {
+                "address": "Thornton Hough, Wirral, Liverpool City Region, England, CH63 1JU, United Kingdom",
+                "coords": {
+                    "lat": 53.3200888,
+                    "lon": -3.0461174
+                }
+            },
+            {
+                "address": "Croxteth Hall And Country Park, Muirhead Avenue East, Liverpool, Merseyside, England, UK",
+                "coords": null
+            },
+            {
+                "address": "St George's United Reformed Church, St George's Way, Thornton Haugh, Merseyside, England, UK",
+                "coords": null
+            },
+            {
+                "address": "The Folds, Thornton Haugh, Merseyside, England, UK",
+                "coords": null
+            }
+        ]
+    },
+    {
+        "source_id": "tt32558705",
+        "title": "The Hunger Games: Sunrise on the Reaping",
+        "year": "2026",
+        "country": "United States",
+        "rating": null,
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Dystopian Sci-Fi",
+            "Teen Adventure",
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNjQyNDAzNzItMTI3Yi00MmVlLWJhOWEtYTI4YTU0NWExOTllXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Somiedo, Asturias, Spain",
+            "Studio Babelsberg, August-Bebel-Str. 26-53, DE-14482 Potsdam, Brandenburg, Germany",
+            "Asturias, Spain",
+            "Principality of Asturias, Spain"
+        ],
+        "Principality of Asturias, Spain": [
+            {
+                "address": "Somiedo, Asturias / Asturies, España",
+                "coords": {
+                    "lat": 43.1028012,
+                    "lon": -6.2514557
+                }
+            },
+            {
+                "address": "Studio Babelsberg, August-Bebel-Str. 26-53, DE-14482 Potsdam, Brandenburg, Germany",
+                "coords": null
+            },
+            {
+                "address": "Asturias / Asturies, España",
+                "coords": {
+                    "lat": 43.3133868,
+                    "lon": -5.94192
+                }
+            },
+            {
+                "address": "Asturias / Asturies, España",
+                "coords": {
+                    "lat": 43.3133868,
+                    "lon": -5.94192
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt1262426",
+        "title": "Wicked",
+        "year": "2024",
+        "country": "United Kingdom",
+        "rating": "7.3",
+        "budget": 150000000,
+        "gross": 758789284,
+        "ROI": 405.9,
+        "genres": [
+            "Fairy Tale",
+            "Pop Musical",
+            "Fantasy",
+            "Musical",
+            "Romance",
+            "Chemistry",
+            "Musical score",
+            "Performance",
+            "Production design",
+            "Social commentary",
+            "Adaptation",
+            "Character development",
+            "Cinematography",
+            "Pacing"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOWMwYjYzYmMtMWQ2Ni00NWUwLTg2MzAtYzkzMDBiZDIwOTMwXkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Sky Studios Elstree Rowley, Borehamwood, Hertfordshire, England, UK",
+            "Ivinghoe, Buckinghamshire, England, UK",
+            "Leighton Buzzard, Bedfordshire, England, UK",
+            "Elstree, Hertfordshire, England, UK",
+            "London, England, UK"
+        ],
+        "London, England, UK": [
+            {
+                "address": "Sky Studios Elstree Rowley, Borehamwood, Hertfordshire, England, UK",
+                "coords": null
+            },
+            {
+                "address": "Ivinghoe, Buckinghamshire, England, United Kingdom",
+                "coords": {
+                    "lat": 51.8423002,
+                    "lon": -0.6156028
+                }
+            },
+            {
+                "address": "Leighton Buzzard, Central Bedfordshire, England, LU7 1EE, United Kingdom",
+                "coords": {
+                    "lat": 51.9165794,
+                    "lon": -0.6620551
+                }
+            },
+            {
+                "address": "Elstree, Hertsmere, Hertfordshire, England, WD6 3BZ, United Kingdom",
+                "coords": {
+                    "lat": 51.6437729,
+                    "lon": -0.2989349
+                }
+            },
+            {
+                "address": "Greater London, England, United Kingdom",
+                "coords": {
+                    "lat": 51.5074456,
+                    "lon": -0.1277653
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt33270103",
+        "title": "Honey Bunch",
+        "year": "2025",
+        "country": "United Kingdom",
+        "rating": "6.1",
+        "budget": null,
+        "gross": null,
+        "ROI": null,
+        "genres": [
+            "Comedy",
+            "Fantasy",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzM1YjZjMjUtYzk5Zi00ZWNhLTk3OTAtZTljMGUwZmUxZTA0XkEyXkFqcGc@._V1_.jpg",
+        "filming_locations": [
+            "Owen Sound, Ontario, Canada",
+            "Ontario, Canada",
+            "Canada"
+        ],
+        "Canada": [
+            {
+                "address": "Owen Sound, Grey County, Ontario, Canada",
+                "coords": {
+                    "lat": 44.5678105,
+                    "lon": -80.9430094
+                }
+            },
+            {
+                "address": "Ontario, Canada",
+                "coords": {
+                    "lat": 50.000678,
+                    "lon": -86.000977
+                }
+            },
+            {
+                "address": "Canada",
+                "coords": {
+                    "lat": 61.0666922,
+                    "lon": -107.991707
+                }
+            }
+        ]
+    },
+    {
+        "source_id": "tt1104001",
+        "title": "TRON: Legacy",
+        "year": "2010",
+        "country": "United States",
+        "rating": "6.8",
+        "budget": 170000000,
+        "gross": 400070675,
+        "ROI": 135.3,
+        "genres": [
+            "Artificial Intelligence",
+            "Cyberpunk",
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Action sequences",
+            "Atmospheric",
+            "Cinematography",
+            "Nostalgic",
+            "Soundtrack",
+            "Worldbuilding",
+            "Character development"
+        ],
+        "production_country": "US",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTk4NTk4MTk1OF5BMl5BanBnXkFtZTcwNTE2MDIwNA@@._V1_.jpg",
+        "filming_locations": [
+            "Shangri-La - 1128 West Georgia Street, Vancouver, British Columbia, Canada",
+            "Vancouver, British Columbia, Canada",
+            "The Hull Building - 9543 Culver Boulevard, Culver City, California, USA",
+            "Canadian Motion Picture Park Studios - 8085 Glenwood Drive, Burnaby, British Columbia, Canada",
+            "1150 S Olive St, Los Angeles, California, USA"
+        ],
+        "1150 S Olive St, Los Angeles, California, USA": [
+            {
+                "address": "Shangri-La - 1128 West Georgia Street, Vancouver, British Columbia, Canada",
+                "coords": null
+            },
+            {
+                "address": "Vancouver, Metro Vancouver Regional District, British Columbia, Canada",
+                "coords": {
+                    "lat": 49.2608724,
+                    "lon": -123.113952
+                }
+            },
+            {
+                "address": "The Hull Building - 9543 Culver Boulevard, Culver City, California, USA",
+                "coords": null
+            },
+            {
+                "address": "Canadian Motion Picture Park 1, 8085, Glenwood Drive, Burnaby, Metro Vancouver Regional District, British Columbia, V3N 2V9, Canada",
+                "coords": {
+                    "lat": 49.1926988,
+                    "lon": -122.9692512
+                }
+            },
+            {
+                "address": "South Park Center, 1150, South Olive Street, South Park, Downtown, Los Angeles, Los Angeles County, California, 90015, United States",
+                "coords": {
+                    "lat": 34.0393986,
+                    "lon": -118.2610968
+                }
+            }
+        ]
+    }
+]
