@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Globe from 'globe.gl';
-import type { LocationPoint } from "./types";
+import type { Movie, LocationPoint } from "./types";
 import './App.css'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
   const [locations, setLocations] = useState<LocationPoint[]>([]);
   const [globeToggle, setGlobeToggle] = useState<boolean>(true);
   const [selectedPoint, setSelectedPoint] = useState<any>(null)
+  const [selectedMovie, setSelectedMovie] = useState<Movie>()
 
   // Fetch data from backend
   useEffect(() => {
@@ -61,9 +62,7 @@ function App() {
       .pointAltitude(0.02)
       .onPointClick((d: any) => {
         setSelectedPoint(d);
-/*         alert(
-          `Movie: ${d.movie.title}\nYear: ${d.movie.year}\nRating: ${d.movie.rating}`
-        ); */
+        setSelectedMovie(d.movie)
       });
 
     globeInstance.current = globe;
@@ -112,9 +111,100 @@ function App() {
     }
   }, [globeToggle, locations]);
 
+  // prevent zooming for the user
+  useEffect(() => {
+    const handler = (e: WheelEvent | KeyboardEvent) => {
+      if (
+        e.ctrlKey ||
+        (e instanceof KeyboardEvent &&
+          (e.key === "+" || e.key === "-" || e.key === "="))
+      ) {
+        e.preventDefault();
+      }
+    };
+
+    window.addEventListener("wheel", handler, { passive: false });
+    window.addEventListener("keydown", handler);
+
+    return () => {
+      window.removeEventListener("wheel", handler);
+      window.removeEventListener("keydown", handler);
+    };
+  }, []);
+
+  function GenreTags({ genres }: { genres: string[] }) {
+    const [expanded, setExpanded] = useState(false);
+    const baseline = 3; // show 3 by default
+
+    if (!genres || genres.length === 0) return null;
+
+    const displayedGenres = expanded ? genres : genres.slice(0, baseline);
+
+    return (
+      <div>
+        <div id="genre_tag_group">
+          {displayedGenres.map((g, i) => (
+            <div key={i} className="genre_tag">
+              {g}
+            </div>
+          ))}
+        </div>
+        {genres.length > baseline && (
+          <button
+            className="genre_expand_btn"
+            onClick={() => setExpanded((prev) => !prev)}
+          >
+            {expanded ? "-" : "+"}
+          </button>
+        )}
+      </div>
+    );
+  }
+
   return (<>
     <button id="toggle_globe" onClick={() => setGlobeToggle(!globeToggle)}>toggle</button>
-    <div id="display_panel">Movie Title</div>
+    <div id="display_panel">
+      <h3>{ selectedMovie?.title }</h3>
+      <img id="poster_image" src={selectedMovie?.poster_url}/>
+      <GenreTags genres={selectedMovie?.genres || []}/>
+      <div id="movie_info_grid">
+        <div className="movie_info_grid_item">
+          <span>Gross</span>
+          <p className="movie_info_value">
+            {selectedMovie?.gross
+              ? "$" + selectedMovie.gross.toLocaleString() + " (est.)"
+              : "Not available"}
+          </p>
+        </div>
+
+        <div className="movie_info_grid_item">
+          <span>Budget</span>
+          <p className="movie_info_value">
+            {selectedMovie?.budget
+              ? "$" + selectedMovie.budget.toLocaleString()
+              : "Not available"}
+          </p>
+        </div>
+
+        <div className="movie_info_grid_item">
+          <span>Production Country</span>
+          <p className="movie_info_value">
+            {selectedMovie?.country || "Not available"}
+          </p>
+        </div>
+      </div>
+      <span>Filming locations</span>
+      <div id="loc_tag_group">{ 
+          selectedMovie?.filming_locations.map((loc) => {
+            return (
+              <div className="loc_tag">
+                {loc}
+              </div>
+            )
+          }) 
+        }
+      </div>
+    </div>
     <div ref={globeEl} style={{ width: '100vw', height: '100vh' }} />
   </>);
 }
