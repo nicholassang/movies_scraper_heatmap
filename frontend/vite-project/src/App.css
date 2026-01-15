@@ -1,6 +1,24 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+#toggle_globe {
+  color: rgb(111, 111, 219);
+  position: absolute; 
+  z-index: 100;
+  top: 3em;
+  left: 3em;
+}
+
+#display_panel {
+  background-color: rgb(2, 22, 45);
+  border-radius: 5%;
+  position: absolute;
+  z-index: 100;
+  top: 3em;
+  right: 3em;
+  height: 20em;
+  width: 20em;
 }

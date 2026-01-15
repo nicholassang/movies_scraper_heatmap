@@ -15,7 +15,7 @@ export interface Movie {
 
 export interface LocationPoint {
   lat: number;
-  lon: number;
+  lng: number;
   address: string;
   movie: Movie;
 }

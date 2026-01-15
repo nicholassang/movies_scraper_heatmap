@@ -17,6 +17,19 @@ def load():
         with conn.cursor() as cur:
 
             for movie in movies:
+
+                filtered_film_loc_coords = []
+
+                for film_loc_coords in movie.get("filming_locations_coords", []):
+                    coords = film_loc_coords.get("coords")
+                    if coords is None:
+                        continue
+
+                    filtered_film_loc_coords.append({
+                        "address": film_loc_coords.get("address"),
+                        "coords": coords
+                    })
+
                 cur.execute("""
                     INSERT INTO movies (
                         source_id, title, year, country, rating, budget, gross, roi,
@@ -37,11 +50,9 @@ def load():
                     movie.get("production_country"),
                     movie.get("poster_url"),
                     json.dumps(movie.get("filming_locations")),
-                    json.dumps(movie.get("filming_locations_coords")),
+                    json.dumps(filtered_film_loc_coords),
                 ))
 
         conn.commit()
 
     print("Loaded JSON data into Postgres successfully!")
-
-load()

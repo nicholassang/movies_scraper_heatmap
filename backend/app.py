@@ -56,7 +56,7 @@ def get_movies():
                         # Each point contains lat/lon + full movie info
                         data.append({
                             "lat": loc["coords"]["lat"],
-                            "lon": loc["coords"]["lon"],
+                            "lng": loc["coords"]["lng"],
                             "address": loc["address"],
                             "movie": movie_info
                         })

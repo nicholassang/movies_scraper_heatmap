@@ -24,7 +24,7 @@ def transform():
                             "address": location.address,
                             "coords": {
                                 "lat": location.latitude,
-                                "lon": location.longitude
+                                "lng": location.longitude
                             }
                         })
                     else:
