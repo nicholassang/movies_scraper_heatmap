@@ -162,7 +162,31 @@ function App() {
   }
 
   return (<>
-    <button id="toggle_globe" onClick={() => setGlobeToggle(!globeToggle)}>toggle</button>
+    <button
+      id="toggle_globe_pointmap"
+      className={`toggle_globe ${globeToggle ? "active" : ""}`}
+      onClick={() => setGlobeToggle(true)}
+    >
+      PointMap
+    </button>
+
+    <button
+      id="toggle_globe_heatmap"
+      className={`toggle_globe ${!globeToggle ? "active" : ""}`}
+      onClick={() => setGlobeToggle(false)}
+    >
+      HeatMap
+    </button>
+
+    <p id="globe_info">
+      {globeToggle ? 
+      "The pointmap allows us to see the filming locations of the current top 100 movies in the cinemas by IMDB. \n\nFurther details of each location can be viewed by clicking on the point. " :
+      "This heatmap follows the Gaussian KDE to perform density estimation. \n\nThrough this, we can see the pattern of the current top 100 popular filming locations for movies by IMDB."}
+    </p>
+    <p id="appreciation">
+      With much appreciation to <div className="rainbow-text">globe.gl</div> for the stunning visuals
+    </p>
+
     <div id="display_panel">
       <h3>{ selectedMovie?.title }</h3>
       <img id="poster_image" src={selectedMovie?.poster_url}/>
