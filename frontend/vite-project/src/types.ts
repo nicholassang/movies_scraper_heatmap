@@ -1,21 +1,21 @@
 export interface Movie {
   source_id: string;
   title: string;
-  year: number;
-  country: string;
-  rating: number | null;
-  budget: number | null;
-  gross: number | null;
-  ROI: number | null;
-  genres: string[];
-  production_country: string;
   poster_url: string;
-  filming_locations: string[];
+  year: string;
+  country: string,
+  rating?: number;
+  budget?: number;
+  gross?: number;
+  roi?: number;
+  genres?: string[];
+  filming_locations?: string[];
 }
 
 export interface LocationPoint {
+  location_id: number;
   lat: number;
   lng: number;
   address: string;
-  movie: Movie;
+  source_id: string;
 }

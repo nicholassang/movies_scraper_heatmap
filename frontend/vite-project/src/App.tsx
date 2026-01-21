@@ -8,12 +8,13 @@ function App() {
   const globeInstance = useRef<any>(null);
   const [locations, setLocations] = useState<LocationPoint[]>([]);
   const [globeToggle, setGlobeToggle] = useState<boolean>(true);
+  const [infoToggle, setInfoToggle] = useState<boolean>(true);
   const [selectedPoint, setSelectedPoint] = useState<any>(null)
-  const [selectedMovie, setSelectedMovie] = useState<Movie>()
+  const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null);
 
   // Fetch data from backend
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/movies")
+    fetch("http://127.0.0.1:8000/locations")
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error: ${res.status}`);
@@ -21,23 +22,24 @@ function App() {
         return res.json();
       })
       .then((data) => {
-        if (Array.isArray(data)) {
-          const locationsData: LocationPoint[] = data
+        if (data && Array.isArray(data.results)) {
+          const locationsData: LocationPoint[] = data.results
             .filter(
-              (d) =>
+              (d: LocationPoint) =>
                 d &&
                 typeof d.lat === "number" &&
                 typeof d.lng === "number" &&
                 typeof d.address === "string" &&
-                typeof d.movie === "object"
+                typeof d.location_id === "number" &&
+                typeof d.source_id === "string"
             )
-            .map((d) => ({
+            .map((d: LocationPoint) => ({
               lat: d.lat,
               lng: d.lng,
               address: d.address,
-              movie: d.movie,
+              location_id: d.location_id,
+              source_id: d.source_id
             }));
-
           setLocations(locationsData);
         } else {
           console.error("Invalid data format:", data);
@@ -62,7 +64,20 @@ function App() {
       .pointAltitude(0.02)
       .onPointClick((d: any) => {
         setSelectedPoint(d);
-        setSelectedMovie(d.movie)
+        if (!d.source_id) {
+          console.error("movie_id is undefined for this location", d);
+          return;
+        }
+
+        fetch(`http://127.0.0.1:8000/movies/${d.source_id}`)
+          .then(res => {
+            if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+            return res.json();
+          })
+          .then(movieData => setSelectedMovie(movieData))
+          .catch(err => {
+            console.error("Error fetching movie:", err);
+          });
       });
 
     globeInstance.current = globe;
@@ -177,15 +192,26 @@ function App() {
     >
       HeatMap
     </button>
+    {infoToggle ? 
+      <button id="toggle_info_open" className="toggle_info" onClick={()=> {
+        setInfoToggle(!infoToggle)
+      }}></button> 
+      : 
+      <>
+        <p id="globe_info">
+          {globeToggle ? 
+          "The pointmap allows us to see the filming locations of the current top 100 movies in the cinemas by IMDB. \n\nFurther details of each location can be viewed by clicking on the point. " :
+          "This heatmap follows the Gaussian KDE to perform density estimation. \n\nThrough this, we can see the pattern of the current top 100 popular filming locations for movies by IMDB."}
+        </p>
 
-    <p id="globe_info">
-      {globeToggle ? 
-      "The pointmap allows us to see the filming locations of the current top 100 movies in the cinemas by IMDB. \n\nFurther details of each location can be viewed by clicking on the point. " :
-      "This heatmap follows the Gaussian KDE to perform density estimation. \n\nThrough this, we can see the pattern of the current top 100 popular filming locations for movies by IMDB."}
-    </p>
-    <p id="appreciation">
+        <button id="toggle_info_close" className="toggle_info" onClick={()=> {
+          setInfoToggle(!infoToggle)
+        }}></button> 
+      </>
+    }
+    <div id="appreciation">
       With much appreciation to <div className="rainbow-text">globe.gl</div> for the stunning visuals
-    </p>
+    </div>
 
     <div id="display_panel">
       <h3>{ selectedMovie?.title }</h3>
@@ -219,9 +245,9 @@ function App() {
       </div>
       <span>Filming locations</span>
       <div id="loc_tag_group">{ 
-          selectedMovie?.filming_locations.map((loc) => {
+          selectedMovie?.filming_locations?.map((loc, index) => {
             return (
-              <div className="loc_tag">
+              <div key={index} className="loc_tag">
                 {loc}
               </div>
             )

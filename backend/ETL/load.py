@@ -6,53 +6,124 @@ from db.connection import get_connection
 DATA_PATH = Path("data/cleaned_movie_data.json")
 
 
+def safe_int(value):
+    try:
+        return int(value) if value is not None else None
+    except:
+        return None
+
+def safe_float(value):
+    try:
+        return float(value) if value is not None else None
+    except:
+        return None
+
+
 def load():
     print("Load running...\n")
 
     # Load JSON file
     with open(DATA_PATH, "r", encoding="utf-8") as f:
-        movies = json.load(f)
+        movies_batch = json.load(f)
 
     with get_connection() as conn:
-        with conn.cursor() as cur:
+        cur = conn.cursor()
+        cur.execute("BEGIN")
 
-            for movie in movies:
+        # Clear old data
+        cur.execute("""
+            TRUNCATE locations, movie_genres, genres, movies
+            RESTART IDENTITY CASCADE;
+        """)
 
-                filtered_film_loc_coords = []
+        # Insert movies
+        for movie in movies_batch:
+            year = safe_int(movie.get("year"))
+            rating = safe_float(movie.get("rating"))
+            budget = safe_int(movie.get("budget"))
+            gross = safe_int(movie.get("gross"))
 
-                for film_loc_coords in movie.get("filming_locations_coords", []):
-                    coords = film_loc_coords.get("coords")
-                    if coords is None:
-                        continue
+            roi = safe_float(movie.get("ROI"))
+            if roi is None and budget and gross:
+                roi = gross / budget
 
-                    filtered_film_loc_coords.append({
-                        "address": film_loc_coords.get("address"),
-                        "coords": coords
-                    })
+            # Get country safely
+            country = movie.get("country")  # can be None
+
+            cur.execute("""
+                INSERT INTO movies (
+                    source_id, title, year, rating,
+                    budget, gross, roi, poster_url, country
+                )
+                VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+            """, (
+                movie["source_id"],
+                movie["title"],
+                year,
+                rating,
+                budget,
+                gross,
+                roi,
+                movie.get("poster_url"),
+                country
+            ))
+
+        # Insert genres and mappings
+        genre_cache = {}
+        for movie in movies_batch:
+            for genre in set(movie.get("genres", [])):
+
+                # Insert genre if not exists
+                if genre not in genre_cache:
+                    cur.execute("""
+                        INSERT INTO genres (name)
+                        VALUES (%s)
+                        ON CONFLICT (name) DO NOTHING
+                        RETURNING id
+                    """, (genre,))
+
+                    row = cur.fetchone()
+                    if row:
+                        genre_id = row[0]
+                    else:
+                        cur.execute("SELECT id FROM genres WHERE name=%s", (genre,))
+                        genre_id = cur.fetchone()[0]
+
+                    genre_cache[genre] = genre_id
 
                 cur.execute("""
-                    INSERT INTO movies (
-                        source_id, title, year, country, rating, budget, gross, roi,
-                        genres, production_country, poster_url,
-                        filming_locations, filming_locations_coords
-                    ) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
-                    ON CONFLICT (source_id) DO NOTHING
+                    INSERT INTO movie_genres (movie_id, genre_id)
+                    VALUES (%s, %s)
+                    ON CONFLICT DO NOTHING
                 """, (
-                    movie.get("source_id"),
-                    movie.get("title"),
-                    int(movie["year"]) if movie.get("year") else None,
-                    movie.get("country"),
-                    float(movie["rating"]) if movie.get("rating") else None,
-                    movie.get("budget"),
-                    movie.get("gross"),
-                    movie.get("ROI"),
-                    json.dumps(movie.get("genres")),
-                    movie.get("production_country"),
-                    movie.get("poster_url"),
-                    json.dumps(movie.get("filming_locations")),
-                    json.dumps(filtered_film_loc_coords),
+                    movie["source_id"],
+                    genre_cache[genre]
                 ))
 
-        conn.commit()
+        # Insert locations
+        for movie in movies_batch:
+            for loc in movie.get("filming_locations_coords", []):
+                coords = loc.get("coords")
+                if not coords:
+                    continue
+
+                lat = safe_float(coords.get("lat"))
+                lng = safe_float(coords.get("lng"))
+                address = loc.get("address")
+
+                if lat is None or lng is None:
+                    continue
+
+                cur.execute("""
+                    INSERT INTO locations (movie_id, lat, lng, address)
+                    VALUES (%s,%s,%s,%s)
+                """, (
+                    movie["source_id"],
+                    lat,
+                    lng,
+                    address
+                ))
+
+        cur.execute("COMMIT")
 
     print("Loaded JSON data into Postgres successfully!")

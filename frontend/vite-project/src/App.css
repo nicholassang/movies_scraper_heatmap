@@ -131,7 +131,7 @@ span {
   padding-bottom: 5px;
   font-size: 0.6rem;
   cursor: pointer;
-  background-color: #222;
+  background-color: #29385a;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -213,4 +213,35 @@ span {
     font-weight: bold;
     text-align: center;
     display: inline;
+}
+
+#toggle_info_open {
+  top: 12em;
+  left: 3em;
+  animation: color-cycle 1s infinite alternate linear;
+}
+
+#toggle_info_close {
+  top: 12em;
+  left: 16em;
+}
+
+.toggle_info {
+  position: absolute;
+  z-index: 101;
+  background-color: rgb(103, 185, 185);
+  padding: 0px;
+  width: 4em;
+  height: 0.2em;
+  border-radius: 0;
+}
+
+
+@keyframes color-cycle {
+  0% {
+    background-color: rgb(37, 68, 68); 
+  }
+  100% {
+    background-color: rgb(103, 185, 185);
+  }
 }
