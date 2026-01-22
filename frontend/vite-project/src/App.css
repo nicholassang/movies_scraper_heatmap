@@ -59,6 +59,24 @@
   overflow-y: auto;
 }
 
+#movie_selector_container::-webkit-scrollbar {
+  width: 8px; /* width of the vertical scrollbar */
+}
+
+#movie_selector_container::-webkit-scrollbar-track {
+  background: #0c1f2e; /* color of the track (area the thumb slides on) */
+  border-radius: 10px;
+}
+
+#movie_selector_container::-webkit-scrollbar-thumb {
+  background: #254461; /* color of the draggable handle */
+  border-radius: 10px; /* adds rounded corners to the thumb */
+}
+
+#movie_selector_container::-webkit-scrollbar-thumb:hover {
+  background: #2c4b69; /* color of the thumb on hover */
+}
+
 #display_panel::-webkit-scrollbar {
   width: 8px; /* width of the vertical scrollbar */
 }
@@ -234,6 +252,11 @@ span {
   width: 4em;
   height: 0.2em;
   border-radius: 0;
+}
+
+#close_movie_panel {
+  top: 0.3em;
+  left: 15em;
 }
 
 

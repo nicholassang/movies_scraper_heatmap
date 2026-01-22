@@ -120,13 +120,21 @@ def get_movie(source_id: str):
 
             # Fetch filming locations for this movie
             cur.execute("""
-                SELECT address
+                SELECT address, lat, lng
                 FROM locations
                 WHERE movie_id = %s
+                ORDER BY id
             """, (source_id,))
             locations_rows = cur.fetchall() or []
 
-            filming_locations = [loc[0] for loc in locations_rows]
+            filming_locations = [
+                {
+                    "address": loc[0],
+                    "lat": loc[1],
+                    "lng": loc[2]
+                }
+                for loc in locations_rows
+            ]
 
             movie_data["filming_locations"] = filming_locations
 

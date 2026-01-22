@@ -12,6 +12,9 @@ function App() {
   const [selectedPoint, setSelectedPoint] = useState<any>(null)
   const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null);
   const [movieLocations, setMovieLocations] = useState<LocationPoint[]>([]);
+  const [allMoviesSearch, setAllMoviesSearch] = useState<Movie[]>([]);
+  const [searchTerm, setSearchTerm] = useState(""); 
+  const [movieReady, setMovieReady] = useState<boolean>(true);
 
   // Fetch data from backend
   useEffect(() => {
@@ -50,6 +53,16 @@ function App() {
         console.error("Fetch error:", err);
         alert("Failed to load movie data. Please try again later.");
       });
+
+  // Main Page
+  fetch("http://127.0.0.1:8000/movies?limit=100")
+    .then(res => res.json())
+    .then(data => {
+      if (data && Array.isArray(data.results)) {
+        setAllMoviesSearch(data.results);
+      }
+    })
+    .catch(err => console.error("Error fetching movies:", err));
   }, []);
 
 
@@ -69,6 +82,7 @@ function App() {
           console.error("movie_id is undefined for this location", d);
           return;
         }
+        handleMovieSelect(d.source_id);
 
         fetch(`http://127.0.0.1:8000/locations/${d.source_id}`)
           .then(res => {
@@ -170,7 +184,7 @@ useEffect(() => {
        .arcDashGap(0.7)
        .arcDashAnimateTime(1000);
 
-}, [movieLocations, selectedMovie, globeToggle]);
+}, [movieLocations, selectedMovie, globeToggle, movieReady]);
 
 
   // prevent zooming for the user
@@ -223,6 +237,26 @@ useEffect(() => {
     );
   }
 
+  const handleMovieSelect = (movieId: string) => {
+    setMovieReady(false);
+
+    // Fetch movie data
+    fetch(`http://127.0.0.1:8000/movies/${movieId}`)
+      .then(res => res.json())
+      .then(movieData => {
+        // Fetch filming locations
+        return fetch(`http://127.0.0.1:8000/locations/${movieId}`)
+          .then(res => res.json())
+          .then(locData => ({ movieData, locations: locData.results }));
+      })
+      .then(({ movieData, locations }) => {
+        setSelectedMovie(movieData);
+        setMovieLocations(locations);
+        setMovieReady(true); 
+      })
+      .catch(err => console.error("Error selecting movie:", err));
+  };
+
   return (<>
     <button
       id="toggle_globe_pointmap"
@@ -268,47 +302,144 @@ useEffect(() => {
     </div>
 
     <div id="display_panel">
-      <h3>{ selectedMovie?.title }</h3>
-      <img id="poster_image" src={selectedMovie?.poster_url}/>
-      <GenreTags genres={selectedMovie?.genres || []}/>
-      <div id="movie_info_grid">
-        <div className="movie_info_grid_item">
-          <span>Gross</span>
-          <p className="movie_info_value">
-            {selectedMovie?.gross
-              ? "$" + selectedMovie.gross.toLocaleString() + " (est.)"
-              : "Not available"}
-          </p>
-        </div>
+      {selectedMovie ? (
+        <>
+          <button
+            id="close_movie_panel"
+            onClick={() => setSelectedMovie(null)}
+            className='toggle_info'
+          >
+          </button>
 
-        <div className="movie_info_grid_item">
-          <span>Budget</span>
-          <p className="movie_info_value">
-            {selectedMovie?.budget
-              ? "$" + selectedMovie.budget.toLocaleString()
-              : "Not available"}
-          </p>
-        </div>
+          <h3>{selectedMovie.title}</h3>
+          <img
+            id="poster_image"
+            src={selectedMovie.poster_url}
+            alt={selectedMovie.title}
+          />
+          <GenreTags genres={selectedMovie.genres || []} />
 
-        <div className="movie_info_grid_item">
-          <span>Production Country</span>
-          <p className="movie_info_value">
-            {selectedMovie?.country || "Not available"}
-          </p>
-        </div>
-      </div>
-      <span>Filming locations</span>
-      <div id="loc_tag_group">{ 
-          selectedMovie?.filming_locations?.map((loc, index) => {
-            return (
-              <div key={index} className="loc_tag">
-                {loc}
-              </div>
-            )
-          }) 
-        }
-      </div>
+          <div id="movie_info_grid">
+            <div className="movie_info_grid_item">
+              <span>Gross</span>
+              <p className="movie_info_value">
+                {selectedMovie.gross
+                  ? "$" + selectedMovie.gross.toLocaleString() + " (est.)"
+                  : "Not available"}
+              </p>
+            </div>
+
+            <div className="movie_info_grid_item">
+              <span>Budget</span>
+              <p className="movie_info_value">
+                {selectedMovie.budget
+                  ? "$" + selectedMovie.budget.toLocaleString()
+                  : "Not available"}
+              </p>
+            </div>
+
+            <div className="movie_info_grid_item">
+              <span>Production Country</span>
+              <p className="movie_info_value">
+                {selectedMovie.country || "Not available"}
+              </p>
+            </div>
+          </div>
+
+          <span>Filming locations</span>
+          <div id="loc_tag_group">
+            {(selectedMovie.filming_locations as (string | LocationPoint)[])?.map((loc, index) => {
+              if (typeof loc === "string") return <div key={index} className="loc_tag">{loc}</div>;
+              return <div key={index} className="loc_tag">{loc.address}</div>;
+            })}
+          </div>
+        </>
+      ) : (
+<>
+  {/* Parent container */}
+  <div
+    id="movie_selector_container"
+    style={{
+      width: "90%",
+      padding: "1rem",
+      borderRadius: "5px",
+      backgroundColor: "rgba(2, 22, 45, 0.5)",
+      display: "flex",
+      flexDirection: "column",
+      gap: "1rem",
+      maxHeight: "35em",
+      overflowY: "auto"
+    }}
+  >
+    <h3>Popular Movies Filming Locations</h3>
+    {/* Search bar */}
+    <div id="movie_search_bar">
+      <input
+        type="text"
+        placeholder="Search movies..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        style={{
+          padding: "0.5rem",
+          width: "90%",
+          borderRadius: "4px",
+          border: "1px solid #254461",
+          backgroundColor: "rgba(10, 20, 40, 0.85)",
+          color: "#e8f4ff"
+        }}
+      />
     </div>
+
+    {/* Display filtered movies */}
+    <div
+      id="top_movies_list"
+      style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}
+    >
+    {allMoviesSearch
+      .filter(movie =>
+        movie.title.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+      .slice(0, 5)
+      .map(movie => (
+        <div
+          key={movie.source_id}
+          className="movie_card"
+          style={{
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            gap: "0.5rem",
+            padding: "0.25rem",
+            borderRadius: "4px",
+            backgroundColor: "rgba(2, 34, 65, 0.7)",
+            boxShadow: "0 1px 3px rgba(0,0,0,0.2)"
+          }}
+          onClick={() => handleMovieSelect(movie.source_id)}
+        >
+          <img
+            src={movie.poster_url}
+            alt={movie.title}
+            style={{ width: "50px", borderRadius: "4px" }}
+          />
+          <p style={{ fontSize: "0.9rem", margin: 0, color: "#e8f4ff" }}>
+            {movie.title}
+          </p>
+        </div>
+    ))}
+
+          {/* Optional: show 'No matches' if search yields nothing */}
+          {searchTerm &&
+            allMoviesSearch.filter((movie) =>
+              movie.title.toLowerCase().includes(searchTerm.toLowerCase())
+            ).length === 0 && (
+              <p style={{ fontSize: "0.85rem", color: "#a0c0e8" }}>No matches found</p>
+            )}
+        </div>
+      </div>
+    </>
+      )}
+    </div>
+
     <div ref={globeEl} style={{ width: '100vw', height: '100vh' }} />
   </>);
 }
