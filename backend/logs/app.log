@@ -1,0 +1,1270 @@
+2026-01-22 20:24:38,493 - __main__ - INFO - ETL job started
+2026-01-22 20:24:38,493 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 20:24:38,494 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:24:39,654 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:24:39,887 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:24:40,122 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:24:59,628 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 100: 1. The Rip
+2026-01-22 20:25:04,897 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 2 / 100: 2. 28 Years Later: The Bone Temple
+2026-01-22 20:25:10,027 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 3 / 100: 3. The Housemaid
+2026-01-22 20:25:14,480 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 4 / 100: 4. One Battle After Another
+2026-01-22 20:25:18,613 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 5 / 100: 5. People We Meet on Vacation
+2026-01-22 20:25:22,387 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 6 / 100: 6. Marty Supreme
+2026-01-22 20:25:26,710 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 7 / 100: 7. The Bride!
+2026-01-22 20:25:31,261 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 8 / 100: 8. Hamnet
+2026-01-22 20:25:36,418 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 9 / 100: 9. Avatar: Fire and Ash
+2026-01-22 20:25:41,886 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 10 / 100: 10. 28 Years Later
+2026-01-22 20:25:47,094 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 11 / 100: 11. Sinners
+2026-01-22 20:25:52,080 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 12 / 100: 12. Rental Family
+2026-01-22 20:25:57,318 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 13 / 100: 13. Wake Up Dead Man
+2026-01-22 20:25:59,887 - __main__ - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\scrape_imdb.py", line 104, in scrape_imdb
+    driver.get(movie_link)
+    ~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 452, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 405, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 429, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1432, in getresponse
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 369, in close
+    def close(self) -> None:
+    
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\get_data.py", line 12, in run_etl
+    extract(100)
+    ~~~~~~~^^^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\extract.py", line 11, in extract
+    scrape_imdb(no_movies_to_get_para) # para => (no_movies_to_get_para:int = 1, selected_country:string = 'US')
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\scrape_imdb.py", line 170, in scrape_imdb
+    with open("./data/raw_movie_data.json", "w", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.json'
+2026-01-22 20:27:02,414 - __main__ - INFO - ETL job started
+2026-01-22 20:27:02,414 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 20:27:02,414 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:27:03,368 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:27:03,605 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:27:03,833 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:27:14,975 - __main__ - INFO - ETL job started
+2026-01-22 20:27:14,976 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 20:27:14,976 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:27:15,867 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:27:16,097 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:27:16,325 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:27:28,286 - backend.ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-22 20:27:28,286 - backend.ETL.scrapers.scrape_imdb - INFO - 2. 28 Years Later: The Bone Temple https://www.imdb.com/title/tt32141377/?ref_=sr_t_2
+2026-01-22 20:27:28,286 - backend.ETL.scrapers.scrape_imdb - INFO - 3. The Housemaid https://www.imdb.com/title/tt27543632/?ref_=sr_t_3
+2026-01-22 20:27:28,287 - backend.ETL.scrapers.scrape_imdb - INFO - 4. One Battle After Another https://www.imdb.com/title/tt30144839/?ref_=sr_t_4
+2026-01-22 20:27:28,287 - backend.ETL.scrapers.scrape_imdb - INFO - 5. People We Meet on Vacation https://www.imdb.com/title/tt22740896/?ref_=sr_t_5
+2026-01-22 20:27:28,287 - backend.ETL.scrapers.scrape_imdb - INFO - 6. Marty Supreme https://www.imdb.com/title/tt32916440/?ref_=sr_t_6
+2026-01-22 20:27:28,287 - backend.ETL.scrapers.scrape_imdb - INFO - 7. The Bride! https://www.imdb.com/title/tt30851137/?ref_=sr_t_7
+2026-01-22 20:27:28,287 - backend.ETL.scrapers.scrape_imdb - INFO - 8. Hamnet https://www.imdb.com/title/tt14905854/?ref_=sr_t_8
+2026-01-22 20:27:28,287 - backend.ETL.scrapers.scrape_imdb - INFO - 9. Avatar: Fire and Ash https://www.imdb.com/title/tt1757678/?ref_=sr_t_9
+2026-01-22 20:27:28,288 - backend.ETL.scrapers.scrape_imdb - INFO - 10. 28 Years Later https://www.imdb.com/title/tt10548174/?ref_=sr_t_10
+2026-01-22 20:27:28,288 - backend.ETL.scrapers.scrape_imdb - INFO - 11. Sinners https://www.imdb.com/title/tt31193180/?ref_=sr_t_11
+2026-01-22 20:27:28,288 - backend.ETL.scrapers.scrape_imdb - INFO - 12. Rental Family https://www.imdb.com/title/tt14142060/?ref_=sr_t_12
+2026-01-22 20:27:28,288 - backend.ETL.scrapers.scrape_imdb - INFO - 13. Wake Up Dead Man https://www.imdb.com/title/tt14364480/?ref_=sr_t_13
+2026-01-22 20:27:28,288 - backend.ETL.scrapers.scrape_imdb - INFO - 14. The Running Man https://www.imdb.com/title/tt14107334/?ref_=sr_t_14
+2026-01-22 20:27:28,289 - backend.ETL.scrapers.scrape_imdb - INFO - 15. Bugonia https://www.imdb.com/title/tt12300742/?ref_=sr_t_15
+2026-01-22 20:27:28,289 - backend.ETL.scrapers.scrape_imdb - INFO - 16. Nuremberg https://www.imdb.com/title/tt29567915/?ref_=sr_t_16
+2026-01-22 20:27:28,289 - backend.ETL.scrapers.scrape_imdb - INFO - 17. Dust Bunny https://www.imdb.com/title/tt23172090/?ref_=sr_t_17
+2026-01-22 20:27:28,289 - backend.ETL.scrapers.scrape_imdb - INFO - 18. Greenland 2: Migration https://www.imdb.com/title/tt14850054/?ref_=sr_t_18
+2026-01-22 20:27:28,289 - backend.ETL.scrapers.scrape_imdb - INFO - 19. Frankenstein https://www.imdb.com/title/tt1312221/?ref_=sr_t_19
+2026-01-22 20:27:28,290 - backend.ETL.scrapers.scrape_imdb - INFO - 20. No Other Choice https://www.imdb.com/title/tt1527793/?ref_=sr_t_20
+2026-01-22 20:27:28,290 - backend.ETL.scrapers.scrape_imdb - INFO - 21. Primate https://www.imdb.com/title/tt33028778/?ref_=sr_t_21
+2026-01-22 20:27:28,290 - backend.ETL.scrapers.scrape_imdb - INFO - 22. Sentimental Value https://www.imdb.com/title/tt27714581/?ref_=sr_t_22
+2026-01-22 20:27:28,290 - backend.ETL.scrapers.scrape_imdb - INFO - 23. Song Sung Blue https://www.imdb.com/title/tt30343021/?ref_=sr_t_23
+2026-01-22 20:27:28,290 - backend.ETL.scrapers.scrape_imdb - INFO - 24. Send Help https://www.imdb.com/title/tt8036976/?ref_=sr_t_24
+2026-01-22 20:27:28,290 - backend.ETL.scrapers.scrape_imdb - INFO - 25. Zootropolis 2 https://www.imdb.com/title/tt26443597/?ref_=sr_t_25
+2026-01-22 20:27:28,291 - backend.ETL.scrapers.scrape_imdb - INFO - 26. Predator: Badlands https://www.imdb.com/title/tt31227572/?ref_=sr_t_26
+2026-01-22 20:27:28,291 - backend.ETL.scrapers.scrape_imdb - INFO - 27. Train Dreams https://www.imdb.com/title/tt29768334/?ref_=sr_t_27
+2026-01-22 20:27:28,291 - backend.ETL.scrapers.scrape_imdb - INFO - 28. Dhurandhar https://www.imdb.com/title/tt33014583/?ref_=sr_t_28
+2026-01-22 20:27:28,291 - backend.ETL.scrapers.scrape_imdb - INFO - 29. Pillion https://www.imdb.com/title/tt32321317/?ref_=sr_t_29
+2026-01-22 20:27:28,291 - backend.ETL.scrapers.scrape_imdb - INFO - 30. Weapons https://www.imdb.com/title/tt26581740/?ref_=sr_t_30
+2026-01-22 20:27:28,292 - backend.ETL.scrapers.scrape_imdb - INFO - 31. The Secret Agent https://www.imdb.com/title/tt27847051/?ref_=sr_t_31
+2026-01-22 20:27:28,292 - backend.ETL.scrapers.scrape_imdb - INFO - 32. Tron: Ares https://www.imdb.com/title/tt6604188/?ref_=sr_t_32
+2026-01-22 20:27:28,292 - backend.ETL.scrapers.scrape_imdb - INFO - 33. The Tank https://www.imdb.com/title/tt31495504/?ref_=sr_t_33
+2026-01-22 20:27:28,293 - backend.ETL.scrapers.scrape_imdb - INFO - 34. Avengers: Doomsday https://www.imdb.com/title/tt21357150/?ref_=sr_t_34
+2026-01-22 20:27:28,293 - backend.ETL.scrapers.scrape_imdb - INFO - 35. 28 Days Later ... https://www.imdb.com/title/tt0289043/?ref_=sr_t_35
+2026-01-22 20:27:28,293 - backend.ETL.scrapers.scrape_imdb - INFO - 36. Anaconda https://www.imdb.com/title/tt33244668/?ref_=sr_t_36
+2026-01-22 20:27:28,294 - backend.ETL.scrapers.scrape_imdb - INFO - 37. The Odyssey https://www.imdb.com/title/tt33764258/?ref_=sr_t_37
+2026-01-22 20:27:28,294 - backend.ETL.scrapers.scrape_imdb - INFO - 38. Mercy https://www.imdb.com/title/tt31050594/?ref_=sr_t_38
+2026-01-22 20:27:28,294 - backend.ETL.scrapers.scrape_imdb - INFO - 39. Killer Whale https://www.imdb.com/title/tt33479805/?ref_=sr_t_39
+2026-01-22 20:27:28,294 - backend.ETL.scrapers.scrape_imdb - INFO - 40. Wuthering Heights https://www.imdb.com/title/tt32897959/?ref_=sr_t_40
+2026-01-22 20:27:28,295 - backend.ETL.scrapers.scrape_imdb - INFO - 41. The Shawshank Redemption https://www.imdb.com/title/tt0111161/?ref_=sr_t_41
+2026-01-22 20:27:28,295 - backend.ETL.scrapers.scrape_imdb - INFO - 42. F1 https://www.imdb.com/title/tt16311594/?ref_=sr_t_42
+2026-01-22 20:27:28,295 - backend.ETL.scrapers.scrape_imdb - INFO - 43. Lee Cronin's The Mummy https://www.imdb.com/title/tt32612507/?ref_=sr_t_43
+2026-01-22 20:27:28,295 - backend.ETL.scrapers.scrape_imdb - INFO - 44. If I Had Legs I'd Kick You https://www.imdb.com/title/tt18382850/?ref_=sr_t_44
+2026-01-22 20:27:28,295 - backend.ETL.scrapers.scrape_imdb - INFO - 45. Jay Kelly https://www.imdb.com/title/tt30446847/?ref_=sr_t_45
+2026-01-22 20:27:28,296 - backend.ETL.scrapers.scrape_imdb - INFO - 46. Greenland https://www.imdb.com/title/tt7737786/?ref_=sr_t_46
+2026-01-22 20:27:28,296 - backend.ETL.scrapers.scrape_imdb - INFO - 47. Die My Love https://www.imdb.com/title/tt9362736/?ref_=sr_t_47
+2026-01-22 20:27:28,296 - backend.ETL.scrapers.scrape_imdb - INFO - 48. The Lord of the Rings: The Fellowship of the Ring https://www.imdb.com/title/tt0120737/?ref_=sr_t_48
+2026-01-22 20:27:28,296 - backend.ETL.scrapers.scrape_imdb - INFO - 49. The Life of Chuck https://www.imdb.com/title/tt12908150/?ref_=sr_t_49
+2026-01-22 20:27:28,296 - backend.ETL.scrapers.scrape_imdb - INFO - 50. Dracula: A Love Tale https://www.imdb.com/title/tt31434030/?ref_=sr_t_50
+2026-01-22 20:27:28,296 - backend.ETL.scrapers.scrape_imdb - INFO - 51. Bone Lake https://www.imdb.com/title/tt26783625/?ref_=sr_t_51
+2026-01-22 20:27:28,297 - backend.ETL.scrapers.scrape_imdb - INFO - 52. Black Phone 2 https://www.imdb.com/title/tt29644189/?ref_=sr_t_52
+2026-01-22 20:27:28,297 - backend.ETL.scrapers.scrape_imdb - INFO - 53. Roofman https://www.imdb.com/title/tt4627382/?ref_=sr_t_53
+2026-01-22 20:27:28,297 - backend.ETL.scrapers.scrape_imdb - INFO - 54. Is This Thing On? https://www.imdb.com/title/tt28083456/?ref_=sr_t_54
+2026-01-22 20:27:28,297 - backend.ETL.scrapers.scrape_imdb - INFO - 55. Eternity https://www.imdb.com/title/tt24950660/?ref_=sr_t_55
+2026-01-22 20:27:28,297 - backend.ETL.scrapers.scrape_imdb - INFO - 56. Crime 101 https://www.imdb.com/title/tt32430579/?ref_=sr_t_56
+2026-01-22 20:27:28,297 - backend.ETL.scrapers.scrape_imdb - INFO - 57. Avatar https://www.imdb.com/title/tt0499549/?ref_=sr_t_57
+2026-01-22 20:27:28,298 - backend.ETL.scrapers.scrape_imdb - INFO - 58. Flight 7500 https://www.imdb.com/title/tt1975159/?ref_=sr_t_58
+2026-01-22 20:27:28,298 - backend.ETL.scrapers.scrape_imdb - INFO - 59. Avatar: The Way of Water https://www.imdb.com/title/tt1630029/?ref_=sr_t_59
+2026-01-22 20:27:28,298 - backend.ETL.scrapers.scrape_imdb - INFO - 60. Dead Man's Wire https://www.imdb.com/title/tt15181326/?ref_=sr_t_60
+2026-01-22 20:27:28,298 - backend.ETL.scrapers.scrape_imdb - INFO - 61. Ballerina https://www.imdb.com/title/tt7181546/?ref_=sr_t_61
+2026-01-22 20:27:28,298 - backend.ETL.scrapers.scrape_imdb - INFO - 62. KPop Demon Hunters https://www.imdb.com/title/tt14205554/?ref_=sr_t_62
+2026-01-22 20:27:28,298 - backend.ETL.scrapers.scrape_imdb - INFO - 63. The Naked Gun https://www.imdb.com/title/tt3402138/?ref_=sr_t_63
+2026-01-22 20:27:28,299 - backend.ETL.scrapers.scrape_imdb - INFO - 64. Interstellar https://www.imdb.com/title/tt0816692/?ref_=sr_t_64
+2026-01-22 20:27:28,299 - backend.ETL.scrapers.scrape_imdb - INFO - 65. Return to Silent Hill https://www.imdb.com/title/tt22868010/?ref_=sr_t_65
+2026-01-22 20:27:28,299 - backend.ETL.scrapers.scrape_imdb - INFO - 66. Spider-Man: Brand New Day https://www.imdb.com/title/tt22084616/?ref_=sr_t_66
+2026-01-22 20:27:28,299 - backend.ETL.scrapers.scrape_imdb - INFO - 67. The Long Walk https://www.imdb.com/title/tt10374610/?ref_=sr_t_67
+2026-01-22 20:27:28,300 - backend.ETL.scrapers.scrape_imdb - INFO - 68. Knives Out https://www.imdb.com/title/tt8946378/?ref_=sr_t_68
+2026-01-22 20:27:28,300 - backend.ETL.scrapers.scrape_imdb - INFO - 69. Now You See Me: Now You Don't https://www.imdb.com/title/tt4712810/?ref_=sr_t_69
+2026-01-22 20:27:28,300 - backend.ETL.scrapers.scrape_imdb - INFO - 70. Regretting You https://www.imdb.com/title/tt33088452/?ref_=sr_t_70
+2026-01-22 20:27:28,301 - backend.ETL.scrapers.scrape_imdb - INFO - 71. GOAT https://www.imdb.com/title/tt27613895/?ref_=sr_t_71
+2026-01-22 20:27:28,301 - backend.ETL.scrapers.scrape_imdb - INFO - 72. 28 Weeks Later https://www.imdb.com/title/tt0463854/?ref_=sr_t_72
+2026-01-22 20:27:28,301 - backend.ETL.scrapers.scrape_imdb - INFO - 73. Haq https://www.imdb.com/title/tt36642456/?ref_=sr_t_73
+2026-01-22 20:27:28,302 - backend.ETL.scrapers.scrape_imdb - INFO - 74. The Substance https://www.imdb.com/title/tt17526714/?ref_=sr_t_74
+2026-01-22 20:27:28,302 - backend.ETL.scrapers.scrape_imdb - INFO - 75. Jurassic World: Rebirth https://www.imdb.com/title/tt31036941/?ref_=sr_t_75
+2026-01-22 20:27:28,302 - backend.ETL.scrapers.scrape_imdb - INFO - 76. The Fantastic Four: First Steps https://www.imdb.com/title/tt10676052/?ref_=sr_t_76
+2026-01-22 20:27:28,302 - backend.ETL.scrapers.scrape_imdb - INFO - 77. Mission: Impossible - The Final Reckoning https://www.imdb.com/title/tt9603208/?ref_=sr_t_77
+2026-01-22 20:27:28,303 - backend.ETL.scrapers.scrape_imdb - INFO - 78. Superman https://www.imdb.com/title/tt5950044/?ref_=sr_t_78
+2026-01-22 20:27:28,303 - backend.ETL.scrapers.scrape_imdb - INFO - 79. Five Nights at Freddy's 2 https://www.imdb.com/title/tt30274401/?ref_=sr_t_79
+2026-01-22 20:27:28,303 - backend.ETL.scrapers.scrape_imdb - INFO - 80. Inception https://www.imdb.com/title/tt1375666/?ref_=sr_t_80
+2026-01-22 20:27:28,304 - backend.ETL.scrapers.scrape_imdb - INFO - 81. The Godfather https://www.imdb.com/title/tt0068646/?ref_=sr_t_81
+2026-01-22 20:27:28,304 - backend.ETL.scrapers.scrape_imdb - INFO - 82. Together https://www.imdb.com/title/tt31184028/?ref_=sr_t_82
+2026-01-22 20:27:28,304 - backend.ETL.scrapers.scrape_imdb - INFO - 83. It Was Just an Accident https://www.imdb.com/title/tt36491653/?ref_=sr_t_83
+2026-01-22 20:27:28,304 - backend.ETL.scrapers.scrape_imdb - INFO - 84. The Wrecking Crew https://www.imdb.com/title/tt33046197/?ref_=sr_t_84
+2026-01-22 20:27:28,305 - backend.ETL.scrapers.scrape_imdb - INFO - 85. The Dark Knight https://www.imdb.com/title/tt0468569/?ref_=sr_t_85
+2026-01-22 20:27:28,305 - backend.ETL.scrapers.scrape_imdb - INFO - 86. A House of Dynamite https://www.imdb.com/title/tt32376165/?ref_=sr_t_86
+2026-01-22 20:27:28,305 - backend.ETL.scrapers.scrape_imdb - INFO - 87. The Confession https://www.imdb.com/title/tt35838700/?ref_=sr_t_87
+2026-01-22 20:27:28,305 - backend.ETL.scrapers.scrape_imdb - INFO - 88. Wicked: For Good https://www.imdb.com/title/tt19847976/?ref_=sr_t_88
+2026-01-22 20:27:28,306 - backend.ETL.scrapers.scrape_imdb - INFO - 89. Good Luck, Have Fun, Don't Die https://www.imdb.com/title/tt1341338/?ref_=sr_t_89
+2026-01-22 20:27:28,306 - backend.ETL.scrapers.scrape_imdb - INFO - 90. Eko https://www.imdb.com/title/tt36616410/?ref_=sr_t_90
+2026-01-22 20:27:28,306 - backend.ETL.scrapers.scrape_imdb - INFO - 91. The Smashing Machine https://www.imdb.com/title/tt11214558/?ref_=sr_t_91
+2026-01-22 20:27:28,307 - backend.ETL.scrapers.scrape_imdb - INFO - 92. Good Will Hunting https://www.imdb.com/title/tt0119217/?ref_=sr_t_92
+2026-01-22 20:27:28,307 - backend.ETL.scrapers.scrape_imdb - INFO - 93. Harry Potter and the Philosopher's Stone https://www.imdb.com/title/tt0241527/?ref_=sr_t_93
+2026-01-22 20:27:28,308 - backend.ETL.scrapers.scrape_imdb - INFO - 94. Parasite https://www.imdb.com/title/tt6751668/?ref_=sr_t_94
+2026-01-22 20:27:28,308 - backend.ETL.scrapers.scrape_imdb - INFO - 95. Heat https://www.imdb.com/title/tt0113277/?ref_=sr_t_95
+2026-01-22 20:27:28,308 - backend.ETL.scrapers.scrape_imdb - INFO - 96. A Big Bold Beautiful Journey https://www.imdb.com/title/tt13650700/?ref_=sr_t_96
+2026-01-22 20:27:28,308 - backend.ETL.scrapers.scrape_imdb - INFO - 97. Pulp Fiction https://www.imdb.com/title/tt0110912/?ref_=sr_t_97
+2026-01-22 20:27:28,309 - backend.ETL.scrapers.scrape_imdb - INFO - 98. Eden https://www.imdb.com/title/tt23149780/?ref_=sr_t_98
+2026-01-22 20:27:28,309 - backend.ETL.scrapers.scrape_imdb - INFO - 99. Oppenheimer https://www.imdb.com/title/tt15398776/?ref_=sr_t_99
+2026-01-22 20:27:28,309 - backend.ETL.scrapers.scrape_imdb - INFO - 100. Caught Stealing https://www.imdb.com/title/tt1493274/?ref_=sr_t_100
+2026-01-22 20:27:30,903 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 100: 1. The Rip
+2026-01-22 20:27:36,026 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 2 / 100: 2. 28 Years Later: The Bone Temple
+2026-01-22 20:27:40,422 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 3 / 100: 3. The Housemaid
+2026-01-22 20:27:45,243 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 4 / 100: 4. One Battle After Another
+2026-01-22 20:27:50,890 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 5 / 100: 5. People We Meet on Vacation
+2026-01-22 20:27:56,019 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 6 / 100: 6. Marty Supreme
+2026-01-22 20:28:00,676 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 7 / 100: 7. The Bride!
+2026-01-22 20:28:06,000 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 8 / 100: 8. Hamnet
+2026-01-22 20:28:11,865 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 9 / 100: 9. Avatar: Fire and Ash
+2026-01-22 20:28:16,556 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 10 / 100: 10. 28 Years Later
+2026-01-22 20:28:21,522 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 11 / 100: 11. Sinners
+2026-01-22 20:28:26,318 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 12 / 100: 12. Rental Family
+2026-01-22 20:28:31,024 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 13 / 100: 13. Wake Up Dead Man
+2026-01-22 20:28:35,456 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 14 / 100: 14. The Running Man
+2026-01-22 20:28:40,824 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 15 / 100: 15. Bugonia
+2026-01-22 20:28:44,965 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 16 / 100: 16. Nuremberg
+2026-01-22 20:28:49,782 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 17 / 100: 17. Dust Bunny
+2026-01-22 20:28:54,393 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 18 / 100: 18. Greenland 2: Migration
+2026-01-22 20:28:59,438 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 19 / 100: 19. Frankenstein
+2026-01-22 20:29:05,541 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 20 / 100: 20. No Other Choice
+2026-01-22 20:29:10,839 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 21 / 100: 21. Primate
+2026-01-22 20:29:15,466 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 22 / 100: 22. Sentimental Value
+2026-01-22 20:29:20,755 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 23 / 100: 23. Song Sung Blue
+2026-01-22 20:29:55,019 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 24 / 100: 24. Send Help
+2026-01-22 20:29:59,527 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 25 / 100: 25. Zootropolis 2
+2026-01-22 20:30:04,728 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 26 / 100: 26. Predator: Badlands
+2026-01-22 20:30:10,063 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 27 / 100: 27. Train Dreams
+2026-01-22 20:30:14,804 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 28 / 100: 28. Dhurandhar
+2026-01-22 20:30:19,011 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 29 / 100: 29. Pillion
+2026-01-22 20:30:24,208 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 30 / 100: 30. Weapons
+2026-01-22 20:30:29,609 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 31 / 100: 31. The Secret Agent
+2026-01-22 20:30:34,793 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 32 / 100: 32. Tron: Ares
+2026-01-22 20:30:39,530 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 33 / 100: 33. The Tank
+2026-01-22 20:30:44,452 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 34 / 100: 34. Avengers: Doomsday
+2026-01-22 20:30:50,107 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 35 / 100: 35. 28 Days Later ...
+2026-01-22 20:30:54,979 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 36 / 100: 36. Anaconda
+2026-01-22 20:30:59,537 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 37 / 100: 37. The Odyssey
+2026-01-22 20:31:04,195 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 38 / 100: 38. Mercy
+2026-01-22 20:31:08,165 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 39 / 100: 39. Killer Whale
+2026-01-22 20:31:12,387 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 40 / 100: 40. Wuthering Heights
+2026-01-22 20:31:17,613 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 41 / 100: 41. The Shawshank Redemption
+2026-01-22 20:31:22,530 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 42 / 100: 42. F1
+2026-01-22 20:31:27,506 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 43 / 100: 43. Lee Cronin's The Mummy
+2026-01-22 20:31:31,846 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 44 / 100: 44. If I Had Legs I'd Kick You
+2026-01-22 20:31:36,239 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 45 / 100: 45. Jay Kelly
+2026-01-22 20:31:40,739 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 46 / 100: 46. Greenland
+2026-01-22 20:31:45,691 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 47 / 100: 47. Die My Love
+2026-01-22 20:31:50,873 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 48 / 100: 48. The Lord of the Rings: The Fellowship of the Ring
+2026-01-22 20:31:56,560 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 49 / 100: 49. The Life of Chuck
+2026-01-22 20:32:01,419 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 50 / 100: 50. Dracula: A Love Tale
+2026-01-22 20:32:06,257 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 51 / 100: 51. Bone Lake
+2026-01-22 20:32:13,440 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 52 / 100: 52. Black Phone 2
+2026-01-22 20:32:20,000 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 53 / 100: 53. Roofman
+2026-01-22 20:32:25,181 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 54 / 100: 54. Is This Thing On?
+2026-01-22 20:32:30,931 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 55 / 100: 55. Eternity
+2026-01-22 20:32:36,425 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 56 / 100: 56. Crime 101
+2026-01-22 20:32:41,616 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 57 / 100: 57. Avatar
+2026-01-22 20:32:47,738 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 58 / 100: 58. Flight 7500
+2026-01-22 20:32:53,860 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 59 / 100: 59. Avatar: The Way of Water
+2026-01-22 20:33:00,406 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 60 / 100: 60. Dead Man's Wire
+2026-01-22 20:33:06,396 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 61 / 100: 61. Ballerina
+2026-01-22 20:33:12,528 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 62 / 100: 62. KPop Demon Hunters
+2026-01-22 20:33:17,792 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 63 / 100: 63. The Naked Gun
+2026-01-22 20:33:23,126 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 64 / 100: 64. Interstellar
+2026-01-22 20:33:27,462 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 65 / 100: 65. Return to Silent Hill
+2026-01-22 20:33:31,347 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 66 / 100: 66. Spider-Man: Brand New Day
+2026-01-22 20:33:36,955 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 67 / 100: 67. The Long Walk
+2026-01-22 20:33:42,473 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 68 / 100: 68. Knives Out
+2026-01-22 20:33:47,445 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 69 / 100: 69. Now You See Me: Now You Don't
+2026-01-22 20:33:52,015 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 70 / 100: 70. Regretting You
+2026-01-22 20:33:57,611 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 71 / 100: 71. GOAT
+2026-01-22 20:34:03,015 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 72 / 100: 72. 28 Weeks Later
+2026-01-22 20:34:08,142 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 73 / 100: 73. Haq
+2026-01-22 20:34:12,994 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 74 / 100: 74. The Substance
+2026-01-22 20:34:19,252 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 75 / 100: 75. Jurassic World: Rebirth
+2026-01-22 20:34:25,005 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 76 / 100: 76. The Fantastic Four: First Steps
+2026-01-22 20:34:30,043 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 77 / 100: 77. Mission: Impossible - The Final Reckoning
+2026-01-22 20:34:34,950 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 78 / 100: 78. Superman
+2026-01-22 20:34:40,442 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 79 / 100: 79. Five Nights at Freddy's 2
+2026-01-22 20:34:45,233 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 80 / 100: 80. Inception
+2026-01-22 20:34:49,740 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 81 / 100: 81. The Godfather
+2026-01-22 20:34:55,863 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 82 / 100: 82. Together
+2026-01-22 20:35:01,367 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 83 / 100: 83. It Was Just an Accident
+2026-01-22 20:35:07,567 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 84 / 100: 84. The Wrecking Crew
+2026-01-22 20:35:13,288 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 85 / 100: 85. The Dark Knight
+2026-01-22 20:35:18,249 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 86 / 100: 86. A House of Dynamite
+2026-01-22 20:35:23,570 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 87 / 100: 87. The Confession
+2026-01-22 20:35:30,476 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 88 / 100: 88. Wicked: For Good
+2026-01-22 20:35:36,408 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 89 / 100: 89. Good Luck, Have Fun, Don't Die
+2026-01-22 20:35:42,027 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 90 / 100: 90. Eko
+2026-01-22 20:35:47,438 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 91 / 100: 91. The Smashing Machine
+2026-01-22 20:35:53,221 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 92 / 100: 92. Good Will Hunting
+2026-01-22 20:35:59,268 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 93 / 100: 93. Harry Potter and the Philosopher's Stone
+2026-01-22 20:36:04,503 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 94 / 100: 94. Parasite
+2026-01-22 20:36:09,962 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 95 / 100: 95. Heat
+2026-01-22 20:36:15,317 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 96 / 100: 96. A Big Bold Beautiful Journey
+2026-01-22 20:36:20,250 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 97 / 100: 97. Pulp Fiction
+2026-01-22 20:36:25,765 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 98 / 100: 98. Eden
+2026-01-22 20:36:30,427 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 99 / 100: 99. Oppenheimer
+2026-01-22 20:36:35,631 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 100 / 100: 100. Caught Stealing
+2026-01-22 20:36:39,365 - __main__ - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\scrape_imdb.py", line 161, in scrape_imdb
+    with open("./data/raw_movie_data.json", "w", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\get_data.py", line 12, in run_etl
+    extract(100)
+    ~~~~~~~^^^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\extract.py", line 11, in extract
+    scrape_imdb(no_movies_to_get_para) # para => (no_movies_to_get_para:int = 1, selected_country:string = 'US')
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\scrape_imdb.py", line 170, in scrape_imdb
+    with open("./data/raw_movie_data.json", "w", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.json'
+2026-01-22 20:42:53,869 - backend.app - INFO - Application starting
+2026-01-22 20:42:53,869 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 20:42:53,871 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 20:42:53,872 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 20:42:53,872 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 20:44:26,397 - backend.app - INFO - Application shutting down
+2026-01-22 20:44:26,398 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 20:44:26,398 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 20:44:28,234 - backend.app - INFO - Application starting
+2026-01-22 20:44:28,235 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 20:44:35,718 - backend.app - INFO - Application starting
+2026-01-22 20:44:35,719 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 20:44:35,721 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 20:44:35,724 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 20:44:35,724 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 20:44:35,726 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 20:44:35 +08)" (scheduled at 2026-01-22 20:44:35.719655+08:00)
+2026-01-22 20:44:35,727 - backend.get_data - INFO - ETL job started
+2026-01-22 20:44:35,727 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 20:44:35,728 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:44:37,428 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:44:37,875 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:44:38,358 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:44:47,059 - backend.ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-22 20:44:50,173 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 1: 1. The Rip
+2026-01-22 20:44:53,066 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:44:54,157 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:44:56,714 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:44:56,962 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:44:58,224 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 0 / 1
+2026-01-22 20:45:01,715 - backend.ETL.transform - INFO - Transform running...
+2026-01-22 20:45:01,740 - backend.ETL.transform - ERROR - Error: Did not convert all coordinates
+2026-01-22 20:45:01,743 - backend.ETL.transform - ERROR - Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\transform.py", line 17, in transform
+    with open("./data/raw_movie_data.json", 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.json'
+
+2026-01-22 20:45:01,745 - backend.ETL.load - INFO - Load running...
+
+2026-01-22 20:45:01,816 - backend.get_data - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\get_data.py", line 14, in run_etl
+    load()
+    ~~~~^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\load.py", line 32, in load
+    with get_connection() as conn:
+         ~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\db\connection.py", line 9, in get_connection
+    conn = psycopg2.connect(
+        host=os.getenv("DB_HOST"),
+    ...<3 lines>...
+        password=os.getenv("DB_PASSWORD"),
+    )
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2026-01-22 20:45:01,823 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 02:44:35 +08)" executed successfully
+2026-01-22 20:48:59,431 - backend.app - INFO - Application shutting down
+2026-01-22 20:48:59,431 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 20:48:59,432 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 20:49:01,122 - backend.app - INFO - Application starting
+2026-01-22 20:49:01,123 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 20:49:01,125 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 20:49:01,128 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 20:49:01,128 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 20:49:01,130 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 20:49:01 +08)" (scheduled at 2026-01-22 20:49:01.123642+08:00)
+2026-01-22 20:49:01,130 - backend.get_data - INFO - ETL job started
+2026-01-22 20:49:01,131 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 20:49:01,131 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:49:02,170 - backend.app - INFO - Application shutting down
+2026-01-22 20:49:02,171 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 20:49:02,171 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 20:49:02,910 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:49:03,676 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:49:04,270 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:49:10,655 - backend.get_data - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\get_data.py", line 12, in run_etl
+    extract(1)
+    ~~~~~~~^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\extract.py", line 11, in extract
+    scrape_imdb(no_movies_to_get_para) # para => (no_movies_to_get_para:int = 1, selected_country:string = 'US')
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\scrape_imdb.py", line 51, in scrape_imdb
+    filter_movies_only(wait, driver)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\advanced_search_utils.py", line 31, in filter_movies_only
+    movie_btn.click()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 114, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class="sc-35b4142a-0 kkyTEe light ipc-chip ipc-chip--on-base" tabindex="0" aria-disabled="false" data-testid="test-chip-id-movie">...</button> is not clickable at point (360, 42). Other element would receive the click: <li class="ipc-tab ipc-tab--on-base ipc-tab--active" role="tab" tabindex="0" aria-selected="true">...</li>
+  (Session info: chrome=144.0.7559.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1187d13
+	0x1187d54
+	0xfab290
+	0xffbde8
+	0xff9ff9
+	0xff79b2
+	0xff6bc4
+	0xfeb600
+	0x1017fbc
+	0xfead44
+	0x1018184
+	0x1035111
+	0x1017d56
+	0xfe94d9
+	0xfea294
+	0x13fbb64
+	0x13f7215
+	0x1413fad
+	0x11a1ef8
+	0x11a9b0d
+	0x1190738
+	0x1190902
+	0x117a1da
+	0x76735d49
+	0x7710d5db
+	0x7710d561
+
+2026-01-22 20:49:10,693 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 02:49:01 +08)" executed successfully
+2026-01-22 20:49:14,267 - backend.app - INFO - Application starting
+2026-01-22 20:49:14,268 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 20:49:14,270 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 20:49:14,272 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 20:49:14,272 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 20:49:14,273 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 20:49:14 +08)" (scheduled at 2026-01-22 20:49:14.268693+08:00)
+2026-01-22 20:49:14,274 - backend.get_data - INFO - ETL job started
+2026-01-22 20:49:14,274 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 20:49:14,275 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:49:16,088 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:49:16,628 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:49:17,089 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:49:26,955 - backend.ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-22 20:49:30,481 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 1: 1. The Rip
+2026-01-22 20:49:34,671 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:49:36,252 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:49:38,911 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:49:39,488 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:49:40,739 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 0 / 1
+2026-01-22 20:49:47,190 - backend.ETL.transform - INFO - Transform running...
+2026-01-22 20:49:47,232 - backend.ETL.transform - ERROR - Error: Did not convert all coordinates
+2026-01-22 20:49:47,236 - backend.ETL.transform - ERROR - Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\transform.py", line 17, in transform
+    with open("./data/raw_movie_data.json", 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.json'
+
+2026-01-22 20:49:47,240 - backend.ETL.load - INFO - Load running...
+
+2026-01-22 20:49:47,317 - backend.get_data - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\get_data.py", line 14, in run_etl
+    load()
+    ~~~~^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\load.py", line 32, in load
+    with get_connection() as conn:
+         ~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\db\connection.py", line 9, in get_connection
+    conn = psycopg2.connect(
+        host=os.getenv("DB_HOST"),
+    ...<3 lines>...
+        password=os.getenv("DB_PASSWORD"),
+    )
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2026-01-22 20:49:47,323 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 02:49:14 +08)" executed successfully
+2026-01-22 20:50:08,033 - backend.app - INFO - Application shutting down
+2026-01-22 20:50:08,034 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 20:50:08,035 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 20:50:10,517 - backend.app - INFO - Application starting
+2026-01-22 20:50:10,517 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 20:50:10,520 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 20:50:10,522 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 20:50:10,523 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 20:50:10,525 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 20:50:10 +08)" (scheduled at 2026-01-22 20:50:10.518232+08:00)
+2026-01-22 20:50:10,526 - backend.get_data - INFO - ETL job started
+2026-01-22 20:50:10,526 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 20:50:10,527 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:50:12,328 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:50:12,846 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:50:13,284 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:50:21,743 - backend.ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-22 20:50:24,991 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 1: 1. The Rip
+2026-01-22 20:50:29,115 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:50:30,817 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:50:33,475 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:50:33,954 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:50:35,149 - backend.get_data - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\get_data.py", line 12, in run_etl
+    extract(1)
+    ~~~~~~~^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\extract.py", line 12, in extract
+    scrape_filming_locations()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\scrape_filming_locations.py", line 30, in scrape_filming_locations
+    with open('./data/raw_movie_data.json', 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.json'
+2026-01-22 20:50:35,151 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 02:50:10 +08)" executed successfully
+2026-01-22 20:52:00,157 - backend.app - INFO - Application shutting down
+2026-01-22 20:52:00,158 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 20:52:00,158 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 20:52:08,716 - backend.app - INFO - Application starting
+2026-01-22 20:52:08,717 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 20:52:08,719 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 20:52:08,721 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 20:52:08,722 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 20:52:08,724 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 20:52:08 +08)" (scheduled at 2026-01-22 20:52:08.717564+08:00)
+2026-01-22 20:52:08,726 - backend.get_data - INFO - ETL job started
+2026-01-22 20:52:08,726 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 20:52:08,727 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:52:10,673 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:52:11,434 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:52:12,099 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:52:22,069 - backend.ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-22 20:52:25,123 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 1: 1. The Rip
+2026-01-22 20:52:28,874 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:52:30,742 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:52:33,526 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:52:34,174 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:52:35,433 - backend.get_data - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\get_data.py", line 12, in run_etl
+    extract(1)
+    ~~~~~~~^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\extract.py", line 12, in extract
+    scrape_filming_locations()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\scrape_filming_locations.py", line 30, in scrape_filming_locations
+    with open('./data/raw_movie_data.json', 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.json'
+2026-01-22 20:52:35,436 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 02:52:08 +08)" executed successfully
+2026-01-22 20:53:22,667 - backend.app - INFO - Application shutting down
+2026-01-22 20:53:22,668 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 20:53:22,668 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 20:53:24,003 - backend.app - INFO - Application starting
+2026-01-22 20:53:24,003 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 20:53:24,005 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 20:53:24,006 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 20:53:24,007 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 20:53:24,008 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 20:53:24 +08)" (scheduled at 2026-01-22 20:53:24.003783+08:00)
+2026-01-22 20:53:24,009 - backend.get_data - INFO - ETL job started
+2026-01-22 20:53:24,009 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 20:53:24,010 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:53:25,414 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:53:25,836 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:53:26,217 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:53:34,973 - backend.ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-22 20:53:38,748 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 1: 1. The Rip
+2026-01-22 20:53:42,796 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:53:44,132 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:53:45,309 - backend.app - INFO - Application shutting down
+2026-01-22 20:53:45,310 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 20:53:45,310 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 20:53:46,756 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:53:47,034 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:53:48,136 - backend.get_data - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\get_data.py", line 12, in run_etl
+    extract(1)
+    ~~~~~~~^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\extract.py", line 12, in extract
+    scrape_filming_locations()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\scrape_filming_locations.py", line 30, in scrape_filming_locations
+    with open('./data/raw_movie_data.json', 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.json'
+2026-01-22 20:53:48,138 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 02:53:24 +08)" executed successfully
+2026-01-22 20:53:50,586 - backend.app - INFO - Application starting
+2026-01-22 20:53:50,587 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 20:53:50,589 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 20:53:50,591 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 20:53:50,591 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 20:53:50,593 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 20:53:50 +08)" (scheduled at 2026-01-22 20:53:50.587483+08:00)
+2026-01-22 20:53:50,594 - backend.get_data - INFO - ETL job started
+2026-01-22 20:53:50,595 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 20:53:50,596 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 20:53:51,932 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:53:52,325 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 20:53:52,521 - backend.app - INFO - Application shutting down
+2026-01-22 20:53:52,522 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 20:53:52,522 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 20:53:52,692 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 20:53:55,659 - backend.get_data - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\get_data.py", line 12, in run_etl
+    extract(1)
+    ~~~~~~~^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\extract.py", line 11, in extract
+    scrape_imdb(no_movies_to_get_para) # para => (no_movies_to_get_para:int = 1, selected_country:string = 'US')
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\scrape_imdb.py", line 51, in scrape_imdb
+    filter_movies_only(wait, driver)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\advanced_search_utils.py", line 24, in filter_movies_only
+    movie_btn = wait.until(
+        EC.presence_of_element_located(advanced_search_selector["movie_btn"])
+    )
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 113, in until
+    value = method(self._driver)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 92, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 802, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 405, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 429, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-01-22 20:53:55,711 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 02:53:50 +08)" executed successfully
+2026-01-22 21:41:21,334 - backend.app - INFO - Application starting
+2026-01-22 21:41:21,334 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 21:41:21,336 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 21:41:21,338 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 21:41:21,338 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 21:41:21,339 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 21:41:21 +08)" (scheduled at 2026-01-22 21:41:21.334851+08:00)
+2026-01-22 21:41:21,340 - backend.get_data - INFO - ETL job started
+2026-01-22 21:41:21,340 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 21:41:21,341 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 21:41:22,515 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:41:22,829 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:41:23,087 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 21:41:31,595 - backend.ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-22 21:41:34,793 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 1: 1. The Rip
+2026-01-22 21:41:38,982 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 21:41:40,323 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:41:40,642 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:41:40,944 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 21:41:42,237 - backend.get_data - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\get_data.py", line 12, in run_etl
+    extract(1)
+    ~~~~~~~^^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\extract.py", line 12, in extract
+    scrape_filming_locations()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\scrapers\scrape_filming_locations.py", line 30, in scrape_filming_locations
+    with open('./data/raw_movie_data.json', 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.json'
+2026-01-22 21:41:42,242 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 03:41:21 +08)" executed successfully
+2026-01-22 21:42:13,135 - backend.app - INFO - Application shutting down
+2026-01-22 21:42:13,135 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 21:42:13,136 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 21:42:14,716 - backend.app - INFO - Application starting
+2026-01-22 21:42:14,716 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 21:42:14,718 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 21:42:14,720 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 21:42:14,720 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 21:42:14,722 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 21:42:14 +08)" (scheduled at 2026-01-22 21:42:14.716980+08:00)
+2026-01-22 21:42:14,723 - backend.get_data - INFO - ETL job started
+2026-01-22 21:42:14,723 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 21:42:14,724 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 21:42:16,085 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:42:16,444 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:42:16,904 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 21:42:25,203 - backend.ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-22 21:42:28,301 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 1: 1. The Rip
+2026-01-22 21:42:31,494 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 21:42:32,927 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:42:36,443 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:42:36,706 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 21:42:37,820 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 0 / 1
+2026-01-22 21:42:49,038 - backend.ETL.transform - INFO - Transform running...
+2026-01-22 21:42:49,055 - backend.ETL.transform - ERROR - Error: Did not convert all coordinates
+2026-01-22 21:42:49,057 - backend.ETL.transform - ERROR - Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\movie-scraper-heatmap\backend\ETL\transform.py", line 17, in transform
+    with open("./data/raw_movie_data.json", 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.json'
+
+2026-01-22 21:42:49,060 - backend.ETL.load - INFO - Load running...
+
+2026-01-22 21:42:49,205 - backend.ETL.load - INFO - Loaded JSON data into Postgres successfully!
+2026-01-22 21:42:49,205 - backend.get_data - INFO - ETL job completed successfully
+2026-01-22 21:42:49,205 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 03:42:14 +08)" executed successfully
+2026-01-22 21:44:28,638 - backend.app - INFO - Application shutting down
+2026-01-22 21:44:28,638 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 21:44:28,639 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 21:44:29,894 - backend.app - INFO - Application starting
+2026-01-22 21:44:29,894 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 21:44:29,896 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 21:44:29,897 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 21:44:29,897 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 21:44:29,899 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 21:44:29 +08)" (scheduled at 2026-01-22 21:44:29.894965+08:00)
+2026-01-22 21:44:29,899 - backend.get_data - INFO - ETL job started
+2026-01-22 21:44:29,900 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 21:44:29,900 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 21:44:30,992 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:44:31,287 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:44:31,570 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 21:44:41,257 - backend.ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-22 21:44:44,199 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 1: 1. The Rip
+2026-01-22 21:44:48,314 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 21:44:49,604 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:44:52,216 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:44:52,486 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 21:44:53,778 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 0 / 1
+2026-01-22 21:44:57,343 - backend.ETL.transform - INFO - Transform running...
+2026-01-22 21:44:57,366 - backend.ETL.transform - INFO - Transform progress: 1 / 1
+2026-01-22 21:45:02,410 - backend.ETL.load - INFO - Load running...
+
+2026-01-22 21:45:02,550 - backend.ETL.load - INFO - Loaded JSON data into Postgres successfully!
+2026-01-22 21:45:02,552 - backend.get_data - INFO - ETL job completed successfully
+2026-01-22 21:45:02,552 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 03:44:29 +08)" executed successfully
+2026-01-22 21:46:09,404 - backend.app - INFO - Application shutting down
+2026-01-22 21:46:09,405 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 21:46:09,405 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 21:46:10,690 - backend.app - INFO - Application starting
+2026-01-22 21:46:10,691 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 21:46:10,692 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 21:46:10,693 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 21:46:10,694 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 21:46:10,703 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-22 21:46:10 +08)" (scheduled at 2026-01-22 21:46:10.691213+08:00)
+2026-01-22 21:46:10,704 - backend.get_data - INFO - ETL job started
+2026-01-22 21:46:10,704 - backend.ETL.extract - INFO - Extract Running...
+2026-01-22 21:46:10,705 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 21:46:11,872 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:46:12,297 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:46:12,658 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 21:46:30,699 - backend.ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-22 21:46:30,700 - backend.ETL.scrapers.scrape_imdb - INFO - 2. 28 Years Later: The Bone Temple https://www.imdb.com/title/tt32141377/?ref_=sr_t_2
+2026-01-22 21:46:30,700 - backend.ETL.scrapers.scrape_imdb - INFO - 3. The Housemaid https://www.imdb.com/title/tt27543632/?ref_=sr_t_3
+2026-01-22 21:46:30,700 - backend.ETL.scrapers.scrape_imdb - INFO - 4. One Battle After Another https://www.imdb.com/title/tt30144839/?ref_=sr_t_4
+2026-01-22 21:46:30,701 - backend.ETL.scrapers.scrape_imdb - INFO - 5. People We Meet on Vacation https://www.imdb.com/title/tt22740896/?ref_=sr_t_5
+2026-01-22 21:46:30,701 - backend.ETL.scrapers.scrape_imdb - INFO - 6. Marty Supreme https://www.imdb.com/title/tt32916440/?ref_=sr_t_6
+2026-01-22 21:46:30,701 - backend.ETL.scrapers.scrape_imdb - INFO - 7. The Bride! https://www.imdb.com/title/tt30851137/?ref_=sr_t_7
+2026-01-22 21:46:30,701 - backend.ETL.scrapers.scrape_imdb - INFO - 8. Hamnet https://www.imdb.com/title/tt14905854/?ref_=sr_t_8
+2026-01-22 21:46:30,701 - backend.ETL.scrapers.scrape_imdb - INFO - 9. Avatar: Fire and Ash https://www.imdb.com/title/tt1757678/?ref_=sr_t_9
+2026-01-22 21:46:30,701 - backend.ETL.scrapers.scrape_imdb - INFO - 10. 28 Years Later https://www.imdb.com/title/tt10548174/?ref_=sr_t_10
+2026-01-22 21:46:30,701 - backend.ETL.scrapers.scrape_imdb - INFO - 11. Sinners https://www.imdb.com/title/tt31193180/?ref_=sr_t_11
+2026-01-22 21:46:30,701 - backend.ETL.scrapers.scrape_imdb - INFO - 12. Rental Family https://www.imdb.com/title/tt14142060/?ref_=sr_t_12
+2026-01-22 21:46:30,702 - backend.ETL.scrapers.scrape_imdb - INFO - 13. Wake Up Dead Man https://www.imdb.com/title/tt14364480/?ref_=sr_t_13
+2026-01-22 21:46:30,702 - backend.ETL.scrapers.scrape_imdb - INFO - 14. The Running Man https://www.imdb.com/title/tt14107334/?ref_=sr_t_14
+2026-01-22 21:46:30,702 - backend.ETL.scrapers.scrape_imdb - INFO - 15. Bugonia https://www.imdb.com/title/tt12300742/?ref_=sr_t_15
+2026-01-22 21:46:30,702 - backend.ETL.scrapers.scrape_imdb - INFO - 16. Nuremberg https://www.imdb.com/title/tt29567915/?ref_=sr_t_16
+2026-01-22 21:46:30,702 - backend.ETL.scrapers.scrape_imdb - INFO - 17. Dust Bunny https://www.imdb.com/title/tt23172090/?ref_=sr_t_17
+2026-01-22 21:46:30,702 - backend.ETL.scrapers.scrape_imdb - INFO - 18. Greenland 2: Migration https://www.imdb.com/title/tt14850054/?ref_=sr_t_18
+2026-01-22 21:46:30,702 - backend.ETL.scrapers.scrape_imdb - INFO - 19. Frankenstein https://www.imdb.com/title/tt1312221/?ref_=sr_t_19
+2026-01-22 21:46:30,702 - backend.ETL.scrapers.scrape_imdb - INFO - 20. No Other Choice https://www.imdb.com/title/tt1527793/?ref_=sr_t_20
+2026-01-22 21:46:30,703 - backend.ETL.scrapers.scrape_imdb - INFO - 21. Primate https://www.imdb.com/title/tt33028778/?ref_=sr_t_21
+2026-01-22 21:46:30,703 - backend.ETL.scrapers.scrape_imdb - INFO - 22. Sentimental Value https://www.imdb.com/title/tt27714581/?ref_=sr_t_22
+2026-01-22 21:46:30,703 - backend.ETL.scrapers.scrape_imdb - INFO - 23. Song Sung Blue https://www.imdb.com/title/tt30343021/?ref_=sr_t_23
+2026-01-22 21:46:30,703 - backend.ETL.scrapers.scrape_imdb - INFO - 24. Send Help https://www.imdb.com/title/tt8036976/?ref_=sr_t_24
+2026-01-22 21:46:30,703 - backend.ETL.scrapers.scrape_imdb - INFO - 25. Zootropolis 2 https://www.imdb.com/title/tt26443597/?ref_=sr_t_25
+2026-01-22 21:46:30,703 - backend.ETL.scrapers.scrape_imdb - INFO - 26. Predator: Badlands https://www.imdb.com/title/tt31227572/?ref_=sr_t_26
+2026-01-22 21:46:30,703 - backend.ETL.scrapers.scrape_imdb - INFO - 27. Train Dreams https://www.imdb.com/title/tt29768334/?ref_=sr_t_27
+2026-01-22 21:46:30,703 - backend.ETL.scrapers.scrape_imdb - INFO - 28. Dhurandhar https://www.imdb.com/title/tt33014583/?ref_=sr_t_28
+2026-01-22 21:46:30,703 - backend.ETL.scrapers.scrape_imdb - INFO - 29. Pillion https://www.imdb.com/title/tt32321317/?ref_=sr_t_29
+2026-01-22 21:46:30,704 - backend.ETL.scrapers.scrape_imdb - INFO - 30. Weapons https://www.imdb.com/title/tt26581740/?ref_=sr_t_30
+2026-01-22 21:46:30,704 - backend.ETL.scrapers.scrape_imdb - INFO - 31. The Secret Agent https://www.imdb.com/title/tt27847051/?ref_=sr_t_31
+2026-01-22 21:46:30,704 - backend.ETL.scrapers.scrape_imdb - INFO - 32. Tron: Ares https://www.imdb.com/title/tt6604188/?ref_=sr_t_32
+2026-01-22 21:46:30,704 - backend.ETL.scrapers.scrape_imdb - INFO - 33. The Tank https://www.imdb.com/title/tt31495504/?ref_=sr_t_33
+2026-01-22 21:46:30,704 - backend.ETL.scrapers.scrape_imdb - INFO - 34. Avengers: Doomsday https://www.imdb.com/title/tt21357150/?ref_=sr_t_34
+2026-01-22 21:46:30,704 - backend.ETL.scrapers.scrape_imdb - INFO - 35. 28 Days Later ... https://www.imdb.com/title/tt0289043/?ref_=sr_t_35
+2026-01-22 21:46:30,704 - backend.ETL.scrapers.scrape_imdb - INFO - 36. Anaconda https://www.imdb.com/title/tt33244668/?ref_=sr_t_36
+2026-01-22 21:46:30,704 - backend.ETL.scrapers.scrape_imdb - INFO - 37. The Odyssey https://www.imdb.com/title/tt33764258/?ref_=sr_t_37
+2026-01-22 21:46:30,704 - backend.ETL.scrapers.scrape_imdb - INFO - 38. Mercy https://www.imdb.com/title/tt31050594/?ref_=sr_t_38
+2026-01-22 21:46:30,704 - backend.ETL.scrapers.scrape_imdb - INFO - 39. Killer Whale https://www.imdb.com/title/tt33479805/?ref_=sr_t_39
+2026-01-22 21:46:30,705 - backend.ETL.scrapers.scrape_imdb - INFO - 40. Wuthering Heights https://www.imdb.com/title/tt32897959/?ref_=sr_t_40
+2026-01-22 21:46:30,705 - backend.ETL.scrapers.scrape_imdb - INFO - 41. The Shawshank Redemption https://www.imdb.com/title/tt0111161/?ref_=sr_t_41
+2026-01-22 21:46:30,705 - backend.ETL.scrapers.scrape_imdb - INFO - 42. F1 https://www.imdb.com/title/tt16311594/?ref_=sr_t_42
+2026-01-22 21:46:30,705 - backend.ETL.scrapers.scrape_imdb - INFO - 43. Lee Cronin's The Mummy https://www.imdb.com/title/tt32612507/?ref_=sr_t_43
+2026-01-22 21:46:30,705 - backend.ETL.scrapers.scrape_imdb - INFO - 44. If I Had Legs I'd Kick You https://www.imdb.com/title/tt18382850/?ref_=sr_t_44
+2026-01-22 21:46:30,705 - backend.ETL.scrapers.scrape_imdb - INFO - 45. Jay Kelly https://www.imdb.com/title/tt30446847/?ref_=sr_t_45
+2026-01-22 21:46:30,705 - backend.ETL.scrapers.scrape_imdb - INFO - 46. Greenland https://www.imdb.com/title/tt7737786/?ref_=sr_t_46
+2026-01-22 21:46:30,705 - backend.ETL.scrapers.scrape_imdb - INFO - 47. Die My Love https://www.imdb.com/title/tt9362736/?ref_=sr_t_47
+2026-01-22 21:46:30,705 - backend.ETL.scrapers.scrape_imdb - INFO - 48. The Lord of the Rings: The Fellowship of the Ring https://www.imdb.com/title/tt0120737/?ref_=sr_t_48
+2026-01-22 21:46:30,706 - backend.ETL.scrapers.scrape_imdb - INFO - 49. The Life of Chuck https://www.imdb.com/title/tt12908150/?ref_=sr_t_49
+2026-01-22 21:46:30,706 - backend.ETL.scrapers.scrape_imdb - INFO - 50. Dracula: A Love Tale https://www.imdb.com/title/tt31434030/?ref_=sr_t_50
+2026-01-22 21:46:30,706 - backend.ETL.scrapers.scrape_imdb - INFO - 51. Bone Lake https://www.imdb.com/title/tt26783625/?ref_=sr_t_51
+2026-01-22 21:46:30,706 - backend.ETL.scrapers.scrape_imdb - INFO - 52. Black Phone 2 https://www.imdb.com/title/tt29644189/?ref_=sr_t_52
+2026-01-22 21:46:30,706 - backend.ETL.scrapers.scrape_imdb - INFO - 53. Roofman https://www.imdb.com/title/tt4627382/?ref_=sr_t_53
+2026-01-22 21:46:30,706 - backend.ETL.scrapers.scrape_imdb - INFO - 54. Is This Thing On? https://www.imdb.com/title/tt28083456/?ref_=sr_t_54
+2026-01-22 21:46:30,706 - backend.ETL.scrapers.scrape_imdb - INFO - 55. Eternity https://www.imdb.com/title/tt24950660/?ref_=sr_t_55
+2026-01-22 21:46:30,706 - backend.ETL.scrapers.scrape_imdb - INFO - 56. Crime 101 https://www.imdb.com/title/tt32430579/?ref_=sr_t_56
+2026-01-22 21:46:30,707 - backend.ETL.scrapers.scrape_imdb - INFO - 57. Avatar https://www.imdb.com/title/tt0499549/?ref_=sr_t_57
+2026-01-22 21:46:30,707 - backend.ETL.scrapers.scrape_imdb - INFO - 58. Flight 7500 https://www.imdb.com/title/tt1975159/?ref_=sr_t_58
+2026-01-22 21:46:30,707 - backend.ETL.scrapers.scrape_imdb - INFO - 59. Avatar: The Way of Water https://www.imdb.com/title/tt1630029/?ref_=sr_t_59
+2026-01-22 21:46:30,707 - backend.ETL.scrapers.scrape_imdb - INFO - 60. Dead Man's Wire https://www.imdb.com/title/tt15181326/?ref_=sr_t_60
+2026-01-22 21:46:30,707 - backend.ETL.scrapers.scrape_imdb - INFO - 61. Ballerina https://www.imdb.com/title/tt7181546/?ref_=sr_t_61
+2026-01-22 21:46:30,708 - backend.ETL.scrapers.scrape_imdb - INFO - 62. KPop Demon Hunters https://www.imdb.com/title/tt14205554/?ref_=sr_t_62
+2026-01-22 21:46:30,709 - backend.ETL.scrapers.scrape_imdb - INFO - 63. The Naked Gun https://www.imdb.com/title/tt3402138/?ref_=sr_t_63
+2026-01-22 21:46:30,709 - backend.ETL.scrapers.scrape_imdb - INFO - 64. Interstellar https://www.imdb.com/title/tt0816692/?ref_=sr_t_64
+2026-01-22 21:46:30,709 - backend.ETL.scrapers.scrape_imdb - INFO - 65. Return to Silent Hill https://www.imdb.com/title/tt22868010/?ref_=sr_t_65
+2026-01-22 21:46:30,709 - backend.ETL.scrapers.scrape_imdb - INFO - 66. Spider-Man: Brand New Day https://www.imdb.com/title/tt22084616/?ref_=sr_t_66
+2026-01-22 21:46:30,709 - backend.ETL.scrapers.scrape_imdb - INFO - 67. The Long Walk https://www.imdb.com/title/tt10374610/?ref_=sr_t_67
+2026-01-22 21:46:30,709 - backend.ETL.scrapers.scrape_imdb - INFO - 68. Knives Out https://www.imdb.com/title/tt8946378/?ref_=sr_t_68
+2026-01-22 21:46:30,709 - backend.ETL.scrapers.scrape_imdb - INFO - 69. Now You See Me: Now You Don't https://www.imdb.com/title/tt4712810/?ref_=sr_t_69
+2026-01-22 21:46:30,710 - backend.ETL.scrapers.scrape_imdb - INFO - 70. Regretting You https://www.imdb.com/title/tt33088452/?ref_=sr_t_70
+2026-01-22 21:46:30,710 - backend.ETL.scrapers.scrape_imdb - INFO - 71. GOAT https://www.imdb.com/title/tt27613895/?ref_=sr_t_71
+2026-01-22 21:46:30,710 - backend.ETL.scrapers.scrape_imdb - INFO - 72. 28 Weeks Later https://www.imdb.com/title/tt0463854/?ref_=sr_t_72
+2026-01-22 21:46:30,710 - backend.ETL.scrapers.scrape_imdb - INFO - 73. Haq https://www.imdb.com/title/tt36642456/?ref_=sr_t_73
+2026-01-22 21:46:30,710 - backend.ETL.scrapers.scrape_imdb - INFO - 74. The Substance https://www.imdb.com/title/tt17526714/?ref_=sr_t_74
+2026-01-22 21:46:30,710 - backend.ETL.scrapers.scrape_imdb - INFO - 75. Jurassic World: Rebirth https://www.imdb.com/title/tt31036941/?ref_=sr_t_75
+2026-01-22 21:46:30,711 - backend.ETL.scrapers.scrape_imdb - INFO - 76. The Fantastic Four: First Steps https://www.imdb.com/title/tt10676052/?ref_=sr_t_76
+2026-01-22 21:46:30,714 - backend.ETL.scrapers.scrape_imdb - INFO - 77. Mission: Impossible - The Final Reckoning https://www.imdb.com/title/tt9603208/?ref_=sr_t_77
+2026-01-22 21:46:30,714 - backend.ETL.scrapers.scrape_imdb - INFO - 78. Superman https://www.imdb.com/title/tt5950044/?ref_=sr_t_78
+2026-01-22 21:46:30,715 - backend.ETL.scrapers.scrape_imdb - INFO - 79. Five Nights at Freddy's 2 https://www.imdb.com/title/tt30274401/?ref_=sr_t_79
+2026-01-22 21:46:30,715 - backend.ETL.scrapers.scrape_imdb - INFO - 80. Inception https://www.imdb.com/title/tt1375666/?ref_=sr_t_80
+2026-01-22 21:46:30,715 - backend.ETL.scrapers.scrape_imdb - INFO - 81. The Godfather https://www.imdb.com/title/tt0068646/?ref_=sr_t_81
+2026-01-22 21:46:30,715 - backend.ETL.scrapers.scrape_imdb - INFO - 82. Together https://www.imdb.com/title/tt31184028/?ref_=sr_t_82
+2026-01-22 21:46:30,715 - backend.ETL.scrapers.scrape_imdb - INFO - 83. It Was Just an Accident https://www.imdb.com/title/tt36491653/?ref_=sr_t_83
+2026-01-22 21:46:30,715 - backend.ETL.scrapers.scrape_imdb - INFO - 84. The Wrecking Crew https://www.imdb.com/title/tt33046197/?ref_=sr_t_84
+2026-01-22 21:46:30,715 - backend.ETL.scrapers.scrape_imdb - INFO - 85. The Dark Knight https://www.imdb.com/title/tt0468569/?ref_=sr_t_85
+2026-01-22 21:46:30,717 - backend.ETL.scrapers.scrape_imdb - INFO - 86. A House of Dynamite https://www.imdb.com/title/tt32376165/?ref_=sr_t_86
+2026-01-22 21:46:30,718 - backend.ETL.scrapers.scrape_imdb - INFO - 87. The Confession https://www.imdb.com/title/tt35838700/?ref_=sr_t_87
+2026-01-22 21:46:30,718 - backend.ETL.scrapers.scrape_imdb - INFO - 88. Wicked: For Good https://www.imdb.com/title/tt19847976/?ref_=sr_t_88
+2026-01-22 21:46:30,718 - backend.ETL.scrapers.scrape_imdb - INFO - 89. Good Luck, Have Fun, Don't Die https://www.imdb.com/title/tt1341338/?ref_=sr_t_89
+2026-01-22 21:46:30,718 - backend.ETL.scrapers.scrape_imdb - INFO - 90. Eko https://www.imdb.com/title/tt36616410/?ref_=sr_t_90
+2026-01-22 21:46:30,719 - backend.ETL.scrapers.scrape_imdb - INFO - 91. The Smashing Machine https://www.imdb.com/title/tt11214558/?ref_=sr_t_91
+2026-01-22 21:46:30,719 - backend.ETL.scrapers.scrape_imdb - INFO - 92. Good Will Hunting https://www.imdb.com/title/tt0119217/?ref_=sr_t_92
+2026-01-22 21:46:30,719 - backend.ETL.scrapers.scrape_imdb - INFO - 93. Harry Potter and the Philosopher's Stone https://www.imdb.com/title/tt0241527/?ref_=sr_t_93
+2026-01-22 21:46:30,719 - backend.ETL.scrapers.scrape_imdb - INFO - 94. Parasite https://www.imdb.com/title/tt6751668/?ref_=sr_t_94
+2026-01-22 21:46:30,719 - backend.ETL.scrapers.scrape_imdb - INFO - 95. Heat https://www.imdb.com/title/tt0113277/?ref_=sr_t_95
+2026-01-22 21:46:30,719 - backend.ETL.scrapers.scrape_imdb - INFO - 96. A Big Bold Beautiful Journey https://www.imdb.com/title/tt13650700/?ref_=sr_t_96
+2026-01-22 21:46:30,719 - backend.ETL.scrapers.scrape_imdb - INFO - 97. Pulp Fiction https://www.imdb.com/title/tt0110912/?ref_=sr_t_97
+2026-01-22 21:46:30,719 - backend.ETL.scrapers.scrape_imdb - INFO - 98. Eden https://www.imdb.com/title/tt23149780/?ref_=sr_t_98
+2026-01-22 21:46:30,719 - backend.ETL.scrapers.scrape_imdb - INFO - 99. Oppenheimer https://www.imdb.com/title/tt15398776/?ref_=sr_t_99
+2026-01-22 21:46:30,720 - backend.ETL.scrapers.scrape_imdb - INFO - 100. Caught Stealing https://www.imdb.com/title/tt1493274/?ref_=sr_t_100
+2026-01-22 21:46:33,709 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 100: 1. The Rip
+2026-01-22 21:46:38,646 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 2 / 100: 2. 28 Years Later: The Bone Temple
+2026-01-22 21:46:43,624 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 3 / 100: 3. The Housemaid
+2026-01-22 21:46:48,085 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 4 / 100: 4. One Battle After Another
+2026-01-22 21:46:53,636 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 5 / 100: 5. People We Meet on Vacation
+2026-01-22 21:46:58,784 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 6 / 100: 6. Marty Supreme
+2026-01-22 21:47:03,916 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 7 / 100: 7. The Bride!
+2026-01-22 21:47:09,069 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 8 / 100: 8. Hamnet
+2026-01-22 21:47:14,446 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 9 / 100: 9. Avatar: Fire and Ash
+2026-01-22 21:47:20,376 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 10 / 100: 10. 28 Years Later
+2026-01-22 21:47:25,720 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 11 / 100: 11. Sinners
+2026-01-22 21:47:30,287 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 12 / 100: 12. Rental Family
+2026-01-22 21:47:35,681 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 13 / 100: 13. Wake Up Dead Man
+2026-01-22 21:47:40,570 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 14 / 100: 14. The Running Man
+2026-01-22 21:47:45,880 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 15 / 100: 15. Bugonia
+2026-01-22 21:47:50,889 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 16 / 100: 16. Nuremberg
+2026-01-22 21:47:56,004 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 17 / 100: 17. Dust Bunny
+2026-01-22 21:48:01,474 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 18 / 100: 18. Greenland 2: Migration
+2026-01-22 21:48:08,160 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 19 / 100: 19. Frankenstein
+2026-01-22 21:48:12,579 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 20 / 100: 20. No Other Choice
+2026-01-22 21:48:18,046 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 21 / 100: 21. Primate
+2026-01-22 21:48:22,947 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 22 / 100: 22. Sentimental Value
+2026-01-22 21:48:29,017 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 23 / 100: 23. Song Sung Blue
+2026-01-22 21:48:36,658 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 24 / 100: 24. Send Help
+2026-01-22 21:48:41,870 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 25 / 100: 25. Zootropolis 2
+2026-01-22 21:48:47,174 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 26 / 100: 26. Predator: Badlands
+2026-01-22 21:48:52,461 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 27 / 100: 27. Train Dreams
+2026-01-22 21:48:58,161 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 28 / 100: 28. Dhurandhar
+2026-01-22 21:49:02,956 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 29 / 100: 29. Pillion
+2026-01-22 21:49:08,168 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 30 / 100: 30. Weapons
+2026-01-22 21:49:14,695 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 31 / 100: 31. The Secret Agent
+2026-01-22 21:49:19,148 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 32 / 100: 32. Tron: Ares
+2026-01-22 21:49:25,704 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 33 / 100: 33. The Tank
+2026-01-22 21:49:30,986 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 34 / 100: 34. Avengers: Doomsday
+2026-01-22 21:49:37,329 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 35 / 100: 35. 28 Days Later ...
+2026-01-22 21:49:44,053 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 36 / 100: 36. Anaconda
+2026-01-22 21:49:51,116 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 37 / 100: 37. The Odyssey
+2026-01-22 21:49:57,831 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 38 / 100: 38. Mercy
+2026-01-22 21:50:04,152 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 39 / 100: 39. Killer Whale
+2026-01-22 21:50:09,181 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 40 / 100: 40. Wuthering Heights
+2026-01-22 21:50:15,232 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 41 / 100: 41. The Shawshank Redemption
+2026-01-22 21:50:21,820 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 42 / 100: 42. F1
+2026-01-22 21:50:27,947 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 43 / 100: 43. Lee Cronin's The Mummy
+2026-01-22 21:50:34,018 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 44 / 100: 44. If I Had Legs I'd Kick You
+2026-01-22 21:50:40,762 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 45 / 100: 45. Jay Kelly
+2026-01-22 21:50:46,156 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 46 / 100: 46. Greenland
+2026-01-22 21:50:52,778 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 47 / 100: 47. Die My Love
+2026-01-22 21:51:00,541 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 48 / 100: 48. The Lord of the Rings: The Fellowship of the Ring
+2026-01-22 21:51:09,648 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 49 / 100: 49. The Life of Chuck
+2026-01-22 21:51:16,358 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 50 / 100: 50. Dracula: A Love Tale
+2026-01-22 21:51:24,365 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 51 / 100: 51. Bone Lake
+2026-01-22 21:51:31,304 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 52 / 100: 52. Black Phone 2
+2026-01-22 21:51:37,758 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 53 / 100: 53. Roofman
+2026-01-22 21:51:44,060 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 54 / 100: 54. Is This Thing On?
+2026-01-22 21:51:49,822 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 55 / 100: 55. Eternity
+2026-01-22 21:51:55,863 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 56 / 100: 56. Crime 101
+2026-01-22 21:52:03,693 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 57 / 100: 57. Avatar
+2026-01-22 21:52:09,842 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 58 / 100: 58. Flight 7500
+2026-01-22 21:52:15,745 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 59 / 100: 59. Avatar: The Way of Water
+2026-01-22 21:52:24,186 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 60 / 100: 60. Dead Man's Wire
+2026-01-22 21:52:29,674 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 61 / 100: 61. Ballerina
+2026-01-22 21:52:37,150 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 62 / 100: 62. KPop Demon Hunters
+2026-01-22 21:52:43,288 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 63 / 100: 63. The Naked Gun
+2026-01-22 21:52:50,758 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 64 / 100: 64. Interstellar
+2026-01-22 21:52:57,227 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 65 / 100: 65. Return to Silent Hill
+2026-01-22 21:53:02,267 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 66 / 100: 66. Spider-Man: Brand New Day
+2026-01-22 21:53:09,660 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 67 / 100: 67. The Long Walk
+2026-01-22 21:53:14,673 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 68 / 100: 68. Knives Out
+2026-01-22 21:53:21,313 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 69 / 100: 69. Now You See Me: Now You Don't
+2026-01-22 21:53:29,945 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 70 / 100: 70. Regretting You
+2026-01-22 21:53:35,573 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 71 / 100: 71. GOAT
+2026-01-22 21:53:40,565 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 72 / 100: 72. 28 Weeks Later
+2026-01-22 21:53:48,220 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 73 / 100: 73. Haq
+2026-01-22 21:53:53,915 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 74 / 100: 74. The Substance
+2026-01-22 21:54:01,349 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 75 / 100: 75. Jurassic World: Rebirth
+2026-01-22 21:54:07,836 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 76 / 100: 76. The Fantastic Four: First Steps
+2026-01-22 21:54:14,886 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 77 / 100: 77. Mission: Impossible - The Final Reckoning
+2026-01-22 21:54:21,614 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 78 / 100: 78. Superman
+2026-01-22 21:54:28,169 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 79 / 100: 79. Five Nights at Freddy's 2
+2026-01-22 21:54:35,441 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 80 / 100: 80. Inception
+2026-01-22 21:54:41,490 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 81 / 100: 81. The Godfather
+2026-01-22 21:54:48,332 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 82 / 100: 82. Together
+2026-01-22 21:54:56,896 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 83 / 100: 83. It Was Just an Accident
+2026-01-22 21:55:03,996 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 84 / 100: 84. The Wrecking Crew
+2026-01-22 21:55:10,165 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 85 / 100: 85. The Dark Knight
+2026-01-22 21:55:17,644 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 86 / 100: 86. A House of Dynamite
+2026-01-22 21:55:22,082 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 87 / 100: 87. The Confession
+2026-01-22 21:55:30,539 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 88 / 100: 88. Wicked: For Good
+2026-01-22 21:55:37,870 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 89 / 100: 89. Good Luck, Have Fun, Don't Die
+2026-01-22 21:55:44,229 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 90 / 100: 90. Eko
+2026-01-22 21:55:50,062 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 91 / 100: 91. The Smashing Machine
+2026-01-22 21:55:57,827 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 92 / 100: 92. Good Will Hunting
+2026-01-22 21:56:04,272 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 93 / 100: 93. Harry Potter and the Philosopher's Stone
+2026-01-22 21:56:10,297 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 94 / 100: 94. Parasite
+2026-01-22 21:56:15,905 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 95 / 100: 95. Heat
+2026-01-22 21:56:19,436 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 96 / 100: 96. A Big Bold Beautiful Journey
+2026-01-22 21:56:27,302 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 97 / 100: 97. Pulp Fiction
+2026-01-22 21:56:33,110 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 98 / 100: 98. Eden
+2026-01-22 21:56:38,611 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 99 / 100: 99. Oppenheimer
+2026-01-22 21:56:44,231 - backend.ETL.scrapers.scrape_imdb - INFO - Processing movie 100 / 100: 100. Caught Stealing
+2026-01-22 21:56:47,398 - WDM - INFO - ====== WebDriver manager ======
+2026-01-22 21:56:49,146 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:56:52,397 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-22 21:56:53,152 - WDM - INFO - Driver [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-22 21:56:54,714 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 0 / 100
+2026-01-22 21:56:58,922 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 1 / 100
+2026-01-22 21:57:01,272 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 2 / 100
+2026-01-22 21:57:03,342 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 3 / 100
+2026-01-22 21:57:05,054 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 4 / 100
+2026-01-22 21:57:07,372 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 5 / 100
+2026-01-22 21:57:10,637 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 6 / 100
+2026-01-22 21:57:12,244 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 7 / 100
+2026-01-22 21:57:13,804 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 8 / 100
+2026-01-22 21:57:16,586 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 9 / 100
+2026-01-22 21:57:18,737 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 10 / 100
+2026-01-22 21:57:20,187 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 11 / 100
+2026-01-22 21:57:22,144 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 12 / 100
+2026-01-22 21:57:23,786 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 13 / 100
+2026-01-22 21:57:25,943 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 14 / 100
+2026-01-22 21:57:28,838 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 15 / 100
+2026-01-22 21:57:31,056 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 16 / 100
+2026-01-22 21:57:33,280 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 17 / 100
+2026-01-22 21:57:35,560 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 18 / 100
+2026-01-22 21:57:37,728 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 19 / 100
+2026-01-22 21:57:39,597 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 20 / 100
+2026-01-22 21:57:41,659 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 21 / 100
+2026-01-22 21:57:43,812 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 22 / 100
+2026-01-22 21:57:45,802 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 23 / 100
+2026-01-22 21:57:47,904 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 24 / 100
+2026-01-22 21:57:49,352 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 25 / 100
+2026-01-22 21:57:51,583 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 26 / 100
+2026-01-22 21:57:53,344 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 27 / 100
+2026-01-22 21:57:55,451 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 28 / 100
+2026-01-22 21:57:57,036 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 29 / 100
+2026-01-22 21:57:58,666 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 30 / 100
+2026-01-22 21:58:00,948 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 31 / 100
+2026-01-22 21:58:03,341 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 32 / 100
+2026-01-22 21:58:05,482 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 33 / 100
+2026-01-22 21:58:07,849 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 34 / 100
+2026-01-22 21:58:09,568 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 35 / 100
+2026-01-22 21:58:11,718 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 36 / 100
+2026-01-22 21:58:13,968 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 37 / 100
+2026-01-22 21:58:16,212 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 38 / 100
+2026-01-22 21:58:18,322 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 39 / 100
+2026-01-22 21:58:20,344 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 40 / 100
+2026-01-22 21:58:22,506 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 41 / 100
+2026-01-22 21:58:24,857 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 42 / 100
+2026-01-22 21:58:26,695 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 43 / 100
+2026-01-22 21:58:29,301 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 44 / 100
+2026-01-22 21:58:31,783 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 45 / 100
+2026-01-22 21:58:34,069 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 46 / 100
+2026-01-22 21:58:36,456 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 47 / 100
+2026-01-22 21:58:39,014 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 48 / 100
+2026-01-22 21:58:40,893 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 49 / 100
+2026-01-22 21:58:43,138 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 50 / 100
+2026-01-22 21:58:45,774 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 51 / 100
+2026-01-22 21:58:48,050 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 52 / 100
+2026-01-22 21:58:50,516 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 53 / 100
+2026-01-22 21:58:52,884 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 54 / 100
+2026-01-22 21:58:55,467 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 55 / 100
+2026-01-22 21:58:58,065 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 56 / 100
+2026-01-22 21:59:03,035 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 57 / 100
+2026-01-22 21:59:05,522 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 58 / 100
+2026-01-22 21:59:08,136 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 59 / 100
+2026-01-22 21:59:10,570 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 60 / 100
+2026-01-22 21:59:13,440 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 61 / 100
+2026-01-22 21:59:15,900 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 62 / 100
+2026-01-22 21:59:18,355 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 63 / 100
+2026-01-22 21:59:20,828 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 64 / 100
+2026-01-22 21:59:23,190 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 65 / 100
+2026-01-22 21:59:25,775 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 66 / 100
+2026-01-22 21:59:28,293 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 67 / 100
+2026-01-22 21:59:30,535 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 68 / 100
+2026-01-22 21:59:32,843 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 69 / 100
+2026-01-22 21:59:35,126 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 70 / 100
+2026-01-22 21:59:37,116 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 71 / 100
+2026-01-22 21:59:39,420 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 72 / 100
+2026-01-22 21:59:42,090 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 73 / 100
+2026-01-22 21:59:44,343 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 74 / 100
+2026-01-22 21:59:46,776 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 75 / 100
+2026-01-22 21:59:48,631 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 76 / 100
+2026-01-22 21:59:51,273 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 77 / 100
+2026-01-22 21:59:53,791 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 78 / 100
+2026-01-22 21:59:55,630 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 79 / 100
+2026-01-22 21:59:58,400 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 80 / 100
+2026-01-22 22:00:00,974 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 81 / 100
+2026-01-22 22:00:04,568 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 82 / 100
+2026-01-22 22:00:06,378 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 83 / 100
+2026-01-22 22:00:08,597 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 84 / 100
+2026-01-22 22:00:11,444 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 85 / 100
+2026-01-22 22:00:13,700 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 86 / 100
+2026-01-22 22:00:15,871 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 87 / 100
+2026-01-22 22:00:18,512 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 88 / 100
+2026-01-22 22:00:20,997 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 89 / 100
+2026-01-22 22:00:24,046 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 90 / 100
+2026-01-22 22:00:26,938 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 91 / 100
+2026-01-22 22:00:29,752 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 92 / 100
+2026-01-22 22:00:32,652 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 93 / 100
+2026-01-22 22:00:35,313 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 94 / 100
+2026-01-22 22:00:38,098 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 95 / 100
+2026-01-22 22:00:40,769 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 96 / 100
+2026-01-22 22:00:43,079 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 97 / 100
+2026-01-22 22:00:45,954 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 98 / 100
+2026-01-22 22:00:48,674 - backend.ETL.scrapers.scrape_filming_locations - INFO - Extracting filming locations: 99 / 100
+2026-01-22 22:00:50,990 - backend.ETL.transform - INFO - Transform running...
+2026-01-22 22:00:51,133 - backend.ETL.transform - INFO - Transform progress: 1 / 100
+2026-01-22 22:00:57,910 - backend.ETL.transform - INFO - Transform progress: 2 / 100
+2026-01-22 22:01:02,480 - backend.ETL.transform - INFO - Transform progress: 3 / 100
+2026-01-22 22:01:07,947 - backend.ETL.transform - INFO - Transform progress: 4 / 100
+2026-01-22 22:01:14,606 - backend.ETL.transform - INFO - Transform progress: 5 / 100
+2026-01-22 22:01:19,329 - backend.ETL.transform - INFO - Transform progress: 6 / 100
+2026-01-22 22:01:26,376 - backend.ETL.transform - INFO - Transform progress: 7 / 100
+2026-01-22 22:01:32,125 - backend.ETL.transform - INFO - Transform progress: 8 / 100
+2026-01-22 22:01:35,864 - backend.ETL.transform - INFO - Transform progress: 9 / 100
+2026-01-22 22:01:40,991 - backend.ETL.transform - INFO - Transform progress: 10 / 100
+2026-01-22 22:01:46,345 - backend.ETL.transform - INFO - Transform progress: 11 / 100
+2026-01-22 22:01:52,592 - backend.ETL.transform - INFO - Transform progress: 12 / 100
+2026-01-22 22:01:57,769 - backend.ETL.transform - INFO - Transform progress: 13 / 100
+2026-01-22 22:02:03,549 - backend.ETL.transform - INFO - Transform progress: 14 / 100
+2026-01-22 22:02:09,417 - backend.ETL.transform - INFO - Transform progress: 15 / 100
+2026-01-22 22:02:14,815 - backend.ETL.transform - INFO - Transform progress: 16 / 100
+2026-01-22 22:02:16,739 - backend.ETL.transform - INFO - Transform progress: 17 / 100
+2026-01-22 22:02:18,295 - backend.ETL.transform - INFO - Transform progress: 18 / 100
+2026-01-22 22:02:23,248 - backend.ETL.transform - INFO - Transform progress: 19 / 100
+2026-01-22 22:02:29,355 - backend.ETL.transform - INFO - Transform progress: 20 / 100
+2026-01-22 22:02:31,939 - backend.ETL.transform - INFO - Transform progress: 21 / 100
+2026-01-22 22:02:31,940 - backend.ETL.transform - INFO - Transform progress: 22 / 100
+2026-01-22 22:02:37,443 - backend.ETL.transform - INFO - Transform progress: 23 / 100
+2026-01-22 22:02:41,133 - backend.ETL.transform - INFO - Transform progress: 24 / 100
+2026-01-22 22:02:46,456 - backend.ETL.transform - INFO - Transform progress: 25 / 100
+2026-01-22 22:02:49,583 - backend.ETL.transform - INFO - Transform progress: 26 / 100
+2026-01-22 22:02:52,699 - backend.ETL.transform - INFO - Transform progress: 27 / 100
+2026-01-22 22:02:58,136 - backend.ETL.transform - INFO - Transform progress: 28 / 100
+2026-01-22 22:03:02,504 - backend.ETL.transform - INFO - Transform progress: 29 / 100
+2026-01-22 22:03:07,751 - backend.ETL.transform - INFO - Transform progress: 30 / 100
+2026-01-22 22:03:15,538 - backend.ETL.transform - INFO - Transform progress: 31 / 100
+2026-01-22 22:03:21,957 - backend.ETL.transform - INFO - Transform progress: 32 / 100
+2026-01-22 22:03:27,322 - backend.ETL.transform - INFO - Transform progress: 33 / 100
+2026-01-22 22:03:28,374 - backend.ETL.transform - INFO - Transform progress: 34 / 100
+2026-01-22 22:03:33,458 - backend.ETL.transform - INFO - Transform progress: 35 / 100
+2026-01-22 22:03:38,564 - backend.ETL.transform - INFO - Transform progress: 36 / 100
+2026-01-22 22:03:43,595 - backend.ETL.transform - INFO - Transform progress: 37 / 100
+2026-01-22 22:03:56,677 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Methoni+Castle%2C+Messenia%2C+Greece&format=json&limit=1
+2026-01-22 22:04:20,427 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Royal+Theatre%2C+Marrakech%2C+Morocco&format=json&limit=1
+2026-01-22 22:04:26,293 - backend.ETL.transform - INFO - Transform progress: 38 / 100
+2026-01-22 22:04:57,731 - backend.ETL.transform - INFO - Transform progress: 39 / 100
+2026-01-22 22:05:04,079 - backend.ETL.transform - INFO - Transform progress: 40 / 100
+2026-01-22 22:05:04,079 - backend.ETL.transform - INFO - Transform progress: 41 / 100
+2026-01-22 22:05:22,715 - backend.ETL.transform - INFO - Transform progress: 42 / 100
+2026-01-22 22:05:46,372 - backend.ETL.transform - INFO - Transform progress: 43 / 100
+2026-01-22 22:05:59,641 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Spain&format=json&limit=1
+2026-01-22 22:06:02,810 - backend.ETL.transform - INFO - Transform progress: 44 / 100
+2026-01-22 22:06:17,192 - backend.ETL.transform - INFO - Transform progress: 45 / 100
+2026-01-22 22:06:27,204 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Caorso%2C+Italy&format=json&limit=1
+2026-01-22 22:06:53,846 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=London%2C+England%2C+UK&format=json&limit=1
+2026-01-22 22:07:00,099 - backend.ETL.transform - INFO - Transform progress: 46 / 100
+2026-01-22 22:07:21,294 - backend.ETL.transform - INFO - Transform progress: 47 / 100
+2026-01-22 22:07:39,091 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Alberta%2C+Canada&format=json&limit=1
+2026-01-22 22:07:46,074 - backend.ETL.transform - INFO - Transform progress: 48 / 100
+2026-01-22 22:07:59,489 - backend.ETL.transform - INFO - Transform progress: 49 / 100
+2026-01-22 22:08:11,652 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Baldwin+County%2C+Alabama%2C+USA&format=json&limit=1
+2026-01-22 22:08:16,945 - backend.ETL.transform - INFO - Transform progress: 50 / 100
+2026-01-22 22:08:28,236 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Sotkamo%2C+Finland&format=json&limit=1
+2026-01-22 22:08:38,887 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Sotkamo%2C+Finland&format=json&limit=1
+2026-01-22 22:08:46,696 - backend.ETL.transform - INFO - Transform progress: 51 / 100
+2026-01-22 22:08:52,536 - backend.ETL.transform - INFO - Transform progress: 52 / 100
+2026-01-22 22:08:56,119 - backend.ETL.transform - INFO - Transform progress: 53 / 100
+2026-01-22 22:09:16,565 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Charlotte%2C+North+Carolina%2C+USA&format=json&limit=1
+2026-01-22 22:09:27,248 - backend.ETL.transform - INFO - Transform progress: 54 / 100
+2026-01-22 22:09:28,476 - backend.ETL.transform - INFO - Transform progress: 55 / 100
+2026-01-22 22:09:38,760 - backend.ETL.transform - INFO - Transform progress: 56 / 100
+2026-01-22 22:09:47,009 - backend.ETL.transform - INFO - Transform progress: 57 / 100
+2026-01-22 22:10:06,362 - backend.ETL.transform - INFO - Transform progress: 58 / 100
+2026-01-22 22:10:15,782 - backend.ETL.transform - INFO - Transform progress: 59 / 100
+2026-01-22 22:10:35,212 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Los+Angeles%2C+California%2C+USA&format=json&limit=1
+2026-01-22 22:10:53,978 - backend.ETL.transform - INFO - Transform progress: 60 / 100
+2026-01-22 22:11:00,736 - backend.ETL.transform - INFO - Transform progress: 61 / 100
+2026-01-22 22:11:20,368 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Hungary&format=json&limit=1
+2026-01-22 22:11:27,261 - backend.ETL.transform - INFO - Transform progress: 62 / 100
+2026-01-22 22:11:27,266 - backend.ETL.transform - INFO - Transform progress: 63 / 100
+2026-01-22 22:12:00,439 - backend.ETL.transform - INFO - Transform progress: 64 / 100
+2026-01-22 22:12:18,354 - backend.ETL.transform - INFO - Transform progress: 65 / 100
+2026-01-22 22:12:37,683 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Penzing%2C+Bavaria%2C+Germany&format=json&limit=1
+2026-01-22 22:12:51,021 - backend.ETL.transform - INFO - Transform progress: 66 / 100
+2026-01-22 22:13:12,422 - backend.ETL.transform - INFO - Transform progress: 67 / 100
+2026-01-22 22:13:35,089 - backend.ETL.transform - INFO - Transform progress: 68 / 100
+2026-01-22 22:13:49,695 - backend.ETL.transform - INFO - Transform progress: 69 / 100
+2026-01-22 22:14:01,478 - backend.ETL.transform - INFO - Transform progress: 70 / 100
+2026-01-22 22:14:15,191 - backend.ETL.transform - INFO - Transform progress: 71 / 100
+2026-01-22 22:14:15,192 - backend.ETL.transform - INFO - Transform progress: 72 / 100
+2026-01-22 22:14:34,416 - backend.ETL.transform - INFO - Transform progress: 73 / 100
+2026-01-22 22:14:34,417 - backend.ETL.transform - INFO - Transform progress: 74 / 100
+2026-01-22 22:14:48,471 - backend.ETL.transform - INFO - Transform progress: 75 / 100
+2026-01-22 22:14:56,768 - backend.ETL.transform - INFO - Transform progress: 76 / 100
+2026-01-22 22:15:14,277 - backend.ETL.transform - INFO - Transform progress: 77 / 100
+2026-01-22 22:15:39,475 - backend.ETL.transform - INFO - Transform progress: 78 / 100
+2026-01-22 22:16:02,915 - backend.ETL.transform - INFO - Transform progress: 79 / 100
+2026-01-22 22:16:08,445 - backend.ETL.transform - INFO - Transform progress: 80 / 100
+2026-01-22 22:16:17,764 - backend.ETL.transform - INFO - Transform progress: 81 / 100
+2026-01-22 22:16:36,273 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=10)")': /search?q=Mitchell+Field%2C+Garden+City%2C+Long+Island%2C+New+York%2C+USA&format=json&limit=1
+2026-01-22 22:16:40,225 - backend.ETL.transform - INFO - Transform progress: 82 / 100
+2026-01-22 22:16:46,440 - backend.ETL.transform - INFO - Transform progress: 83 / 100
+2026-01-22 22:16:46,441 - backend.ETL.transform - INFO - Transform progress: 84 / 100
+2026-01-22 22:16:47,563 - backend.ETL.transform - INFO - Transform progress: 85 / 100
+2026-01-22 22:17:02,526 - backend.ETL.transform - INFO - Transform progress: 86 / 100
+2026-01-22 22:17:12,959 - backend.ETL.transform - INFO - Transform progress: 87 / 100
+2026-01-22 22:17:12,959 - backend.ETL.transform - INFO - Transform progress: 88 / 100
+2026-01-22 22:17:25,042 - backend.ETL.transform - INFO - Transform progress: 89 / 100
+2026-01-22 22:17:25,963 - backend.ETL.transform - INFO - Transform progress: 90 / 100
+2026-01-22 22:17:25,964 - backend.ETL.transform - INFO - Transform progress: 91 / 100
+2026-01-22 22:17:43,166 - backend.ETL.transform - INFO - Transform progress: 92 / 100
+2026-01-22 22:18:00,117 - backend.ETL.transform - INFO - Transform progress: 93 / 100
+2026-01-22 22:18:26,669 - backend.ETL.transform - INFO - Transform progress: 94 / 100
+2026-01-22 22:18:34,980 - backend.ETL.transform - INFO - Transform progress: 95 / 100
+2026-01-22 22:18:49,993 - backend.ETL.transform - INFO - Transform progress: 96 / 100
+2026-01-22 22:18:51,102 - backend.ETL.transform - INFO - Transform progress: 97 / 100
+2026-01-22 22:18:56,279 - backend.ETL.transform - INFO - Transform progress: 98 / 100
+2026-01-22 22:19:01,133 - backend.ETL.transform - INFO - Transform progress: 99 / 100
+2026-01-22 22:19:06,218 - backend.ETL.transform - INFO - Transform progress: 100 / 100
+2026-01-22 22:19:08,206 - backend.ETL.load - INFO - Load running...
+
+2026-01-22 22:19:08,727 - backend.ETL.load - INFO - Loaded JSON data into Postgres successfully!
+2026-01-22 22:19:08,729 - backend.get_data - INFO - ETL job completed successfully
+2026-01-22 22:19:08,731 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-23 03:46:10 +08)" executed successfully
+2026-01-22 22:25:55,536 - backend.app - INFO - Application shutting down
+2026-01-22 22:25:55,540 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 22:25:55,540 - apscheduler.scheduler - INFO - Scheduler has been shut down

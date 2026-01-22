@@ -2,7 +2,10 @@ import os
 import psycopg2
 from contextlib import contextmanager
 from dotenv import load_dotenv
-load_dotenv()
+from pathlib import Path
+
+dotenv_path = Path(__file__).parent.parent.parent / ".env"
+load_dotenv(dotenv_path)
 
 @contextmanager
 def get_connection():

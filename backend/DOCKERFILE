@@ -1,0 +1,21 @@
+# Base image
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy backend code
+COPY backend/ /app/
+
+# Install dependencies
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+
+# Copy frontend build if React/Vite
+COPY backend/static /app/static
+
+# Expose port
+EXPOSE 8000
+
+# Run Uvicorn
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]

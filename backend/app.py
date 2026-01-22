@@ -2,11 +2,27 @@ from fastapi import FastAPI, HTTPException, Query
 import psycopg2
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.cors import CORSMiddleware
-from db.connection import get_connection
+from backend.db.connection import get_connection
+from contextlib import asynccontextmanager
+from backend.scheduler import start_scheduler, shutdown_scheduler
 import traceback
+from backend.logger import get_logger
+from fastapi.staticfiles import StaticFiles
 
+logger = get_logger(__name__)
 
-app = FastAPI()
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    logger.info("Application starting")
+    start_scheduler()
+    yield
+    logger.info("Application shutting down")
+    shutdown_scheduler()
+
+app = FastAPI(lifespan=lifespan)
+
+# Load built static frontend code from /static
+app.mount("/", StaticFiles(directory="static", html=True), name="frontend")
 
 app.add_middleware(
     CORSMiddleware,
@@ -15,13 +31,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
+
 @app.get("/movies")
 def search_movies(
     search: str | None = None,
     genre: str | None = None,
     year: int | None = None,
-    sort: str = Query("title", regex="^(title|year|rating)$"),
-    order: str = Query("asc", regex="^(asc|desc)$"),
+    sort: str = Query("title", pattern="^(title|year|rating)$"),
+    order: str = Query("asc", pattern="^(asc|desc)$"),
     limit: int = Query(50, ge=1, le=1000),
     offset: int = Query(0, ge=0)
 ):

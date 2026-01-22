@@ -19,14 +19,14 @@ advanced_search_selector = {
 def get_website():
     return advanced_search_selector["website"]
 
-
-
 # Filter to movies only
-def filter_movies_only(wait):
+def filter_movies_only(wait, driver):
     movie_btn = wait.until(
-        EC.element_to_be_clickable(
-            advanced_search_selector["movie_btn"]
-        )
+        EC.presence_of_element_located(advanced_search_selector["movie_btn"])
+    )
+    driver.execute_script("arguments[0].scrollIntoView(true);", movie_btn)
+    movie_btn = wait.until(
+        EC.element_to_be_clickable(advanced_search_selector["movie_btn"])
     )
     movie_btn.click()
 

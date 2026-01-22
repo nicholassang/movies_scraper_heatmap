@@ -1,9 +1,11 @@
 import json
 from pathlib import Path
-from db.connection import get_connection
+from backend.db.connection import get_connection
+from backend.logger import get_logger
 
+logger = get_logger(__name__)
 
-DATA_PATH = Path("data/cleaned_movie_data.json")
+DATA_PATH = Path("backend/data/cleaned_movie_data.json")
 
 
 def safe_int(value):
@@ -20,6 +22,7 @@ def safe_float(value):
 
 
 def load():
+    logger.info("Load running...\n")
     print("Load running...\n")
 
     # Load JSON file
@@ -126,4 +129,5 @@ def load():
 
         cur.execute("COMMIT")
 
+    logger.info("Loaded JSON data into Postgres successfully!")
     print("Loaded JSON data into Postgres successfully!")
