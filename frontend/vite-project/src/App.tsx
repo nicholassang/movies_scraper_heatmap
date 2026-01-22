@@ -153,38 +153,38 @@ function App() {
   }, [globeToggle, locations]);
 
   // Arcs
-useEffect(() => {
-  const globe = globeInstance.current;
-  if (!globe) return;
+  useEffect(() => {
+    const globe = globeInstance.current;
+    if (!globe) return;
 
-  if (!globeToggle || !selectedMovie || !movieLocations || movieLocations.length < 2) {
-    globe.arcsData([]); 
-    return;
-  }
+    if (!globeToggle || !selectedMovie || !movieLocations || movieLocations.length < 2) {
+      globe.arcsData([]); 
+      return;
+    }
 
-  const colors = ["#ff6b6b", "#ebb3fc", "#48dbfb", "#1dd1a1", "#5f27cd"];
-  const arcs = movieLocations
-    .map((loc, i, arr) => {
-      if (i === arr.length - 1) return null;
-      return {
-        startLat: loc.lat,
-        startLng: loc.lng,
-        endLat: arr[i + 1].lat,
-        endLng: arr[i + 1].lng,
-        color: colors[i % colors.length]
-      };
-    })
-    .filter(Boolean);
+    const colors = ["#ff6b6b", "#ebb3fc", "#48dbfb", "#1dd1a1", "#5f27cd"];
+    const arcs = movieLocations
+      .map((loc, i, arr) => {
+        if (i === arr.length - 1) return null;
+        return {
+          startLat: loc.lat,
+          startLng: loc.lng,
+          endLat: arr[i + 1].lat,
+          endLng: arr[i + 1].lng,
+          color: colors[i % colors.length]
+        };
+      })
+      .filter(Boolean);
 
-  globe.arcsData(arcs)
-       .arcColor((d: any) => d.color)
-       .arcAltitude(0.2)
-       .arcStroke(0.4)
-       .arcDashLength(0.9)
-       .arcDashGap(0.7)
-       .arcDashAnimateTime(1000);
+    globe.arcsData(arcs)
+        .arcColor((d: any) => d.color)
+        .arcAltitude(0.2)
+        .arcStroke(0.4)
+        .arcDashLength(0.9)
+        .arcDashGap(0.7)
+        .arcDashAnimateTime(1000);
 
-}, [movieLocations, selectedMovie, globeToggle, movieReady]);
+  }, [movieLocations, selectedMovie, globeToggle, movieReady]);
 
 
   // prevent zooming for the user
@@ -306,7 +306,10 @@ useEffect(() => {
         <>
           <button
             id="close_movie_panel"
-            onClick={() => setSelectedMovie(null)}
+            onClick={() => {
+              setSelectedMovie(null);
+              setSelectedPoint(null);
+            }}
             className='toggle_info'
           >
           </button>
@@ -355,7 +358,7 @@ useEffect(() => {
           </div>
         </>
       ) : (
-<>
+  <>
   {/* Parent container */}
   <div
     id="movie_selector_container"
@@ -414,7 +417,10 @@ useEffect(() => {
             backgroundColor: "rgba(2, 34, 65, 0.7)",
             boxShadow: "0 1px 3px rgba(0,0,0,0.2)"
           }}
-          onClick={() => handleMovieSelect(movie.source_id)}
+          onClick={() => {
+            handleMovieSelect(movie.source_id);
+            setSelectedPoint(null);
+          }}
         >
           <img
             src={movie.poster_url}

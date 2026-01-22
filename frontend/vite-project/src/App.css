@@ -257,6 +257,7 @@ span {
 #close_movie_panel {
   top: 0.3em;
   left: 15em;
+  animation: color-cycle 1s infinite alternate linear;
 }
 
 
