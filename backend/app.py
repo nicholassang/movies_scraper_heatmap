@@ -245,3 +245,33 @@ def get_locations(
         # Catch-all for any other error
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
+    
+@app.get("/locations/{source_id}")
+def get_locations_for_movie(source_id: str):
+    try:
+        with get_connection() as conn:
+            cur = conn.cursor()
+            cur.execute("""
+                SELECT id, lat, lng, address
+                FROM locations
+                WHERE movie_id = %s
+                ORDER BY id
+            """, (source_id,))
+
+            rows = cur.fetchall()
+
+            return {
+                "results": [
+                    {
+                        "location_id": row[0],
+                        "lat": row[1],
+                        "lng": row[2],
+                        "address": row[3]
+                    }
+                    for row in rows
+                ]
+            }
+
+    except Exception as e:
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))

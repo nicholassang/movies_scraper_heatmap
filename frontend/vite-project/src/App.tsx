@@ -11,6 +11,7 @@ function App() {
   const [infoToggle, setInfoToggle] = useState<boolean>(true);
   const [selectedPoint, setSelectedPoint] = useState<any>(null)
   const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null);
+  const [movieLocations, setMovieLocations] = useState<LocationPoint[]>([]);
 
   // Fetch data from backend
   useEffect(() => {
@@ -69,6 +70,17 @@ function App() {
           return;
         }
 
+        fetch(`http://127.0.0.1:8000/locations/${d.source_id}`)
+          .then(res => {
+            if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+            return res.json();
+          })
+          .then(data => {
+            console.log("Movie locations:", data.results);   
+            setMovieLocations(data.results);                 
+          })
+          .catch(err => console.error("Error fetching locations:", err));
+
         fetch(`http://127.0.0.1:8000/movies/${d.source_id}`)
           .then(res => {
             if (!res.ok) throw new Error(`HTTP error ${res.status}`);
@@ -126,6 +138,41 @@ function App() {
     }
   }, [globeToggle, locations]);
 
+  // Arcs
+useEffect(() => {
+  const globe = globeInstance.current;
+  if (!globe) return;
+
+  if (!globeToggle || !selectedMovie || !movieLocations || movieLocations.length < 2) {
+    globe.arcsData([]); 
+    return;
+  }
+
+  const colors = ["#ff6b6b", "#ebb3fc", "#48dbfb", "#1dd1a1", "#5f27cd"];
+  const arcs = movieLocations
+    .map((loc, i, arr) => {
+      if (i === arr.length - 1) return null;
+      return {
+        startLat: loc.lat,
+        startLng: loc.lng,
+        endLat: arr[i + 1].lat,
+        endLng: arr[i + 1].lng,
+        color: colors[i % colors.length]
+      };
+    })
+    .filter(Boolean);
+
+  globe.arcsData(arcs)
+       .arcColor((d: any) => d.color)
+       .arcAltitude(0.2)
+       .arcStroke(0.4)
+       .arcDashLength(0.9)
+       .arcDashGap(0.7)
+       .arcDashAnimateTime(1000);
+
+}, [movieLocations, selectedMovie, globeToggle]);
+
+
   // prevent zooming for the user
   useEffect(() => {
     const handler = (e: WheelEvent | KeyboardEvent) => {
@@ -180,7 +227,9 @@ function App() {
     <button
       id="toggle_globe_pointmap"
       className={`toggle_globe ${globeToggle ? "active" : ""}`}
-      onClick={() => setGlobeToggle(true)}
+      onClick={() => {
+        setGlobeToggle(true);
+      }}
     >
       PointMap
     </button>
@@ -188,7 +237,12 @@ function App() {
     <button
       id="toggle_globe_heatmap"
       className={`toggle_globe ${!globeToggle ? "active" : ""}`}
-      onClick={() => setGlobeToggle(false)}
+      onClick={() => {
+        setGlobeToggle(false);
+        if (globeInstance.current) {
+          globeInstance.current.arcsData([]);
+        }
+      }}
     >
       HeatMap
     </button>
