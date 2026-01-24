@@ -1,3 +1,6 @@
+// Test fix: Linux webgpu cancel
+if ((navigator as any).gpu) delete (navigator as any).gpu;
+
 import { useState, useEffect, useRef } from 'react';
 import Globe from 'globe.gl';
 import type { Movie, LocationPoint } from "./types";

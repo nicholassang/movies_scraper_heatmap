@@ -28,7 +28,10 @@ def filter_movies_only(wait, driver):
     movie_btn = wait.until(
         EC.element_to_be_clickable(advanced_search_selector["movie_btn"])
     )
-    movie_btn.click()
+    try:
+        movie_btn.click()
+    except Exception:
+        driver.execute_script("arguments[0].click();", movie_btn)
 
 # Click on country filter
 def click_country_filter(driver, wait):
