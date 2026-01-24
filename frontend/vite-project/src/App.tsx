@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import Globe from 'globe.gl';
 import type { Movie, LocationPoint } from "./types";
 import './App.css'
+import * as THREE from 'three';
 
 function App() {
   const globeEl = useRef<HTMLDivElement>(null);
@@ -75,7 +76,17 @@ function App() {
     if (!globeEl.current || locations.length === 0) return;
     if (globeInstance.current) return;
 
-    const globe = new Globe(globeEl.current)
+    // for linux (no webgpu, use webgl)
+    const renderer = new THREE.WebGLRenderer({
+      antialias: true,
+      alpha: true
+    });
+
+    const globe = new Globe(globeEl.current);
+
+    (globe as any).renderer(renderer);
+
+    globe
       .globeImageUrl("//unpkg.com/three-globe/example/img/earth-night.jpg")
       .pointLat((d: any) => d.lat)
       .pointLng((d: any) => d.lng)
