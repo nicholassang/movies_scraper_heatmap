@@ -1,0 +1,130 @@
+2026-01-24 14:56:40,765 - app - INFO - Application starting
+2026-01-24 14:56:40,766 - scheduler - INFO - Starting scheduler
+2026-01-24 14:56:40,767 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-24 14:56:40,771 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-24 14:56:40,771 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-24 14:56:40,773 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-24 14:56:40 UTC)" (scheduled at 2026-01-24 14:56:40.766962+00:00)
+2026-01-24 14:56:40,773 - get_data - INFO - ETL job started
+2026-01-24 14:56:40,774 - ETL.extract - INFO - Extract Running...
+2026-01-24 14:56:40,774 - WDM - INFO - ====== WebDriver manager ======
+2026-01-24 14:56:40,786 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 14:56:40,835 - WDM - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2026-01-24 14:56:40,865 - WDM - INFO - Driver downloading response is 200
+2026-01-24 14:56:41,204 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 14:56:41,367 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 14:56:41,416 - WDM - INFO - Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2026-01-24 14:56:58,003 - ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-24 14:56:58,004 - ETL.scrapers.scrape_imdb - INFO - 2. 28 Years Later: The Bone Temple https://www.imdb.com/title/tt32141377/?ref_=sr_t_2
+2026-01-24 14:56:58,004 - ETL.scrapers.scrape_imdb - INFO - 3. The Housemaid https://www.imdb.com/title/tt27543632/?ref_=sr_t_3
+2026-01-24 14:56:58,005 - ETL.scrapers.scrape_imdb - INFO - 4. One Battle After Another https://www.imdb.com/title/tt30144839/?ref_=sr_t_4
+2026-01-24 14:56:58,005 - ETL.scrapers.scrape_imdb - INFO - 5. People We Meet on Vacation https://www.imdb.com/title/tt22740896/?ref_=sr_t_5
+2026-01-24 14:56:58,006 - ETL.scrapers.scrape_imdb - INFO - 6. Marty Supreme https://www.imdb.com/title/tt32916440/?ref_=sr_t_6
+2026-01-24 14:56:58,006 - ETL.scrapers.scrape_imdb - INFO - 7. The Bride! https://www.imdb.com/title/tt30851137/?ref_=sr_t_7
+2026-01-24 14:56:58,007 - ETL.scrapers.scrape_imdb - INFO - 8. Hamnet https://www.imdb.com/title/tt14905854/?ref_=sr_t_8
+2026-01-24 14:56:58,008 - ETL.scrapers.scrape_imdb - INFO - 9. Avatar: Fire and Ash https://www.imdb.com/title/tt1757678/?ref_=sr_t_9
+2026-01-24 14:56:58,008 - ETL.scrapers.scrape_imdb - INFO - 10. 28 Years Later https://www.imdb.com/title/tt10548174/?ref_=sr_t_10
+2026-01-24 14:56:58,009 - ETL.scrapers.scrape_imdb - INFO - 11. Sinners https://www.imdb.com/title/tt31193180/?ref_=sr_t_11
+2026-01-24 14:56:58,009 - ETL.scrapers.scrape_imdb - INFO - 12. Rental Family https://www.imdb.com/title/tt14142060/?ref_=sr_t_12
+2026-01-24 14:56:58,010 - ETL.scrapers.scrape_imdb - INFO - 13. Wake Up Dead Man https://www.imdb.com/title/tt14364480/?ref_=sr_t_13
+2026-01-24 14:56:58,010 - ETL.scrapers.scrape_imdb - INFO - 14. The Running Man https://www.imdb.com/title/tt14107334/?ref_=sr_t_14
+2026-01-24 14:56:58,011 - ETL.scrapers.scrape_imdb - INFO - 15. Bugonia https://www.imdb.com/title/tt12300742/?ref_=sr_t_15
+2026-01-24 14:56:58,012 - ETL.scrapers.scrape_imdb - INFO - 16. Nuremberg https://www.imdb.com/title/tt29567915/?ref_=sr_t_16
+2026-01-24 14:56:58,013 - ETL.scrapers.scrape_imdb - INFO - 17. Dust Bunny https://www.imdb.com/title/tt23172090/?ref_=sr_t_17
+2026-01-24 14:56:58,013 - ETL.scrapers.scrape_imdb - INFO - 18. Greenland 2: Migration https://www.imdb.com/title/tt14850054/?ref_=sr_t_18
+2026-01-24 14:56:58,014 - ETL.scrapers.scrape_imdb - INFO - 19. Frankenstein https://www.imdb.com/title/tt1312221/?ref_=sr_t_19
+2026-01-24 14:56:58,015 - ETL.scrapers.scrape_imdb - INFO - 20. No Other Choice https://www.imdb.com/title/tt1527793/?ref_=sr_t_20
+2026-01-24 14:56:58,015 - ETL.scrapers.scrape_imdb - INFO - 21. Primate https://www.imdb.com/title/tt33028778/?ref_=sr_t_21
+2026-01-24 14:56:58,016 - ETL.scrapers.scrape_imdb - INFO - 22. Sentimental Value https://www.imdb.com/title/tt27714581/?ref_=sr_t_22
+2026-01-24 14:56:58,016 - ETL.scrapers.scrape_imdb - INFO - 23. Song Sung Blue https://www.imdb.com/title/tt30343021/?ref_=sr_t_23
+2026-01-24 14:56:58,016 - ETL.scrapers.scrape_imdb - INFO - 24. Send Help https://www.imdb.com/title/tt8036976/?ref_=sr_t_24
+2026-01-24 14:56:58,017 - ETL.scrapers.scrape_imdb - INFO - 25. Zootopia 2 https://www.imdb.com/title/tt26443597/?ref_=sr_t_25
+2026-01-24 14:56:58,017 - ETL.scrapers.scrape_imdb - INFO - 26. Predator: Badlands https://www.imdb.com/title/tt31227572/?ref_=sr_t_26
+2026-01-24 14:56:58,018 - ETL.scrapers.scrape_imdb - INFO - 27. Train Dreams https://www.imdb.com/title/tt29768334/?ref_=sr_t_27
+2026-01-24 14:56:58,018 - ETL.scrapers.scrape_imdb - INFO - 28. Dhurandhar https://www.imdb.com/title/tt33014583/?ref_=sr_t_28
+2026-01-24 14:56:58,019 - ETL.scrapers.scrape_imdb - INFO - 29. Pillion https://www.imdb.com/title/tt32321317/?ref_=sr_t_29
+2026-01-24 14:56:58,020 - ETL.scrapers.scrape_imdb - INFO - 30. Weapons https://www.imdb.com/title/tt26581740/?ref_=sr_t_30
+2026-01-24 14:56:58,020 - ETL.scrapers.scrape_imdb - INFO - 31. The Secret Agent https://www.imdb.com/title/tt27847051/?ref_=sr_t_31
+2026-01-24 14:56:58,020 - ETL.scrapers.scrape_imdb - INFO - 32. Tron: Ares https://www.imdb.com/title/tt6604188/?ref_=sr_t_32
+2026-01-24 14:56:58,021 - ETL.scrapers.scrape_imdb - INFO - 33. The Tank https://www.imdb.com/title/tt31495504/?ref_=sr_t_33
+2026-01-24 14:56:58,021 - ETL.scrapers.scrape_imdb - INFO - 34. Avengers: Doomsday https://www.imdb.com/title/tt21357150/?ref_=sr_t_34
+2026-01-24 14:56:58,022 - ETL.scrapers.scrape_imdb - INFO - 35. 28 Days Later https://www.imdb.com/title/tt0289043/?ref_=sr_t_35
+2026-01-24 14:56:58,023 - ETL.scrapers.scrape_imdb - INFO - 36. Anaconda https://www.imdb.com/title/tt33244668/?ref_=sr_t_36
+2026-01-24 14:56:58,023 - ETL.scrapers.scrape_imdb - INFO - 37. The Odyssey https://www.imdb.com/title/tt33764258/?ref_=sr_t_37
+2026-01-24 14:56:58,024 - ETL.scrapers.scrape_imdb - INFO - 38. Mercy https://www.imdb.com/title/tt31050594/?ref_=sr_t_38
+2026-01-24 14:56:58,024 - ETL.scrapers.scrape_imdb - INFO - 39. Killer Whale https://www.imdb.com/title/tt33479805/?ref_=sr_t_39
+2026-01-24 14:56:58,025 - ETL.scrapers.scrape_imdb - INFO - 40. Wuthering Heights https://www.imdb.com/title/tt32897959/?ref_=sr_t_40
+2026-01-24 14:56:58,025 - ETL.scrapers.scrape_imdb - INFO - 41. The Shawshank Redemption https://www.imdb.com/title/tt0111161/?ref_=sr_t_41
+2026-01-24 14:56:58,026 - ETL.scrapers.scrape_imdb - INFO - 42. F1: The Movie https://www.imdb.com/title/tt16311594/?ref_=sr_t_42
+2026-01-24 14:56:58,026 - ETL.scrapers.scrape_imdb - INFO - 43. Lee Cronin's The Mummy https://www.imdb.com/title/tt32612507/?ref_=sr_t_43
+2026-01-24 14:56:58,027 - ETL.scrapers.scrape_imdb - INFO - 44. If I Had Legs I'd Kick You https://www.imdb.com/title/tt18382850/?ref_=sr_t_44
+2026-01-24 14:56:58,027 - ETL.scrapers.scrape_imdb - INFO - 45. Jay Kelly https://www.imdb.com/title/tt30446847/?ref_=sr_t_45
+2026-01-24 14:56:58,028 - ETL.scrapers.scrape_imdb - INFO - 46. Greenland https://www.imdb.com/title/tt7737786/?ref_=sr_t_46
+2026-01-24 14:56:58,028 - ETL.scrapers.scrape_imdb - INFO - 47. Die My Love https://www.imdb.com/title/tt9362736/?ref_=sr_t_47
+2026-01-24 14:56:58,029 - ETL.scrapers.scrape_imdb - INFO - 48. The Lord of the Rings: The Fellowship of the Ring https://www.imdb.com/title/tt0120737/?ref_=sr_t_48
+2026-01-24 14:56:58,029 - ETL.scrapers.scrape_imdb - INFO - 49. The Life of Chuck https://www.imdb.com/title/tt12908150/?ref_=sr_t_49
+2026-01-24 14:56:58,030 - ETL.scrapers.scrape_imdb - INFO - 50. Dracula https://www.imdb.com/title/tt31434030/?ref_=sr_t_50
+2026-01-24 14:56:58,030 - ETL.scrapers.scrape_imdb - INFO - 51. Bone Lake https://www.imdb.com/title/tt26783625/?ref_=sr_t_51
+2026-01-24 14:56:58,031 - ETL.scrapers.scrape_imdb - INFO - 52. Black Phone 2 https://www.imdb.com/title/tt29644189/?ref_=sr_t_52
+2026-01-24 14:56:58,031 - ETL.scrapers.scrape_imdb - INFO - 53. Roofman https://www.imdb.com/title/tt4627382/?ref_=sr_t_53
+2026-01-24 14:56:58,032 - ETL.scrapers.scrape_imdb - INFO - 54. Is This Thing On? https://www.imdb.com/title/tt28083456/?ref_=sr_t_54
+2026-01-24 14:56:58,032 - ETL.scrapers.scrape_imdb - INFO - 55. Eternity https://www.imdb.com/title/tt24950660/?ref_=sr_t_55
+2026-01-24 14:56:58,033 - ETL.scrapers.scrape_imdb - INFO - 56. Crime 101 https://www.imdb.com/title/tt32430579/?ref_=sr_t_56
+2026-01-24 14:56:58,033 - ETL.scrapers.scrape_imdb - INFO - 57. Avatar https://www.imdb.com/title/tt0499549/?ref_=sr_t_57
+2026-01-24 14:56:58,033 - ETL.scrapers.scrape_imdb - INFO - 58. Flight 7500 https://www.imdb.com/title/tt1975159/?ref_=sr_t_58
+2026-01-24 14:56:58,034 - ETL.scrapers.scrape_imdb - INFO - 59. Avatar: The Way of Water https://www.imdb.com/title/tt1630029/?ref_=sr_t_59
+2026-01-24 14:56:58,035 - ETL.scrapers.scrape_imdb - INFO - 60. Dead Man's Wire https://www.imdb.com/title/tt15181326/?ref_=sr_t_60
+2026-01-24 14:56:58,036 - ETL.scrapers.scrape_imdb - INFO - 61. Ballerina https://www.imdb.com/title/tt7181546/?ref_=sr_t_61
+2026-01-24 14:56:58,037 - ETL.scrapers.scrape_imdb - INFO - 62. KPop Demon Hunters https://www.imdb.com/title/tt14205554/?ref_=sr_t_62
+2026-01-24 14:56:58,038 - ETL.scrapers.scrape_imdb - INFO - 63. The Naked Gun https://www.imdb.com/title/tt3402138/?ref_=sr_t_63
+2026-01-24 14:56:58,038 - ETL.scrapers.scrape_imdb - INFO - 64. Interstellar https://www.imdb.com/title/tt0816692/?ref_=sr_t_64
+2026-01-24 14:56:58,038 - ETL.scrapers.scrape_imdb - INFO - 65. Return to Silent Hill https://www.imdb.com/title/tt22868010/?ref_=sr_t_65
+2026-01-24 14:56:58,039 - ETL.scrapers.scrape_imdb - INFO - 66. Spider-Man: Brand New Day https://www.imdb.com/title/tt22084616/?ref_=sr_t_66
+2026-01-24 14:56:58,039 - ETL.scrapers.scrape_imdb - INFO - 67. The Long Walk https://www.imdb.com/title/tt10374610/?ref_=sr_t_67
+2026-01-24 14:56:58,039 - ETL.scrapers.scrape_imdb - INFO - 68. Knives Out https://www.imdb.com/title/tt8946378/?ref_=sr_t_68
+2026-01-24 14:56:58,040 - ETL.scrapers.scrape_imdb - INFO - 69. Now You See Me: Now You Don't https://www.imdb.com/title/tt4712810/?ref_=sr_t_69
+2026-01-24 14:56:58,040 - ETL.scrapers.scrape_imdb - INFO - 70. Regretting You https://www.imdb.com/title/tt33088452/?ref_=sr_t_70
+2026-01-24 14:56:58,041 - ETL.scrapers.scrape_imdb - INFO - 71. GOAT https://www.imdb.com/title/tt27613895/?ref_=sr_t_71
+2026-01-24 14:56:58,042 - ETL.scrapers.scrape_imdb - INFO - 72. 28 Weeks Later https://www.imdb.com/title/tt0463854/?ref_=sr_t_72
+2026-01-24 14:56:58,042 - ETL.scrapers.scrape_imdb - INFO - 73. Haq https://www.imdb.com/title/tt36642456/?ref_=sr_t_73
+2026-01-24 14:56:58,043 - ETL.scrapers.scrape_imdb - INFO - 74. The Substance https://www.imdb.com/title/tt17526714/?ref_=sr_t_74
+2026-01-24 14:56:58,044 - ETL.scrapers.scrape_imdb - INFO - 75. Jurassic World: Rebirth https://www.imdb.com/title/tt31036941/?ref_=sr_t_75
+2026-01-24 14:56:58,045 - ETL.scrapers.scrape_imdb - INFO - 76. The Fantastic Four: First Steps https://www.imdb.com/title/tt10676052/?ref_=sr_t_76
+2026-01-24 14:56:58,045 - ETL.scrapers.scrape_imdb - INFO - 77. Mission: Impossible - The Final Reckoning https://www.imdb.com/title/tt9603208/?ref_=sr_t_77
+2026-01-24 14:56:58,046 - ETL.scrapers.scrape_imdb - INFO - 78. Superman https://www.imdb.com/title/tt5950044/?ref_=sr_t_78
+2026-01-24 14:56:58,046 - ETL.scrapers.scrape_imdb - INFO - 79. Five Nights at Freddy's 2 https://www.imdb.com/title/tt30274401/?ref_=sr_t_79
+2026-01-24 14:56:58,048 - ETL.scrapers.scrape_imdb - INFO - 80. Inception https://www.imdb.com/title/tt1375666/?ref_=sr_t_80
+2026-01-24 14:56:58,049 - ETL.scrapers.scrape_imdb - INFO - 81. The Godfather https://www.imdb.com/title/tt0068646/?ref_=sr_t_81
+2026-01-24 14:56:58,050 - ETL.scrapers.scrape_imdb - INFO - 82. Together https://www.imdb.com/title/tt31184028/?ref_=sr_t_82
+2026-01-24 14:56:58,051 - ETL.scrapers.scrape_imdb - INFO - 83. It Was Just an Accident https://www.imdb.com/title/tt36491653/?ref_=sr_t_83
+2026-01-24 14:56:58,054 - ETL.scrapers.scrape_imdb - INFO - 84. The Wrecking Crew https://www.imdb.com/title/tt33046197/?ref_=sr_t_84
+2026-01-24 14:56:58,055 - ETL.scrapers.scrape_imdb - INFO - 85. The Dark Knight https://www.imdb.com/title/tt0468569/?ref_=sr_t_85
+2026-01-24 14:56:58,056 - ETL.scrapers.scrape_imdb - INFO - 86. A House of Dynamite https://www.imdb.com/title/tt32376165/?ref_=sr_t_86
+2026-01-24 14:56:58,056 - ETL.scrapers.scrape_imdb - INFO - 87. The Confession https://www.imdb.com/title/tt35838700/?ref_=sr_t_87
+2026-01-24 14:56:58,057 - ETL.scrapers.scrape_imdb - INFO - 88. Wicked: For Good https://www.imdb.com/title/tt19847976/?ref_=sr_t_88
+2026-01-24 14:56:58,057 - ETL.scrapers.scrape_imdb - INFO - 89. Good Luck, Have Fun, Don't Die https://www.imdb.com/title/tt1341338/?ref_=sr_t_89
+2026-01-24 14:56:58,058 - ETL.scrapers.scrape_imdb - INFO - 90. Eko https://www.imdb.com/title/tt36616410/?ref_=sr_t_90
+2026-01-24 14:56:58,059 - ETL.scrapers.scrape_imdb - INFO - 91. The Smashing Machine https://www.imdb.com/title/tt11214558/?ref_=sr_t_91
+2026-01-24 14:56:58,059 - ETL.scrapers.scrape_imdb - INFO - 92. Good Will Hunting https://www.imdb.com/title/tt0119217/?ref_=sr_t_92
+2026-01-24 14:56:58,060 - ETL.scrapers.scrape_imdb - INFO - 93. Harry Potter and the Sorcerer's Stone https://www.imdb.com/title/tt0241527/?ref_=sr_t_93
+2026-01-24 14:56:58,061 - ETL.scrapers.scrape_imdb - INFO - 94. Parasite https://www.imdb.com/title/tt6751668/?ref_=sr_t_94
+2026-01-24 14:56:58,061 - ETL.scrapers.scrape_imdb - INFO - 95. Heat https://www.imdb.com/title/tt0113277/?ref_=sr_t_95
+2026-01-24 14:56:58,061 - ETL.scrapers.scrape_imdb - INFO - 96. A Big Bold Beautiful Journey https://www.imdb.com/title/tt13650700/?ref_=sr_t_96
+2026-01-24 14:56:58,062 - ETL.scrapers.scrape_imdb - INFO - 97. Pulp Fiction https://www.imdb.com/title/tt0110912/?ref_=sr_t_97
+2026-01-24 14:56:58,062 - ETL.scrapers.scrape_imdb - INFO - 98. Eden https://www.imdb.com/title/tt23149780/?ref_=sr_t_98
+2026-01-24 14:56:58,063 - ETL.scrapers.scrape_imdb - INFO - 99. Oppenheimer https://www.imdb.com/title/tt15398776/?ref_=sr_t_99
+2026-01-24 14:56:58,064 - ETL.scrapers.scrape_imdb - INFO - 100. Caught Stealing https://www.imdb.com/title/tt1493274/?ref_=sr_t_100
+2026-01-24 14:57:02,298 - ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 100: 1. The Rip
+2026-01-24 14:57:07,527 - ETL.scrapers.scrape_imdb - INFO - Processing movie 2 / 100: 2. 28 Years Later: The Bone Temple
+2026-01-24 14:57:12,955 - ETL.scrapers.scrape_imdb - INFO - Processing movie 3 / 100: 3. The Housemaid
+2026-01-24 14:57:18,320 - ETL.scrapers.scrape_imdb - INFO - Processing movie 4 / 100: 4. One Battle After Another
+2026-01-24 14:57:23,108 - ETL.scrapers.scrape_imdb - INFO - Processing movie 5 / 100: 5. People We Meet on Vacation
+2026-01-24 14:57:28,977 - ETL.scrapers.scrape_imdb - INFO - Processing movie 6 / 100: 6. Marty Supreme
+2026-01-24 14:57:35,593 - ETL.scrapers.scrape_imdb - INFO - Processing movie 7 / 100: 7. The Bride!
+2026-01-24 14:57:42,056 - ETL.scrapers.scrape_imdb - INFO - Processing movie 8 / 100: 8. Hamnet
+2026-01-24 14:57:47,395 - ETL.scrapers.scrape_imdb - INFO - Processing movie 9 / 100: 9. Avatar: Fire and Ash
+2026-01-24 14:57:53,799 - ETL.scrapers.scrape_imdb - INFO - Processing movie 10 / 100: 10. 28 Years Later
+2026-01-24 14:58:00,368 - ETL.scrapers.scrape_imdb - INFO - Processing movie 11 / 100: 11. Sinners
+2026-01-24 14:58:05,599 - ETL.scrapers.scrape_imdb - INFO - Processing movie 12 / 100: 12. Rental Family
+2026-01-24 14:58:08,012 - app - INFO - Application shutting down
+2026-01-24 14:58:08,015 - scheduler - INFO - Shutting down scheduler
+2026-01-24 14:58:08,016 - apscheduler.scheduler - INFO - Scheduler has been shut down
