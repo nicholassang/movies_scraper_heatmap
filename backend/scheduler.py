@@ -17,7 +17,7 @@ def start_scheduler():
         id="etl_job",
         replace_existing=True,
         max_instances=1,
-        next_run_time=datetime.now() # Scheduler runs immediately 
+        # next_run_time=datetime.now() # Scheduler runs immediately 
     )
 
     scheduler.start()
