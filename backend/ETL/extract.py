@@ -1,6 +1,6 @@
-from backend.ETL.scrapers.scrape_imdb import scrape_imdb
-from backend.ETL.scrapers.scrape_filming_locations import scrape_filming_locations
-from backend.logger import get_logger
+from ETL.scrapers.scrape_imdb import scrape_imdb
+from ETL.scrapers.scrape_filming_locations import scrape_filming_locations
+from logger import get_logger
 
 logger = get_logger(__name__)
 

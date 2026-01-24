@@ -1,7 +1,7 @@
-from backend.ETL.extract import extract
-from backend.ETL.transform import transform
-from backend.ETL.load import load
-from backend.logger import get_logger
+from ETL.extract import extract
+from ETL.transform import transform
+from ETL.load import load
+from logger import get_logger
 
 logger = get_logger(__name__)
 

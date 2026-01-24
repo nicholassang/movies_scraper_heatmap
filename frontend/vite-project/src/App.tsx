@@ -17,8 +17,9 @@ function App() {
   const [movieReady, setMovieReady] = useState<boolean>(true);
 
   // Fetch data from backend
+  // local testing: "http://127.0.0.1:8000/locations"
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/locations")
+    fetch("/locations")
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error: ${res.status}`);
@@ -55,7 +56,8 @@ function App() {
       });
 
   // Main Page
-  fetch("http://127.0.0.1:8000/movies?limit=100")
+  // local testing: "http://127.0.0.1:8000/movies?limit=100"
+  fetch("/movies?limit=100")
     .then(res => res.json())
     .then(data => {
       if (data && Array.isArray(data.results)) {
@@ -84,18 +86,19 @@ function App() {
         }
         handleMovieSelect(d.source_id);
 
-        fetch(`http://127.0.0.1:8000/locations/${d.source_id}`)
+        // local testing: `http://127.0.0.1:8000/locations/${d.source_id}`
+        fetch(`/locations/${d.source_id}`)
           .then(res => {
             if (!res.ok) throw new Error(`HTTP error ${res.status}`);
             return res.json();
           })
           .then(data => {
-            console.log("Movie locations:", data.results);   
             setMovieLocations(data.results);                 
           })
           .catch(err => console.error("Error fetching locations:", err));
 
-        fetch(`http://127.0.0.1:8000/movies/${d.source_id}`)
+        // local testing: `http://127.0.0.1:8000/movies/${d.source_id}`
+        fetch(`/movies/${d.source_id}`)
           .then(res => {
             if (!res.ok) throw new Error(`HTTP error ${res.status}`);
             return res.json();
@@ -241,11 +244,13 @@ function App() {
     setMovieReady(false);
 
     // Fetch movie data
-    fetch(`http://127.0.0.1:8000/movies/${movieId}`)
+    // local testing: `http://127.0.0.1:8000/movies/${movieId}`
+    fetch(`/movies/${movieId}`)
       .then(res => res.json())
       .then(movieData => {
         // Fetch filming locations
-        return fetch(`http://127.0.0.1:8000/locations/${movieId}`)
+        // local testing: `http://127.0.0.1:8000/locations/${movieId}`
+        return fetch(`/locations/${movieId}`)
           .then(res => res.json())
           .then(locData => ({ movieData, locations: locData.results }));
       })
@@ -446,7 +451,12 @@ function App() {
       )}
     </div>
 
-    <div ref={globeEl} style={{ width: '100vw', height: '100vh' }} />
+    <div ref={globeEl}   
+    style={{
+      position: "fixed",
+      inset: 0,
+      zIndex: 0,
+  }} />
   </>);
 }
 

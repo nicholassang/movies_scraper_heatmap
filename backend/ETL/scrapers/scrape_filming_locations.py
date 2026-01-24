@@ -5,7 +5,13 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import time
 import json
-from backend.logger import get_logger
+from logger import get_logger
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[2]
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+raw_file_path = DATA_DIR / "raw_movie_data.json"
 
 logger = get_logger(__name__)
 
@@ -25,9 +31,10 @@ def scrape_filming_locations():
         "Chrome/117.0.0.0 Safari/537.36"
     )
 
-    driver = webdriver.Chrome(service=service, options=options)
+    # service=service removed to sync with docker
+    driver = webdriver.Chrome(options=options)
 
-    with open('./backend/data/raw_movie_data.json', 'r') as file:
+    with open(raw_file_path, 'r') as file:
         movie_data = json.load(file)
 
     modified_movies_data = []
@@ -53,5 +60,5 @@ def scrape_filming_locations():
         modified_movies_data.append(movie)
         
 
-    with open('./backend/data/raw_movie_data.json', 'w') as f:
+    with open(raw_file_path, 'w') as f:
         json.dump(modified_movies_data, f, ensure_ascii=False, indent=4)

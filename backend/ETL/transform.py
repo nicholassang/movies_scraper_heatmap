@@ -1,7 +1,14 @@
 from geopy.geocoders import Nominatim
 import json
 import traceback
-from backend.logger import get_logger
+from logger import get_logger
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+raw_file_path = DATA_DIR / "raw_movie_data.json"
+cleaned_file_path = DATA_DIR / "cleaned_movie_data.json"
 
 logger = get_logger(__name__)
 
@@ -14,7 +21,7 @@ def transform():
     cleaned_data = []
 
     try:
-        with open("./backend/data/raw_movie_data.json", 'r') as file:
+        with open(raw_file_path, 'r') as file:
             movie_data = json.load(file)
             length = len(movie_data)
             for i, movie in enumerate(movie_data):
@@ -42,7 +49,7 @@ def transform():
                 movie["filming_locations_coords"] = cache_locations_coords
                 cleaned_data.append(movie)
 
-        with open("./backend/data/cleaned_movie_data.json", 'w', encoding='utf-8') as file:
+        with open(cleaned_file_path, 'w', encoding='utf-8') as file:
             json.dump(cleaned_data, file, ensure_ascii=False, indent=4)
     except Exception:
         logger.error("Error: Did not convert all coordinates")
@@ -51,5 +58,5 @@ def transform():
         print("Error: Did not convert all coordinates")
         print(traceback.format_exc())
 
-        with open("./backend/data/cleaned_movie_data.json", 'w', encoding='utf-8') as file:
+        with open(cleaned_file_path, 'w', encoding='utf-8') as file:
             json.dump(cleaned_data, file, ensure_ascii=False, indent=4)

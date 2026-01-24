@@ -1,15 +1,17 @@
 from fastapi import FastAPI, HTTPException, Query
 import psycopg2
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.middleware.cors import CORSMiddleware
-from backend.db.connection import get_connection
+from db.connection import get_connection
 from contextlib import asynccontextmanager
-from backend.scheduler import start_scheduler, shutdown_scheduler
+from scheduler import start_scheduler, shutdown_scheduler
 import traceback
-from backend.logger import get_logger
+from logger import get_logger
 from fastapi.staticfiles import StaticFiles
+from pathlib import Path
+from fastapi.responses import FileResponse
 
 logger = get_logger(__name__)
+BASE_DIR = Path(__file__).parent
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -21,20 +23,32 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
-# Load built static frontend code from /static
-app.mount("/", StaticFiles(directory="static", html=True), name="frontend")
+@app.get("/")
+def root():
+    return FileResponse(BASE_DIR / "static/index.html")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"], 
+    allow_origins=["*"
+        #"http://localhost:5173", # Vite Dev Server
+        #"http://127.0.0.1:5173", # Additional: Vite Dev Server
+        #"http://localhost:4173", # Vite Prod Server
+        #"http://localhost:8000", # Docker Container
+        #"http://127.0.0.1:8000", # Docker Container
+        ], 
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+app.mount("/assets", StaticFiles(directory=BASE_DIR / "static" / "assets"), name="assets")
+
+# Load built static frontend code from /static
+app.mount("/static", StaticFiles(directory=BASE_DIR / "static", html=True))
+
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
-
 
 @app.get("/movies")
 def search_movies(

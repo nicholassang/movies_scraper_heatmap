@@ -1,11 +1,17 @@
 import json
 from pathlib import Path
-from backend.db.connection import get_connection
-from backend.logger import get_logger
+from db.connection import get_connection
+from logger import get_logger
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+cleaned_file_path = DATA_DIR / "cleaned_movie_data.json"
 
 logger = get_logger(__name__)
 
-DATA_PATH = Path("backend/data/cleaned_movie_data.json")
+DATA_PATH = Path(cleaned_file_path)
 
 
 def safe_int(value):

@@ -1268,3 +1268,402 @@ FileNotFoundError: [Errno 2] No such file or directory: './data/raw_movie_data.j
 2026-01-22 22:25:55,536 - backend.app - INFO - Application shutting down
 2026-01-22 22:25:55,540 - backend.scheduler - INFO - Shutting down scheduler
 2026-01-22 22:25:55,540 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:22:06,821 - backend.app - INFO - Application starting
+2026-01-22 23:22:06,822 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:22:06,824 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:22:06,826 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:22:06,826 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:26:42,957 - backend.app - INFO - Application shutting down
+2026-01-22 23:26:42,957 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:26:42,958 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:26:44,791 - backend.app - INFO - Application starting
+2026-01-22 23:26:44,791 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:26:44,793 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:26:44,795 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:26:44,795 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:27:34,748 - backend.app - INFO - Application shutting down
+2026-01-22 23:27:34,748 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:27:34,749 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:27:36,451 - backend.app - INFO - Application starting
+2026-01-22 23:27:36,451 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:27:36,453 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:27:36,455 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:27:36,455 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:28:40,763 - backend.app - INFO - Application shutting down
+2026-01-22 23:28:40,763 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:28:40,763 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:28:43,462 - backend.app - INFO - Application starting
+2026-01-22 23:28:43,463 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:28:43,466 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:28:43,469 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:28:43,470 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:28:52,708 - backend.app - INFO - Application shutting down
+2026-01-22 23:28:52,708 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:28:52,709 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:28:54,594 - backend.app - INFO - Application starting
+2026-01-22 23:28:54,595 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:28:54,597 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:28:54,600 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:28:54,600 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:30:46,446 - backend.app - INFO - Application shutting down
+2026-01-22 23:30:46,446 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:30:46,447 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:30:49,266 - backend.app - INFO - Application starting
+2026-01-22 23:30:49,267 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:30:49,273 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:30:49,276 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:30:49,277 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:31:57,509 - backend.app - INFO - Application shutting down
+2026-01-22 23:31:57,510 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:31:57,510 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:32:00,993 - backend.app - INFO - Application starting
+2026-01-22 23:32:00,993 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:32:00,995 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:32:00,997 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:32:00,998 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:32:03,358 - backend.app - INFO - Application shutting down
+2026-01-22 23:32:03,358 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:32:03,359 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:32:05,454 - backend.app - INFO - Application starting
+2026-01-22 23:32:05,454 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:32:05,457 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:32:05,459 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:32:05,459 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:34:35,476 - backend.app - INFO - Application shutting down
+2026-01-22 23:34:35,477 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:34:35,478 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:34:37,147 - backend.app - INFO - Application starting
+2026-01-22 23:34:37,147 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:34:37,149 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:34:37,150 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:34:37,150 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:35:37,636 - backend.app - INFO - Application shutting down
+2026-01-22 23:35:37,636 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:35:37,637 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:35:40,694 - backend.app - INFO - Application starting
+2026-01-22 23:35:40,695 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:35:40,698 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:35:40,700 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:35:40,701 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:38:23,501 - backend.app - INFO - Application shutting down
+2026-01-22 23:38:23,501 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:38:23,501 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:38:34,413 - backend.app - INFO - Application starting
+2026-01-22 23:38:34,414 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:38:34,417 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:38:34,419 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:38:34,419 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-22 23:59:45,490 - backend.app - INFO - Application shutting down
+2026-01-22 23:59:45,494 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-22 23:59:45,496 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-22 23:59:47,791 - backend.app - INFO - Application starting
+2026-01-22 23:59:47,791 - backend.scheduler - INFO - Starting scheduler
+2026-01-22 23:59:47,794 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-22 23:59:47,796 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-22 23:59:47,796 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 00:10:55,175 - backend.app - INFO - Application shutting down
+2026-01-23 00:10:55,176 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-23 00:10:55,178 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-23 00:11:00,053 - backend.app - INFO - Application starting
+2026-01-23 00:11:00,053 - backend.scheduler - INFO - Starting scheduler
+2026-01-23 00:11:00,056 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-23 00:11:00,058 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-23 00:11:00,058 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 00:11:25,958 - backend.app - INFO - Application shutting down
+2026-01-23 00:11:25,959 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-23 00:11:25,959 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-23 00:11:28,704 - backend.app - INFO - Application starting
+2026-01-23 00:11:28,705 - backend.scheduler - INFO - Starting scheduler
+2026-01-23 00:11:28,708 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-23 00:11:28,711 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-23 00:11:28,711 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 00:12:10,480 - backend.app - INFO - Application shutting down
+2026-01-23 00:12:10,480 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-23 00:12:10,480 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-23 00:12:12,305 - backend.app - INFO - Application starting
+2026-01-23 00:12:12,306 - backend.scheduler - INFO - Starting scheduler
+2026-01-23 00:12:12,308 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-23 00:12:12,311 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-23 00:12:12,311 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 00:12:26,440 - backend.app - INFO - Application shutting down
+2026-01-23 00:12:26,440 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-23 00:12:26,441 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-23 00:12:28,740 - backend.app - INFO - Application starting
+2026-01-23 00:12:28,740 - backend.scheduler - INFO - Starting scheduler
+2026-01-23 00:12:28,743 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-23 00:12:28,755 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-23 00:12:28,755 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 00:12:35,385 - backend.app - INFO - Application shutting down
+2026-01-23 00:12:35,386 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-23 00:12:35,386 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-23 00:12:37,737 - backend.app - INFO - Application starting
+2026-01-23 00:12:37,737 - backend.scheduler - INFO - Starting scheduler
+2026-01-23 00:12:37,740 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-23 00:12:37,743 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-23 00:12:37,743 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 00:13:52,098 - backend.app - INFO - Application shutting down
+2026-01-23 00:13:52,099 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-23 00:13:52,099 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-23 00:14:08,032 - backend.app - INFO - Application starting
+2026-01-23 00:14:08,033 - backend.scheduler - INFO - Starting scheduler
+2026-01-23 00:14:08,035 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-23 00:14:08,038 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-23 00:14:08,038 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 00:20:04,484 - backend.app - INFO - Application shutting down
+2026-01-23 00:20:04,484 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-23 00:20:04,485 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-23 00:20:07,585 - backend.app - INFO - Application starting
+2026-01-23 00:20:07,585 - backend.scheduler - INFO - Starting scheduler
+2026-01-23 00:20:07,589 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-23 00:20:07,593 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-23 00:20:07,593 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 08:40:44,993 - backend.app - INFO - Application starting
+2026-01-23 08:40:44,994 - backend.scheduler - INFO - Starting scheduler
+2026-01-23 08:40:44,995 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-23 08:40:44,996 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-23 08:40:44,996 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 10:32:37,193 - backend.app - INFO - Application shutting down
+2026-01-23 10:32:37,194 - backend.scheduler - INFO - Shutting down scheduler
+2026-01-23 10:32:37,196 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-23 14:26:04,082 - app - INFO - Application starting
+2026-01-23 14:26:04,082 - scheduler - INFO - Starting scheduler
+2026-01-23 14:26:04,083 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-23 14:26:04,085 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-23 14:26:04,085 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 14:26:14,294 - app - INFO - Application shutting down
+2026-01-23 14:26:14,295 - scheduler - INFO - Shutting down scheduler
+2026-01-23 14:26:14,295 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-23 14:26:21,311 - app - INFO - Application starting
+2026-01-23 14:26:21,312 - scheduler - INFO - Starting scheduler
+2026-01-23 14:26:21,313 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-23 14:26:21,316 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-23 14:26:21,316 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-23 14:29:28,950 - app - INFO - Application shutting down
+2026-01-23 14:29:28,950 - scheduler - INFO - Shutting down scheduler
+2026-01-23 14:29:28,953 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-24 11:45:30,489 - app - INFO - Application starting
+2026-01-24 11:45:30,490 - scheduler - INFO - Starting scheduler
+2026-01-24 11:45:30,491 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-24 11:45:30,492 - apscheduler.scheduler - INFO - Added job "run_etl" to job store "default"
+2026-01-24 11:45:30,492 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-24 11:45:30,493 - apscheduler.executors.default - INFO - Running job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-24 11:45:30 +08)" (scheduled at 2026-01-24 11:45:30.490228+08:00)
+2026-01-24 11:45:30,494 - get_data - INFO - ETL job started
+2026-01-24 11:45:30,494 - ETL.extract - INFO - Extract Running...
+2026-01-24 11:45:30,495 - WDM - INFO - ====== WebDriver manager ======
+2026-01-24 11:45:31,450 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 11:45:31,834 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 11:45:32,207 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 11:45:32,944 - WDM - INFO - WebDriver version 144.0.7559.96 selected
+2026-01-24 11:45:32,947 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.96/win32/chromedriver-win32.zip
+2026-01-24 11:45:32,948 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.96/win32/chromedriver-win32.zip
+2026-01-24 11:45:33,552 - WDM - INFO - Driver downloading response is 200
+2026-01-24 11:45:35,133 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-24 11:45:35,658 - WDM - INFO - Driver has been saved in cache [C:\Users\nicho\.wdm\drivers\chromedriver\win64\144.0.7559.96]
+2026-01-24 11:45:54,221 - ETL.scrapers.scrape_imdb - INFO - 1. The Rip https://www.imdb.com/title/tt32642706/?ref_=sr_t_1
+2026-01-24 11:45:54,222 - ETL.scrapers.scrape_imdb - INFO - 2. 28 Years Later: The Bone Temple https://www.imdb.com/title/tt32141377/?ref_=sr_t_2
+2026-01-24 11:45:54,222 - ETL.scrapers.scrape_imdb - INFO - 3. The Housemaid https://www.imdb.com/title/tt27543632/?ref_=sr_t_3
+2026-01-24 11:45:54,223 - ETL.scrapers.scrape_imdb - INFO - 4. One Battle After Another https://www.imdb.com/title/tt30144839/?ref_=sr_t_4
+2026-01-24 11:45:54,223 - ETL.scrapers.scrape_imdb - INFO - 5. People We Meet on Vacation https://www.imdb.com/title/tt22740896/?ref_=sr_t_5
+2026-01-24 11:45:54,223 - ETL.scrapers.scrape_imdb - INFO - 6. Marty Supreme https://www.imdb.com/title/tt32916440/?ref_=sr_t_6
+2026-01-24 11:45:54,223 - ETL.scrapers.scrape_imdb - INFO - 7. The Bride! https://www.imdb.com/title/tt30851137/?ref_=sr_t_7
+2026-01-24 11:45:54,223 - ETL.scrapers.scrape_imdb - INFO - 8. Hamnet https://www.imdb.com/title/tt14905854/?ref_=sr_t_8
+2026-01-24 11:45:54,223 - ETL.scrapers.scrape_imdb - INFO - 9. Avatar: Fire and Ash https://www.imdb.com/title/tt1757678/?ref_=sr_t_9
+2026-01-24 11:45:54,223 - ETL.scrapers.scrape_imdb - INFO - 10. 28 Years Later https://www.imdb.com/title/tt10548174/?ref_=sr_t_10
+2026-01-24 11:45:54,223 - ETL.scrapers.scrape_imdb - INFO - 11. Sinners https://www.imdb.com/title/tt31193180/?ref_=sr_t_11
+2026-01-24 11:45:54,224 - ETL.scrapers.scrape_imdb - INFO - 12. Rental Family https://www.imdb.com/title/tt14142060/?ref_=sr_t_12
+2026-01-24 11:45:54,224 - ETL.scrapers.scrape_imdb - INFO - 13. Wake Up Dead Man https://www.imdb.com/title/tt14364480/?ref_=sr_t_13
+2026-01-24 11:45:54,224 - ETL.scrapers.scrape_imdb - INFO - 14. The Running Man https://www.imdb.com/title/tt14107334/?ref_=sr_t_14
+2026-01-24 11:45:54,224 - ETL.scrapers.scrape_imdb - INFO - 15. Bugonia https://www.imdb.com/title/tt12300742/?ref_=sr_t_15
+2026-01-24 11:45:54,224 - ETL.scrapers.scrape_imdb - INFO - 16. Nuremberg https://www.imdb.com/title/tt29567915/?ref_=sr_t_16
+2026-01-24 11:45:54,224 - ETL.scrapers.scrape_imdb - INFO - 17. Dust Bunny https://www.imdb.com/title/tt23172090/?ref_=sr_t_17
+2026-01-24 11:45:54,224 - ETL.scrapers.scrape_imdb - INFO - 18. Greenland 2: Migration https://www.imdb.com/title/tt14850054/?ref_=sr_t_18
+2026-01-24 11:45:54,224 - ETL.scrapers.scrape_imdb - INFO - 19. Frankenstein https://www.imdb.com/title/tt1312221/?ref_=sr_t_19
+2026-01-24 11:45:54,225 - ETL.scrapers.scrape_imdb - INFO - 20. No Other Choice https://www.imdb.com/title/tt1527793/?ref_=sr_t_20
+2026-01-24 11:45:54,225 - ETL.scrapers.scrape_imdb - INFO - 21. Primate https://www.imdb.com/title/tt33028778/?ref_=sr_t_21
+2026-01-24 11:45:54,225 - ETL.scrapers.scrape_imdb - INFO - 22. Sentimental Value https://www.imdb.com/title/tt27714581/?ref_=sr_t_22
+2026-01-24 11:45:54,225 - ETL.scrapers.scrape_imdb - INFO - 23. Song Sung Blue https://www.imdb.com/title/tt30343021/?ref_=sr_t_23
+2026-01-24 11:45:54,225 - ETL.scrapers.scrape_imdb - INFO - 24. Send Help https://www.imdb.com/title/tt8036976/?ref_=sr_t_24
+2026-01-24 11:45:54,225 - ETL.scrapers.scrape_imdb - INFO - 25. Zootropolis 2 https://www.imdb.com/title/tt26443597/?ref_=sr_t_25
+2026-01-24 11:45:54,225 - ETL.scrapers.scrape_imdb - INFO - 26. Predator: Badlands https://www.imdb.com/title/tt31227572/?ref_=sr_t_26
+2026-01-24 11:45:54,225 - ETL.scrapers.scrape_imdb - INFO - 27. Train Dreams https://www.imdb.com/title/tt29768334/?ref_=sr_t_27
+2026-01-24 11:45:54,225 - ETL.scrapers.scrape_imdb - INFO - 28. Dhurandhar https://www.imdb.com/title/tt33014583/?ref_=sr_t_28
+2026-01-24 11:45:54,226 - ETL.scrapers.scrape_imdb - INFO - 29. Pillion https://www.imdb.com/title/tt32321317/?ref_=sr_t_29
+2026-01-24 11:45:54,226 - ETL.scrapers.scrape_imdb - INFO - 30. Weapons https://www.imdb.com/title/tt26581740/?ref_=sr_t_30
+2026-01-24 11:45:54,226 - ETL.scrapers.scrape_imdb - INFO - 31. The Secret Agent https://www.imdb.com/title/tt27847051/?ref_=sr_t_31
+2026-01-24 11:45:54,226 - ETL.scrapers.scrape_imdb - INFO - 32. Tron: Ares https://www.imdb.com/title/tt6604188/?ref_=sr_t_32
+2026-01-24 11:45:54,226 - ETL.scrapers.scrape_imdb - INFO - 33. The Tank https://www.imdb.com/title/tt31495504/?ref_=sr_t_33
+2026-01-24 11:45:54,226 - ETL.scrapers.scrape_imdb - INFO - 34. Avengers: Doomsday https://www.imdb.com/title/tt21357150/?ref_=sr_t_34
+2026-01-24 11:45:54,226 - ETL.scrapers.scrape_imdb - INFO - 35. 28 Days Later ... https://www.imdb.com/title/tt0289043/?ref_=sr_t_35
+2026-01-24 11:45:54,226 - ETL.scrapers.scrape_imdb - INFO - 36. Anaconda https://www.imdb.com/title/tt33244668/?ref_=sr_t_36
+2026-01-24 11:45:54,227 - ETL.scrapers.scrape_imdb - INFO - 37. The Odyssey https://www.imdb.com/title/tt33764258/?ref_=sr_t_37
+2026-01-24 11:45:54,227 - ETL.scrapers.scrape_imdb - INFO - 38. Mercy https://www.imdb.com/title/tt31050594/?ref_=sr_t_38
+2026-01-24 11:45:54,227 - ETL.scrapers.scrape_imdb - INFO - 39. Killer Whale https://www.imdb.com/title/tt33479805/?ref_=sr_t_39
+2026-01-24 11:45:54,228 - ETL.scrapers.scrape_imdb - INFO - 40. Wuthering Heights https://www.imdb.com/title/tt32897959/?ref_=sr_t_40
+2026-01-24 11:45:54,228 - ETL.scrapers.scrape_imdb - INFO - 41. The Shawshank Redemption https://www.imdb.com/title/tt0111161/?ref_=sr_t_41
+2026-01-24 11:45:54,228 - ETL.scrapers.scrape_imdb - INFO - 42. F1 https://www.imdb.com/title/tt16311594/?ref_=sr_t_42
+2026-01-24 11:45:54,229 - ETL.scrapers.scrape_imdb - INFO - 43. Lee Cronin's The Mummy https://www.imdb.com/title/tt32612507/?ref_=sr_t_43
+2026-01-24 11:45:54,229 - ETL.scrapers.scrape_imdb - INFO - 44. If I Had Legs I'd Kick You https://www.imdb.com/title/tt18382850/?ref_=sr_t_44
+2026-01-24 11:45:54,229 - ETL.scrapers.scrape_imdb - INFO - 45. Jay Kelly https://www.imdb.com/title/tt30446847/?ref_=sr_t_45
+2026-01-24 11:45:54,229 - ETL.scrapers.scrape_imdb - INFO - 46. Greenland https://www.imdb.com/title/tt7737786/?ref_=sr_t_46
+2026-01-24 11:45:54,229 - ETL.scrapers.scrape_imdb - INFO - 47. Die My Love https://www.imdb.com/title/tt9362736/?ref_=sr_t_47
+2026-01-24 11:45:54,230 - ETL.scrapers.scrape_imdb - INFO - 48. The Lord of the Rings: The Fellowship of the Ring https://www.imdb.com/title/tt0120737/?ref_=sr_t_48
+2026-01-24 11:45:54,230 - ETL.scrapers.scrape_imdb - INFO - 49. The Life of Chuck https://www.imdb.com/title/tt12908150/?ref_=sr_t_49
+2026-01-24 11:45:54,230 - ETL.scrapers.scrape_imdb - INFO - 50. Dracula: A Love Tale https://www.imdb.com/title/tt31434030/?ref_=sr_t_50
+2026-01-24 11:45:54,230 - ETL.scrapers.scrape_imdb - INFO - 51. Bone Lake https://www.imdb.com/title/tt26783625/?ref_=sr_t_51
+2026-01-24 11:45:54,231 - ETL.scrapers.scrape_imdb - INFO - 52. Black Phone 2 https://www.imdb.com/title/tt29644189/?ref_=sr_t_52
+2026-01-24 11:45:54,231 - ETL.scrapers.scrape_imdb - INFO - 53. Roofman https://www.imdb.com/title/tt4627382/?ref_=sr_t_53
+2026-01-24 11:45:54,231 - ETL.scrapers.scrape_imdb - INFO - 54. Is This Thing On? https://www.imdb.com/title/tt28083456/?ref_=sr_t_54
+2026-01-24 11:45:54,231 - ETL.scrapers.scrape_imdb - INFO - 55. Eternity https://www.imdb.com/title/tt24950660/?ref_=sr_t_55
+2026-01-24 11:45:54,231 - ETL.scrapers.scrape_imdb - INFO - 56. Crime 101 https://www.imdb.com/title/tt32430579/?ref_=sr_t_56
+2026-01-24 11:45:54,231 - ETL.scrapers.scrape_imdb - INFO - 57. Avatar https://www.imdb.com/title/tt0499549/?ref_=sr_t_57
+2026-01-24 11:45:54,231 - ETL.scrapers.scrape_imdb - INFO - 58. Flight 7500 https://www.imdb.com/title/tt1975159/?ref_=sr_t_58
+2026-01-24 11:45:54,232 - ETL.scrapers.scrape_imdb - INFO - 59. Avatar: The Way of Water https://www.imdb.com/title/tt1630029/?ref_=sr_t_59
+2026-01-24 11:45:54,232 - ETL.scrapers.scrape_imdb - INFO - 60. Dead Man's Wire https://www.imdb.com/title/tt15181326/?ref_=sr_t_60
+2026-01-24 11:45:54,232 - ETL.scrapers.scrape_imdb - INFO - 61. Ballerina https://www.imdb.com/title/tt7181546/?ref_=sr_t_61
+2026-01-24 11:45:54,232 - ETL.scrapers.scrape_imdb - INFO - 62. KPop Demon Hunters https://www.imdb.com/title/tt14205554/?ref_=sr_t_62
+2026-01-24 11:45:54,232 - ETL.scrapers.scrape_imdb - INFO - 63. The Naked Gun https://www.imdb.com/title/tt3402138/?ref_=sr_t_63
+2026-01-24 11:45:54,232 - ETL.scrapers.scrape_imdb - INFO - 64. Interstellar https://www.imdb.com/title/tt0816692/?ref_=sr_t_64
+2026-01-24 11:45:54,232 - ETL.scrapers.scrape_imdb - INFO - 65. Return to Silent Hill https://www.imdb.com/title/tt22868010/?ref_=sr_t_65
+2026-01-24 11:45:54,233 - ETL.scrapers.scrape_imdb - INFO - 66. Spider-Man: Brand New Day https://www.imdb.com/title/tt22084616/?ref_=sr_t_66
+2026-01-24 11:45:54,233 - ETL.scrapers.scrape_imdb - INFO - 67. The Long Walk https://www.imdb.com/title/tt10374610/?ref_=sr_t_67
+2026-01-24 11:45:54,233 - ETL.scrapers.scrape_imdb - INFO - 68. Knives Out https://www.imdb.com/title/tt8946378/?ref_=sr_t_68
+2026-01-24 11:45:54,233 - ETL.scrapers.scrape_imdb - INFO - 69. Now You See Me: Now You Don't https://www.imdb.com/title/tt4712810/?ref_=sr_t_69
+2026-01-24 11:45:54,233 - ETL.scrapers.scrape_imdb - INFO - 70. Regretting You https://www.imdb.com/title/tt33088452/?ref_=sr_t_70
+2026-01-24 11:45:54,233 - ETL.scrapers.scrape_imdb - INFO - 71. GOAT https://www.imdb.com/title/tt27613895/?ref_=sr_t_71
+2026-01-24 11:45:54,234 - ETL.scrapers.scrape_imdb - INFO - 72. 28 Weeks Later https://www.imdb.com/title/tt0463854/?ref_=sr_t_72
+2026-01-24 11:45:54,234 - ETL.scrapers.scrape_imdb - INFO - 73. Haq https://www.imdb.com/title/tt36642456/?ref_=sr_t_73
+2026-01-24 11:45:54,234 - ETL.scrapers.scrape_imdb - INFO - 74. The Substance https://www.imdb.com/title/tt17526714/?ref_=sr_t_74
+2026-01-24 11:45:54,234 - ETL.scrapers.scrape_imdb - INFO - 75. Jurassic World: Rebirth https://www.imdb.com/title/tt31036941/?ref_=sr_t_75
+2026-01-24 11:45:54,234 - ETL.scrapers.scrape_imdb - INFO - 76. The Fantastic Four: First Steps https://www.imdb.com/title/tt10676052/?ref_=sr_t_76
+2026-01-24 11:45:54,234 - ETL.scrapers.scrape_imdb - INFO - 77. Mission: Impossible - The Final Reckoning https://www.imdb.com/title/tt9603208/?ref_=sr_t_77
+2026-01-24 11:45:54,234 - ETL.scrapers.scrape_imdb - INFO - 78. Superman https://www.imdb.com/title/tt5950044/?ref_=sr_t_78
+2026-01-24 11:45:54,234 - ETL.scrapers.scrape_imdb - INFO - 79. Five Nights at Freddy's 2 https://www.imdb.com/title/tt30274401/?ref_=sr_t_79
+2026-01-24 11:45:54,235 - ETL.scrapers.scrape_imdb - INFO - 80. Inception https://www.imdb.com/title/tt1375666/?ref_=sr_t_80
+2026-01-24 11:45:54,235 - ETL.scrapers.scrape_imdb - INFO - 81. The Godfather https://www.imdb.com/title/tt0068646/?ref_=sr_t_81
+2026-01-24 11:45:54,235 - ETL.scrapers.scrape_imdb - INFO - 82. Together https://www.imdb.com/title/tt31184028/?ref_=sr_t_82
+2026-01-24 11:45:54,235 - ETL.scrapers.scrape_imdb - INFO - 83. It Was Just an Accident https://www.imdb.com/title/tt36491653/?ref_=sr_t_83
+2026-01-24 11:45:54,235 - ETL.scrapers.scrape_imdb - INFO - 84. The Wrecking Crew https://www.imdb.com/title/tt33046197/?ref_=sr_t_84
+2026-01-24 11:45:54,235 - ETL.scrapers.scrape_imdb - INFO - 85. The Dark Knight https://www.imdb.com/title/tt0468569/?ref_=sr_t_85
+2026-01-24 11:45:54,236 - ETL.scrapers.scrape_imdb - INFO - 86. A House of Dynamite https://www.imdb.com/title/tt32376165/?ref_=sr_t_86
+2026-01-24 11:45:54,236 - ETL.scrapers.scrape_imdb - INFO - 87. The Confession https://www.imdb.com/title/tt35838700/?ref_=sr_t_87
+2026-01-24 11:45:54,236 - ETL.scrapers.scrape_imdb - INFO - 88. Wicked: For Good https://www.imdb.com/title/tt19847976/?ref_=sr_t_88
+2026-01-24 11:45:54,236 - ETL.scrapers.scrape_imdb - INFO - 89. Good Luck, Have Fun, Don't Die https://www.imdb.com/title/tt1341338/?ref_=sr_t_89
+2026-01-24 11:45:54,236 - ETL.scrapers.scrape_imdb - INFO - 90. Eko https://www.imdb.com/title/tt36616410/?ref_=sr_t_90
+2026-01-24 11:45:54,236 - ETL.scrapers.scrape_imdb - INFO - 91. The Smashing Machine https://www.imdb.com/title/tt11214558/?ref_=sr_t_91
+2026-01-24 11:45:54,236 - ETL.scrapers.scrape_imdb - INFO - 92. Good Will Hunting https://www.imdb.com/title/tt0119217/?ref_=sr_t_92
+2026-01-24 11:45:54,236 - ETL.scrapers.scrape_imdb - INFO - 93. Harry Potter and the Philosopher's Stone https://www.imdb.com/title/tt0241527/?ref_=sr_t_93
+2026-01-24 11:45:54,237 - ETL.scrapers.scrape_imdb - INFO - 94. Parasite https://www.imdb.com/title/tt6751668/?ref_=sr_t_94
+2026-01-24 11:45:54,237 - ETL.scrapers.scrape_imdb - INFO - 95. Heat https://www.imdb.com/title/tt0113277/?ref_=sr_t_95
+2026-01-24 11:45:54,237 - ETL.scrapers.scrape_imdb - INFO - 96. A Big Bold Beautiful Journey https://www.imdb.com/title/tt13650700/?ref_=sr_t_96
+2026-01-24 11:45:54,237 - ETL.scrapers.scrape_imdb - INFO - 97. Pulp Fiction https://www.imdb.com/title/tt0110912/?ref_=sr_t_97
+2026-01-24 11:45:54,237 - ETL.scrapers.scrape_imdb - INFO - 98. Eden https://www.imdb.com/title/tt23149780/?ref_=sr_t_98
+2026-01-24 11:45:54,237 - ETL.scrapers.scrape_imdb - INFO - 99. Oppenheimer https://www.imdb.com/title/tt15398776/?ref_=sr_t_99
+2026-01-24 11:45:54,237 - ETL.scrapers.scrape_imdb - INFO - 100. Caught Stealing https://www.imdb.com/title/tt1493274/?ref_=sr_t_100
+2026-01-24 11:45:57,250 - ETL.scrapers.scrape_imdb - INFO - Processing movie 1 / 100: 1. The Rip
+2026-01-24 11:45:59,533 - app - INFO - Application shutting down
+2026-01-24 11:45:59,537 - scheduler - INFO - Shutting down scheduler
+2026-01-24 11:45:59,538 - get_data - ERROR - ETL job failed
+Traceback (most recent call last):
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\popular-movie-filming-locations\backend\ETL\scrapers\scrape_imdb.py", line 149, in scrape_imdb
+    img_overlay.click()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 114, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 405, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 429, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nicho\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nicho\Projects\popular-movie-filming-locations\backend\get_data.py", line 12, in run_etl
+    extract(100)
+    ~~~~~~~^^^^^
+  File "C:\Users\nicho\Projects\popular-movie-filming-locations\backend\ETL\extract.py", line 11, in extract
+    scrape_imdb(no_movies_to_get_para) # para => (no_movies_to_get_para:int = 1, selected_country:string = 'US')
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicho\Projects\popular-movie-filming-locations\backend\ETL\scrapers\scrape_imdb.py", line 170, in scrape_imdb
+    with open("./backend/data/raw_movie_data.json", "w", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './backend/data/raw_movie_data.json'
+2026-01-24 11:45:59,538 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-24 11:45:59,542 - apscheduler.executors.default - INFO - Job "run_etl (trigger: interval[6:00:00], next run at: 2026-01-24 17:45:30 +08)" executed successfully

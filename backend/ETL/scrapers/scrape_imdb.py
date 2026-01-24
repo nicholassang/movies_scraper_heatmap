@@ -8,9 +8,15 @@ import time
 import json
 from .movie_details_utils import *
 from .advanced_search_utils import *
-from backend.logger import get_logger
+from logger import get_logger
+from pathlib import Path
 
 logger = get_logger(__name__)
+
+BASE_DIR = Path(__file__).resolve().parents[2]
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+raw_file_path = DATA_DIR / "raw_movie_data.json"
 
 def scrape_imdb(no_movies_to_get_para, selected_country = "US"):
 
@@ -29,7 +35,8 @@ def scrape_imdb(no_movies_to_get_para, selected_country = "US"):
 
     service = Service(ChromeDriverManager().install())
 
-    driver = webdriver.Chrome(service=service, options=options)
+    # service=service removed to sync with docker
+    driver = webdriver.Chrome(options=options)
     wait = WebDriverWait(driver, 10)
 
     no_pages = no_movies_to_get_para // 50 # expands movie list by 50 (Initial no_pages = 0: 50 movies)
@@ -158,7 +165,7 @@ def scrape_imdb(no_movies_to_get_para, selected_country = "US"):
 
         time.sleep(1)
 
-        with open("./backend/data/raw_movie_data.json", "w", encoding="utf-8") as f:
+        with open(raw_file_path, "w", encoding="utf-8") as f:
             json.dump(all_movies_data, f, ensure_ascii=False, indent=4)
 
         print()
@@ -167,7 +174,7 @@ def scrape_imdb(no_movies_to_get_para, selected_country = "US"):
         logger.info("Collected: ", len(all_movies_data))
         print("Collected: ", len(all_movies_data))
 
-        with open("./backend/data/raw_movie_data.json", "w", encoding="utf-8") as f:
+        with open(raw_file_path, "w", encoding="utf-8") as f:
             json.dump(all_movies_data, f, ensure_ascii=False, indent=4)
 
         print()
