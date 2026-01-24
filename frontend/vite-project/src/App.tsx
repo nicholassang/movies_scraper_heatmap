@@ -16,6 +16,8 @@ function App() {
   const [searchTerm, setSearchTerm] = useState(""); 
   const [movieReady, setMovieReady] = useState<boolean>(true);
 
+  console.log("Globe: ", Globe)
+
   // Fetch data from backend
   // local testing: "http://127.0.0.1:8000/locations"
   useEffect(() => {
