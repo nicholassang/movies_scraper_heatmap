@@ -1,6 +1,7 @@
 // Test fix: Linux webgpu cancel
 console.log(navigator.gpu);
 if ((navigator as any).gpu) delete (navigator as any).gpu;
+console.log(navigator);
 
 import { useState, useEffect, useRef } from 'react';
 import Globe from 'globe.gl';
