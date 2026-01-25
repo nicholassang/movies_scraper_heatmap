@@ -22,7 +22,11 @@ function App() {
   const [searchTerm, setSearchTerm] = useState(""); 
   const [movieReady, setMovieReady] = useState<boolean>(true);
 
-  console.log("Globe: ", Globe)
+  // If browser is mobile, reject requests
+  const isMobile = /Mobi|Android|iPhone|iPad|iPod|Opera Mini|IEMobile|BlackBerry/i.test(navigator.userAgent);
+  if (isMobile) {
+    return <div>Sorry, this app is not supported on mobile devices.</div>;
+  }
 
   // Fetch data from backend
   // local testing: "http://127.0.0.1:8000/locations"
@@ -35,7 +39,6 @@ function App() {
         return res.json();
       })
       .then((data) => {
-        console.log("/locations: ", data)
         if (data && Array.isArray(data.results)) {
           const locationsData: LocationPoint[] = data.results
             .filter(
