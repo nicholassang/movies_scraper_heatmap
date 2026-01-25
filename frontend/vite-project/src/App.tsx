@@ -1,4 +1,5 @@
 // Test fix: Linux webgpu cancel
+console.log(navigator.gpu);
 if ((navigator as any).gpu) delete (navigator as any).gpu;
 
 import { useState, useEffect, useRef } from 'react';
@@ -33,6 +34,7 @@ function App() {
         return res.json();
       })
       .then((data) => {
+        console.log("/locations: ", data)
         if (data && Array.isArray(data.results)) {
           const locationsData: LocationPoint[] = data.results
             .filter(
